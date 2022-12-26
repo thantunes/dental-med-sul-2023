@@ -1,0 +1,19 @@
+{
+    "store.custom#rede-de-clinicas": { 
+      "blocks": ["image#rede-de-clinicas","image#rede-de-clinicasmobile"]
+    },
+    "image#rede-de-clinicas": { 
+      "props": { 
+        "minWidth": "100%",
+        "src": "https://user-images.githubusercontent.com/18701182/69889938-64b16180-12d2-11ea-8d8a-e3089cbeaffd.png",
+        "blockClass": "imagem-colecao-busca-personalizada-desktop"
+      }
+    },
+    "image#rede-de-clinicasmobile": { 
+      "props": { 
+        "minWidth": "100%",
+        "src": "https://user-images.githubusercontent.com/18701182/69889938-64b16180-12d2-11ea-8d8a-e3089cbeaffd.png",
+        "blockClass": "imagem-colecao-busca-personalizada-mobile"
+      }
+    }
+  }

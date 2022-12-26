@@ -1,0 +1,25 @@
+{
+    // Template Menu Mobile
+    "drawer": {
+        "children": [
+            "menu#drawer"
+        ]
+    },
+    "menu#drawer": {
+        "children": [
+            "menu-item#ortodontia-mobile",
+            "menu-item#dentistica-mobile",
+            "menu-item#endodontia-mobile",
+            "menu-item#perifericos-mobile",
+            "menu-item#descartaveis-mobile",
+            "menu-item#anestesicos-mobile",
+            "flex-layout.col#search-bar"
+
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menuDrawer"
+        }
+    }
+    // Template Menu Mobile
+}

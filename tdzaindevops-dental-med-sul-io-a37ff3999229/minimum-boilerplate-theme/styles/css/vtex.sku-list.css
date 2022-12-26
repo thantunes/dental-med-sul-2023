@@ -1,0 +1,47 @@
+.skuName {
+    font-size: 12px;
+    font-weight: 800;
+    color: #000000;
+}
+
+.selectedSkuContentWrapper {
+    padding: 0;
+}
+
+.skuImage {
+    max-width: 70px;
+}
+
+.skuContentWrapper :global(.vtex-flex-layout-0-x-flexRow) :global(.vtex-button__label) {
+    padding: 0;
+    font-size: 10px;
+}
+
+.skuContentWrapper:hover {
+    cursor: pointer;
+}
+
+.skuContentWrapper {
+    border-radius: 10px;
+    padding: 0.5rem;
+    border-width: 1px;
+}
+
+.specificationsTable,
+.specificationsTable,
+.specificationsTableContainer {
+    padding: 0 !important;
+}
+
+.quantitySelectorContainer {
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .quantitySelectorContainer {
+        margin: 10px 0;
+    }
+    .priceContainer {
+        font-size: 13px;
+    }
+}

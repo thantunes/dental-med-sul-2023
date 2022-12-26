@@ -1,0 +1,53 @@
+@import url(./variables.css);
+
+.savings {
+  color: #6bc16b;
+  margin: 0 10px;
+}
+.listPriceValue,
+.installments--summary,
+.sellingPrice--hasListPrice {
+  color: #989797;
+}
+
+.sellingPriceValue {
+  color: #000;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.sellingPriceValue {
+  color: #f43333;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.sellingPriceValue.sellingPriceValue--summary{
+  font-size: 1rem;
+  color: #000;
+  font-weight: normal;
+}
+.sellingPrice--hasListPrice {
+  font-size: 12px;
+}
+.listPrice--summary {
+  color: #989797;
+  text-decoration: line-through;
+}
+
+.installments--summary,
+.listPrice--summary {
+  font-size: 0.7rem;
+}
+
+.currencyContainer--grid-selling-price {
+  color: #f43333;
+  font-size: 1rem;
+}
+
+.listPrice--grid-list-price{
+  font-size: 0.7rem;
+    color: #989797;
+    text-decoration: line-through;
+    height: 0px;
+}

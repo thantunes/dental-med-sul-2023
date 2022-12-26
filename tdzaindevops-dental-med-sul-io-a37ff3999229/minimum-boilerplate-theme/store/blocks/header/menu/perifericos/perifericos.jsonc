@@ -1,0 +1,49 @@
+{
+    "menu-item#perifericos": {
+        "props": {
+            "id": "menu-item-perifericos",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Periféricos",
+                "text": "Periféricos"
+            },
+            "iconPosition": "right",
+            "iconProps": {
+                "id": "nav-caret--right",
+                "view": 24,
+                "sizeBox": "0 0 24 24"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": ["submenu#perifericos"]
+    },
+    "menu-item#perifericos-mobile": {
+        "props": {
+            "id": "menu-item-perifericos-mobile",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Periféricos",
+                "text": "Periféricos"
+            },
+            "iconToTheRight": true
+        },
+        "children": ["drawer#perifericos"]
+    },
+    "drawer#perifericos": {
+        "props": {
+            "maxWidth": "80%"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#menu-perifericos-mobile"
+        ],
+        "blocks" :["drawer-trigger#arrow"]
+    }
+}

@@ -1,0 +1,28 @@
+body.tfcvgc-vtexcommercestable-com-br.v-custom-loaded.body-cart-vertical.js-vcustom-hideEmailStep.body-cart.v-custom-paymentBuilder-accordion.v-custom-step-cart {
+    display: flex;
+    flex-direction: column;
+flex-wrap:wrap;
+
+}
+div#ra-verified-seal {
+    align-self: center;
+    order: 1;
+    margin: 10px;
+}
+
+
+.btn-success, a#cart-to-orderform  {
+background-color: #4EAEE0;
+border-color: #4EAEE0;
+
+}
+div#ra-verified-seal {
+    position: fixed;
+    bottom: 0;
+}
+
+@media screen and (max-width:500px) {
+  .logo-checkout {
+    max-width: 150px !important;
+  }
+}

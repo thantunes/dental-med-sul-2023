@@ -1,0 +1,44 @@
+{
+  "tab-layout#pdp": {
+    "children": ["tab-list#pdp", "tab-content#home"],
+    "props": {
+      "defaultActiveTabId": "description"
+    }
+  },
+  "tab-list#pdp": {
+    "props": {
+      "blockClass": ["pdp-data"]
+    },
+    "children": ["tab-list.item#pdp-description", "tab-list.item#pdp-reviews"]
+  },
+  "tab-list.item#pdp-description": {
+    "props": {
+      "tabId": "description",
+      "label": "Descrição",
+      "defaultActiveTab": true,
+      "blockClass": ["pdp"]
+    }
+  },
+  "tab-list.item#pdp-reviews": {
+    "props": {
+      "tabId": "reviews",
+      "label": "Avaliações",
+      "blockClass": ["pdp"]
+    }
+  },
+  "tab-content#home": {
+    "children": ["tab-content.item#home1", "tab-content.item#home2"]
+  },
+  "tab-content.item#home1": {
+    "children": ["product-description"],
+    "props": {
+      "tabId": "description"
+    }
+  },
+  "tab-content.item#home2": {
+    "children": ["product-reviews", "product-questions-and-answers"],
+    "props": {
+      "tabId": "reviews"
+    }
+  }
+}

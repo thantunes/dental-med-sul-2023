@@ -1,0 +1,122 @@
+{
+  "vtex.menu@2.x:menu#footerInstitucional": {
+    "props": {
+      "blockClass": "footerMenu"
+    },
+    "children": [
+      "menu-item#institucional",
+      "menu-item#compra-segura",
+      "menu-item#como-comprar",
+      "menu-item#politica-de-privacidade",
+      "menu-item#documentos-obrigatorios",
+      "menu-item#trabalhe-conosco"
+     // "menu-item#garantia-de-qualidade"
+    ]
+  },
+  "menu-item#institucional": {
+    "props": {
+      "id": "menu-item-institucional",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sobre nós",
+        "text": "Sobre nós"
+      },
+      "blockClass": ["menuFooterTitle"]
+    }
+  },
+  "menu-item#compra-segura": {
+    "props": {
+      "id": "menu-item-compra-segura",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compra-segura",
+        "noFollow": false,
+        "tagTitle": "Compra Segura",
+        "text": "Compra Segura"
+      }
+    }
+  },
+  "menu-item#como-comprar": {
+    "props": {
+      "id": "menu-item-como-comprar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/como-comprar",
+        "noFollow": false,
+        "tagTitle": "Como Comprar",
+        "text": "Como Comprar"
+      }
+    }
+  },
+  "menu-item#politica-de-privacidade": {
+    "props": {
+      "id": "menu-item-politica-de-privacidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-privacidade",
+        "noFollow": false,
+        "tagTitle": "Política de Privacidade",
+        "text": "Política de Privacidade"
+      }
+    }
+  },
+  "menu-item#documentos-obrigatorios": {
+    "props": {
+      "id": "menu-item-documentos-obrigatorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/documentos-obrigatorios",
+        "noFollow": false,
+        "tagTitle": "Documentos Obrigatórios",
+        "text": "Documentos Obrigatórios"
+      }
+    }
+  },
+
+  "menu-item#trabalhe-conosco": {
+    "props": {
+      "id": "menu-item-trabalhe-conosco",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trabalhe-conosco",
+        "noFollow": false,
+        "tagTitle": "Trabalhe Conosco",
+        "text": "Trabalhe Conosco"
+      }
+    }
+  },
+  "menu-item#garantia-de-qualidade": {
+    "props": {
+      "id": "menu-item-garantia-de-qualidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/garantia-de-qualidade",
+        "noFollow": false,
+        "tagTitle": "Garantia de Qualidade",
+        "text": "Garantia de Qualidade"
+      }
+    }
+  }
+}

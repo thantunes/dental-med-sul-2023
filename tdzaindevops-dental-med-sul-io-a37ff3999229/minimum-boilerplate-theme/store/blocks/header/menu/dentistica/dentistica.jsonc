@@ -1,0 +1,50 @@
+{
+    "menu-item#dentistica": {
+        "props": {
+            "id": "menu-item-dentistica",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Dentística",
+                "text": "Dentística"
+            },
+            "iconPosition": "right",
+            "iconProps": {
+                "id": "nav-caret--right",
+                "view": 24,
+                "sizeBox": "0 0 24 24"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": ["vtex.menu@2.x:submenu#dentistica"]
+    },
+    "menu-item#dentistica-mobile": {
+        "props": {
+            "id": "menu-item-dentistica",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Dentística",
+                "text": "Dentística"
+            },
+            "iconToTheRight": true
+        },
+        "children": ["drawer#dentistica"]
+    },
+
+    "drawer#dentistica": {
+        "props": {
+            "maxWidth": "80%"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#dentistica-mobile"
+        ],
+        "blocks" :["drawer-trigger#arrow"]
+    }
+}

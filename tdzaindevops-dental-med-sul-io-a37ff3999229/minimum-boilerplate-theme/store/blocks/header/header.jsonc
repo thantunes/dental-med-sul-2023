@@ -1,0 +1,329 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#barra-de-frete",
+      "flex-layout.row#topbar",
+      "flex-layout.row#desktop",  
+      "flex-layout.row#menu",
+      "flex-layout.row#main-menu"
+     
+
+
+    ]
+  },
+
+
+
+  "flex-layout.row#barra-de-frete":{
+    "children": ["flex-layout.col#barra-de-frete"],
+    "props": {
+      "width": "grow",
+      "blockClass": ["barra-de-frete-gratis-topo"]
+    }
+
+  },
+
+  "flex-layout.col#barra-de-frete":{
+    "children": ["image#barra-de-frete"]
+
+  },
+
+
+  "image#barra-de-frete": {
+    "props": {
+      "src": "https://tfcvgc.vteximg.com.br/arquivos/Gif-Frete.gif"
+    }
+  },
+
+
+
+  "flex-layout.row#desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["main-header"],
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#search-bar",
+      "flex-layout.col#actions"
+    ]
+  },
+  "flex-layout.row#search-bar-mobile": {
+    "props": {
+      "width": "grow",
+      "blockClass": ["search-bar"]
+    },
+    "children": ["search-bar"]
+  },
+  "flex-layout.col#search-bar": {
+    "props": {
+      "width": "grow",
+      "blockClass": ["search-bar"]
+    },
+    "children": [
+      "flex-layout.row#search"
+      // "flex-layout.row#hot-tags"
+    ]
+  },
+
+  "flex-layout.row#search": {
+    "children": ["search-bar"],
+    "props": {
+      "blockClass": ["search"]
+    }
+  },
+  "search-bar": {
+    "props": {
+      "placeholder": "O que procura?"
+    }
+  },
+
+  "flex-layout.row#hot-tags": {
+    "children": ["rich-text#hot-tags-title"],
+    "props": {
+      "blockClass": ["hot-tags"]
+    }
+  },
+
+  "rich-text#hot-tags-title": {
+    "props": {
+      "blockClass": ["hot-tags-title"],
+      "font": "t-mini",
+      "text": "**Hot Tags:** <span class= 'vtex-rich-text-0-x-paragraph--hot-tags-term'>3M</span><span class= 'vtex-rich-text-0-x-paragraph--hot-tags-term'>Kulzer</span> <span class= 'vtex-rich-text-0-x-paragraph--hot-tags-term'>FGM</span><span class= 'vtex-rich-text-0-x-paragraph--hot-tags-term'>Luvas</span><span class= 'vtex-rich-text-0-x-paragraph--hot-tags-term'>Resinas</span><span class= 'vtex-rich-text-0-x-paragraph--hot-tags-term'>Fotopolimerizador</span><span class= 'vtex-rich-text-0-x-paragraph--hot-tags-term'>Maquira</span>",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+  "flex-layout.col#actions": {
+    "props": {
+      "blockClass": ["actions"]
+    },
+    "children": ["vtex.menu@2.x:menu#actions-menu"]
+  },
+  "vtex.menu@2.x:menu#actions-menu": {
+    "props": {
+      "blockClass": ["action-menu"]
+    },
+    "children": ["flex-layout.col#wishlist", "login", "minicart.v2"]
+  },
+
+  
+
+  "flex-layout.col#wishlist": {
+    "children": ["image#wishlist"],
+    "props": {
+      "blockClass": ["wishlist"]
+    }
+  },
+  "image#wishlist": {
+    "props": {
+      "src": "assets/icons/coracao.png",
+      "link": {
+        "url": "/wishlist"
+      },
+      "alt": "Wishlist",
+      "blockClass":["wishlist"]
+    }
+  },
+
+  "menu-item#magazine": {
+    "props": {
+      "id": "menu-item-magazine",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
+      },
+      "iconProps": {
+        "id": "bnd-note-filled",
+        "size": 24,
+        "viewBox": "0 0 24 24"
+      },
+      "iconToTheRight": true
+    }
+  },
+
+  "flex-layout.row#menu": {
+    "children": ["flex-layout.col#top-menu", "flex-layout.col#info-frete"],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": ["menu"]
+    }
+  },
+
+  "flex-layout.col#top-menu": {
+    "children": ["vtex.menu@2.x:menu#top-menu"],
+    "props": {
+      "blockClass": ["top-menu"]
+    }
+  },
+
+  "flex-layout.col#info-frete": {
+    "children": ["image#truck-frete", "rich-text#frete"],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ["info-frete"]
+    }
+  },
+
+  "image#truck-frete": {
+    "props": {
+      "blockClass": ["truck-frete"],
+      "maxHeight": 24,
+      "src": "assets/icons/truckFrete.png"
+    }
+  },
+
+  "rich-text#frete": {
+    "props": {
+      "blockClass": ["frete"],
+      "font": "t-mini",
+      "text": "Ganhe Frete Grátis, Confira Condições [Aqui](#)",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#main-menu": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": ["menuRow"]
+    },
+    "children": ["flex-layout.col#main-menu"]
+  },
+
+  "flex-layout.col#main-menu": {
+    "props": {
+      "width": "grow"
+    },
+    "children": ["menu#main-menu"]
+  },
+
+  "image#info-banner": {
+    "props": {
+      "src": "https://tfcvgc.vteximg.com.br/arquivos/banner-informativo.jpg",
+      "blockClass": ["topBanner"]
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#main"]
+  },
+  "logo#main": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logo-dental-site.png",
+      "width": 234,
+      "height": 62,
+      "mobileWidth": 225,
+      "mobileHeight": 60
+    }
+  },
+  "header-layout.mobile": {
+    "children": ["sticky-layout#mobile", "flex-layout.row#search-bar-mobile","flex-layout.row#botoes-header-mobile"]
+  },
+
+  
+  /*  ------- START TESTE THIAGO ----------------*/
+
+  "flex-layout.row#botoes-header-mobile": {
+    "children": ["flex-layout.col#botoes-header-mobile"],
+    "props": {
+      "blockClass": "botoesvalidadecurtaharmonizacaomobile"
+    }
+  },
+
+
+  "flex-layout.col#botoes-header-mobile": {
+    "children": ["rich-text#validadecurtamobile","rich-text#harmonizacaomobile","menu-item#ciosp"]
+  },
+
+
+
+
+
+  "rich-text#validadecurtamobile": {
+    "props": {
+   
+      "text": "[VALIDADE CURTA](/validade-curta)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "botaovalidadecurtamobile"
+    }
+  },
+
+  "rich-text#harmonizacaomobile": {
+    "props": {
+
+      "text": "[BLACK NOVEMBER](/219?map=productClusterIds)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "botaoharmonizacaomobile"
+    }
+  },
+
+  /*  ------- END TESTE THIAGO ----------------*/
+
+
+
+
+
+  "sticky-layout#mobile": {
+    "children": ["flex-layout.row#mobile"]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "flex-layout.col#menu-mobile",
+      "flex-layout.col#logo-mobile",
+      "flex-layout.col#action-icons"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#menu-mobile": {
+    "children": ["category-menu#mobile"]
+  },
+  "flex-layout.col#logo-mobile": {
+    "children": ["logo#main"]
+  },
+  "flex-layout.col#action-icons": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": ["action-icons"]
+    },
+    "children": [ "flex-layout.col#wishlist", "login", "minicart.v2"]
+  }
+
+  // "flex-layout.row#allCategories": {
+  //   "children": ["MainMenu"],
+  //   "props": {
+  //     "blockClass": ["topMenu"]
+  //   }
+  // }
+}

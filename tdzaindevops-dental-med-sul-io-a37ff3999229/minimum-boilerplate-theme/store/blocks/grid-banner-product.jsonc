@@ -1,0 +1,110 @@
+{
+  "flex-layout.row#banner-product": {
+    "children": ["flex-layout.col#banner-product"],
+    "props": {
+      "width": "grow",
+      "blockClass": "banner-productSection"
+    }
+  },
+  "flex-layout.col#banner-product": {
+    "props": {
+      "width": "grow",
+      "preventHorizontalStretch": true
+    },
+    "children": ["list-context.product-list#banner-product"]
+  },
+  "list-context.product-list#banner-product": {
+    "blocks": ["product-summary.shelf#banner-product"],
+    "children": ["slider-layout#banner-productProducts"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "maxItems": "4"
+    }
+  },
+
+  "product-summary.shelf#banner-product": {
+    "children": ["flex-layout.row#summary-banner-product"],
+    "props": {
+      "blockClass": "banner-productSummary"
+    }
+  },
+
+  "flex-layout.row#summary-banner-product": {
+    "children": [
+      "product-summary-image#banner-product",
+      "product-summary-column#summarybanner-product"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "blockClass": ["grid-product-link"]
+    }
+  },
+  "product-summary-column#summarybanner-product": {
+    "props": {
+      "blockClass": "summaryCol"
+    },
+    "children": [
+      "product-summary-name#banner-product",
+      "product-list-price#grid",
+      "product-selling-price#grid",
+      "rich-text#product-summary-price"
+    ]
+  },
+
+  "product-summary-name#banner-product": {
+    "props": {
+      "width": {
+        "desktop": 96,
+        "mobile": 96
+      },
+      "height": {
+        "desktop": 96,
+        "mobile": 96
+      },
+      "blockClass": ["grid-product-name"]
+    }
+  },
+  "product-summary-image#banner-product": {
+    "props": {
+      "showBadge": false,
+      "blockClass":["grid-product-image"]
+    }
+  },
+
+  "product-list-price#grid": {
+    "props": {
+        "blockClass": "grid-list-price",
+        "message": "de {listPriceValue}",
+        "alwaysShow": true
+    }
+},
+
+  "product-selling-price#grid": {
+    "props": {
+      "message": "por {sellingPriceValue}",
+      "blockClass": ["grid-selling-price"]
+    }
+  },
+  "rich-text#product-summary-price": {
+    "props": {
+      "blockClass": ["grid-banner-message"],
+      "font": "t-small",
+      "text": "**Aproveite**"
+    }
+  },
+
+  "slider-layout#banner-productProducts": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": false,
+      "fullWidth": true,
+      "blockClass": "shelfbanner-product"
+    }
+  }
+}

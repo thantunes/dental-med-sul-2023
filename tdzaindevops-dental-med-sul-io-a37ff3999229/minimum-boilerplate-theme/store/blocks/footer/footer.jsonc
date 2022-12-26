@@ -1,0 +1,396 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-newsletter",
+      "flex-layout.row#footer-infos", //footer-infos.jsonc
+      "flex-layout.row#footer-payment",
+      "flex-layout.row#footer-3"
+    ]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer-newsletter",
+      "flex-layout.row#footer",
+      "flex-layout.row#footer-3"
+    ]
+  },
+  "flex-layout.row#newsletter": {
+    "props": {
+      "paddingTop": 8,
+      "blockClass": [
+        "footerRow"
+      ]
+    },
+    "children": [
+      "newsletter-form"
+    ]
+  },
+  "flex-layout.row#footer": {
+    "props": {
+      "colSizing": "auto",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "blockClass": [
+        "footerRow"
+      ]
+    },
+    "children": [
+      "vtex.menu@2.x:menu#footerInstitucional",
+      "vtex.menu@2.x:menu#footerHelp",
+      "vtex.menu@2.x:menu#attendance",
+      "flex-layout.col#footerSocial",
+      "flex-layout.col#footerPayment"
+    ]
+  },
+  "flex-layout.col#footerColLeft": {
+    "props": {
+      "blockClass": [
+        "footerCol"
+      ]
+    },
+    "children": [
+      "rich-text#attendance",
+      "rich-text#number",
+      "rich-text#schedule"
+    ]
+  },
+  "flex-layout.col#footerSocial": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "colSizing": "auto",
+      "horizontalAlign": "center",
+      "blockClass": [
+        "footerSocial"
+      ]
+    },
+    "children": [
+      "rich-text#visit",
+      "flex-layout.row#socialNetworks"
+    ]
+  },
+  "flex-layout.row#socialNetworks": {
+    "children": [
+      "social-networks"
+    ]
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https://www.facebook.com/dental.medsul/",
+          "name": "Facebook"
+        },
+        {
+          "url": "https://www.instagram.com/dentalmedsul/",
+          "name": "Instagram"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCbjrfQO7Ob5VhtAXO0a3ISA",
+          "name": "Youtube"
+        },
+        {
+          "url": "https://www.dentalmedsul.com.br/blog",
+          "name": "Blog"
+        }
+      ]
+    }
+  },
+  "rich-text#visit": {
+    "props": {
+      "text": "Visite nossas redes ",
+      "textPosition": "center",
+      "textAlignment": "center",
+      "blockClass": [
+        "footerText",
+        "footerTitle"
+      ]
+    }
+  },
+  "rich-text#attendance": {
+    "props": {
+      "text": "##### Atendimento",
+      "blockClass": [
+        "footerText"
+      ]
+    }
+  },
+  "rich-text#number": {
+    "props": {
+      "text": "[0800 941 2490](tel:08009412490) ",
+      "blockClass": [
+        "footerText",
+        "footerAddress"
+      ]
+    }
+  },
+  "rich-text#schedule": {
+    "props": {
+      "text": "Rua Anne Frank, 5241 - Hauer, Curitiba - PR, 81730-010",
+      "blockClass": [
+        "footerText"
+      ]
+    }
+  },
+  "flex-layout.col#footerColRight": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "colSizing": "auto",
+      "blockClass": [
+        "footerCol",
+        "footerColRight"
+      ]
+    },
+    "children": [
+      "flex-layout.col#footerPayment"
+    ]
+  },
+  "flex-layout.col#footerPayment": {
+    "children": [
+      "flex-layout.row#payment-title",
+      "flex-layout.row#payment-logos",
+      "flex-layout.row#tech-logos",
+      "flex-layout.col#spacer"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "paymentCol"
+      ]
+    }
+  },
+  "flex-layout.row#payment-title": {
+    "children": [
+      "rich-text#paymentMethodsTitle"
+    ]
+  },
+  "rich-text#paymentMethodsTitle": {
+    "props": {
+      "text": "Métodos de pagamento",
+      "blockClass": [
+        "footerText",
+        "footerTitle"
+      ]
+    }
+  },
+  "flex-layout.row#payment-logos": {
+    "children": [
+      "logo#american",
+      "logo#boleto",
+      "logo#deposito",
+      "logo#DINERS",
+      "logo#elo",
+      "logo#hipercard",
+      "logo#mastercard",
+      "logo#Visa",
+      "logo#Santander",
+     // "logo#Provu",
+      "logo#Paypal"
+    ],
+    "props": {
+      "blockClass": [
+        "paymentCol"
+      ]
+    }
+  },
+  "logo#american": {
+    "props": {
+      "url": "assets/AMERICAN.png",
+      "blockClass": [
+        "paymentLogo"
+      ]
+    }
+  },
+  "logo#boleto": {
+    "props": {
+      "url": "assets/boleto.png",
+      "blockClass": [
+        "paymentLogo"
+      ]
+    }
+  },
+  "logo#deposito": {
+    "props": {
+      "url": "/arquivos/pix-banco-central-logo.png?v=637805301268000000",
+      "blockClass": [
+        "paymentLogo"
+      ]
+    }
+  },
+  "logo#DINERS": {
+    "props": {
+      "url": "assets/DINERS.png",
+      "blockClass": [
+        "paymentLogo"
+      ]
+    }
+  },
+  "logo#elo": {
+    "props": {
+      "url": "assets/elo.png",
+      "blockClass": [
+        "paymentLogo"
+      ]
+    }
+  },
+  "logo#hipercard": {
+    "props": {
+      "url": "assets/hipercard.png",
+      "blockClass": [
+        "paymentLogo"
+      ]
+    }
+  },
+  "logo#mastercard": {
+    "props": {
+      "url": "assets/mastercard.png",
+      "blockClass": [
+        "paymentLogo"
+      ]
+    }
+  },
+  "logo#Visa": {
+    "props": {
+      "url": "assets/Visa.png",
+      "blockClass": [
+        "paymentLogo"
+      ]
+    }
+  },
+
+  "logo#Santander": {
+    "props": {
+      "url": "/arquivos/logo-santander.png?v=637805301268000000",
+      "blockClass": [
+        "paymentLogo"
+      ]
+    }
+  },
+  "logo#Provu": {
+    "props": {
+      "url": "/arquivos/logo-provu.png?v=637805301268000000",
+      "blockClass": [
+        "paymentLogo"
+      ]
+    }
+  },
+  "logo#Paypal": {
+    "props": {
+      "url": "/arquivos/PayPal-Logo.png?v=637805301268000000",
+      "blockClass": [
+        "paymentLogo"
+      ]
+    }
+  },
+
+
+
+
+
+  "flex-layout.row#tech-logos": {
+    "children": [
+      "logo#Tdzain",
+      "logo#buzz",
+      "logo#Vtex"
+    ]
+  },
+  
+  "logo#Tdzain": {
+    "props": {
+      "url": "assets/logo-tdz.png",
+      "blockClass": [
+        "tech-logo"
+      ]
+    }
+  },
+  "logo#buzz": {
+    "props": {
+      "url": "arquivos/buzzbe_consultoria-v3.png",
+      "blockClass": [
+        "tech-logo"
+      ]
+    }
+  },
+  "logo#Vtex": {
+    "props": {
+      "url": "assets/vtex.png",
+      "blockClass": [
+        "tech-logo"
+      ]
+    }
+  },
+
+  "flex-layout.row#badges": {
+    "children": [
+      "sandbox#reclame-aqui"
+    ]
+  },
+  "sandbox#reclame-aqui": {
+    "props": {
+      "width": "200px",
+      "height": "60px",
+      "initialContent": "<div id='ra-verified-seal'><script type='text/javascript' id='ra-embed-verified-seal' src='https://s3.amazonaws.com/raichu-beta/ra-verified/bundle.js' data-id='MjQ0NTE2OmRlbnRhbC1tZWQtc3Vs' data-target='ra-verified-seal' data-model='2'></script></div>",
+      "allowCookies": true
+    }
+  },
+  "flex-layout.col#footerColMid": {
+    "props": {
+      "blockClass": [
+        "footerCol"
+      ]
+    },
+    "children": [
+      "vtex.menu@2.x:menu#footerInstitucional"
+    ]
+  },
+  "flex-layout.col#footerColMid2": {
+    "props": {
+      "blockClass": [
+        "footerCol"
+      ]
+    },
+    "children": [
+      "vtex.menu@2.x:menu#footerHelp"
+    ]
+  },
+  "flex-layout.row#footer-2": {
+    "children": [
+      "flex-layout.col#footerSocial"
+    ],
+    "props": {
+      "blockClass": [
+        "footerRow"
+      ]
+    }
+  },
+  "image": {
+    "props": {
+      "src": "/arquivos/logo-dental-site.png"
+    }
+  },
+  "flex-layout.row#footer-3": {
+    "props": {
+      "blockClass": [
+        "footerCopyright"
+      ]
+    },
+    "children": [
+      "rich-text#copyright"
+    ]
+  },
+  "rich-text#copyright": {
+    "props": {
+      "text": "© Eventuais promoções, descontos e prazos de pagamento expostos aqui são válidos apenas para compras via site. Em caso de divergência de preço no site, o valor válido é o do carrinho de compras. As fotos são meramente ilustrativas e de propriedade da loja, bem como textos e layouts aqui veiculados. É proibida a utilização total ou parcial sem nossa autorização. Promoções válidas enquanto durarem os estoques. Os preços estão sujeitos a alterações sem aviso prévio.",
+      "blockClass": [
+        "footerTextCopyright"
+      ]
+    }
+  }
+}

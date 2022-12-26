@@ -1,0 +1,17 @@
+@import url(./variables.css);
+
+.closeIconContainer {
+    background-color: var(--main-dark-blue);
+}
+
+.closeIconButton {
+    color: #fff;
+    font-weight: bold;
+}
+.drawer {
+    background-color: #f6f6f6;
+}
+
+.openIconContainer {
+    color: #fff;
+}

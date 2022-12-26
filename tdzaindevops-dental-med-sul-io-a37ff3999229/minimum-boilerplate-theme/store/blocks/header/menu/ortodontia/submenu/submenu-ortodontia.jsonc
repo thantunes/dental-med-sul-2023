@@ -1,0 +1,199 @@
+{
+    "vtex.menu@2.x:menu#ortodontia-mobile": {
+        "children": [
+            "menu-item#ionomero-de-vidro",
+            "menu-item#ceras",
+            "menu-item#acessorios",
+            "menu-item#botao-lingual",
+            "menu-item#caixa-diversas",
+            "menu-item#elastico",
+            "menu-item#instrumento-para-ortodontia",
+            "menu-item#molas",
+            "menu-item#resina-adesivo-ortodontico",
+            "menu-item#alicate-ortodontico",
+            "menu-item#banda"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": [
+                "menuDrawer"
+            ]
+        }
+    },
+    "menu-item#ionomero-de-vidro": {
+        "props": {
+            "id": "menu-item-ionomero-de-vidro",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Ionomero de vidro",
+                "text": "Ionomero de vidro"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#ceras": {
+        "props": {
+            "id": "menu-item-ceras",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Ceras",
+                "text": "Ceras"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#acessorios": {
+        "props": {
+            "id": "menu-item-acessorios",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Acessórios",
+                "text": "Acessórios"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#botao-lingual": {
+        "props": {
+            "id": "menu-item-botao-lingual",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Botão Lingual",
+                "text": "Botão Lingual"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#caixa-diversas": {
+        "props": {
+            "id": "menu-item-caixa-diversas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Caixa Diversas",
+                "text": "Caixa Diversas"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#elastico": {
+        "props": {
+            "id": "menu-item-elastico",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Elástico",
+                "text": "Elástico"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#instrumento-para-ortodontia": {
+        "props": {
+            "id": "menu-item-instrumento-para-ortodontia",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Instrumento para ortodontia",
+                "text": "Instrumento para ortodontia"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#molas": {
+        "props": {
+            "id": "menu-item-molas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Molas",
+                "text": "Molas"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#resina-adesivo-ortodontico": {
+        "props": {
+            "id": "menu-item-resina-adesivo-ortodontico",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Resina/adesivo ortodôntico",
+                "text": "Resina/adesivo ortodôntico"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#alicate-ortodontico": {
+        "props": {
+            "id": "menu-item-alicate-ortodontico",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Alicate ortodôntico",
+                "text": "Alicate ortodôntico"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#banda": {
+        "props": {
+            "id": "menu-item-banda",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Banda",
+                "text": "Banda"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    }
+}

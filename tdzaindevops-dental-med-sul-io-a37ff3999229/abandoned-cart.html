@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common"
+    xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
+
+<head>
+    <title>Carrinho Abandonado</title>
+    <vtex:metaTags />
+    <style type="text/css">
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+    <table id="Table_01" width="550" border="0" cellpadding="0" cellspacing="0">
+        <tr style="border-bottom: solid 2px #eaeaea;">
+
+            <td colspan="5" bgcolor="#f6f6f6">
+                <div
+                    style="box-sizing: border-box; margin-bottom: 1rem; margin-top: 2rem; margin-right: auto; margin-left: auto !important;text-align:center;">
+                    <a href="https://www.dentalmedsul.com.br/" style="box-sizing: border-box !important;">
+                        <img alt="" border="0" width="auto" src="https://tfcvgc.vteximg.com.br/arquivos/dental-logo.png"
+                            style="vertical-align: top; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; max-width: 100%; border: none; max-height: 80px !important;">
+                        </img></a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="" colspan="5" style="padding:10px 0; border-bottom: solid 2px #eaeaea;">
+                <div style="margin: 1.5rem 0; padding: 0 1rem;">
+                    <p face="Arial" color="#333333" size="2">Olá, <strong>{!Nome}</strong>.<br /><br />
+                      Notamos que você não finalizou sua compra. Aproveite enquanto os itens abaixo ainda estão disponíveis e <a
+                                href="https://www.dentalmedsul.com.br/checkout/cart/{!rclastcart}&amp;utm_source=VTEXCEM&amp;utm_medium=Abandono_carrinho&amp;utm_campaign=Abandono">
+                                <font color="#1b8fcb">CLIQUE AQUI</font>
+                            </a> para finalizar seu pedido.
+                    </p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="5">
+                <div style="margin: 1.5rem;text-align: center;font-weight: bold;">
+                    <h2 style="font-size: 20px;text-transform: uppercase;">Seu Carrinho</h2>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="5">
+                <table width="550" cellspacing="0">
+                    <tr>
+                        <td width="160" align="center" bgcolor="#f0f0f0" height="20">
+                            <font face="Arial" size="2" color="#666666">Produto</font>
+                        </td>
+                        <td width="276" bgcolor="#f0f0f0" height="20"></td>
+                        <td width="104" bgcolor="#f0f0f0" height="20">
+                            <font face="Arial" size="2" color="#666666">Valor Un.</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <div style="color:#FFF;">
+                                <vtex.cmc:ProductQueryStringReferenceShelf layout="d9d76394-1813-44ac-9552-dd19a603566d"
+                                    itemCount="50" columnCount="100" showUnavailable="true" />
+                            </div>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <div style="text-align: center;margin: 1.5rem 0;">
+                    <a style="padding: 1rem;
+                    background-color: orange;
+                    border-radius: 5px;
+                    color: #fff;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    font-weight: bold;
+                    letter-spacing: 1.7;"
+                        href="
+                        http://www.dentalmedsul.com.br/checkout/cart/{!rclastcart}&amp;utm_source=VTEXCEM&amp;utm_medium=Abandono_carrinho&amp;utm_campaign=Abandono">
+                        Finalizar compra
+                    </a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="5">
+                <div style="text-align: center;padding: 1.5rem 0; background-color: #f6f6f6;">
+                    <font size="1" color="#2f2f2f" face="Arial">Precisa de ajuda? Fale com a
+                        <a
+                            href="https://api.whatsapp.com/send?phone=554135149834&text=Ol%C3%A1%2C%20eu%20tenho%20uma%20d%C3%BAvida%20sobre%20o%20meu%20Carrinho%20Abandonado">
+                            <font size="1" color="#2f2f2f" face="Arial">central de atendimento</font>
+                        </a>
+                    </font>
+                </div>
+            </td>
+        </tr>
+        <!-- <tr>
+            <td colspan="5"><img style="display:block" src="/arquivos/carrinho-abandonado_10.png" width="550"
+                    height="46" alt="" /></td>
+        </tr>
+        <tr>
+            <td colspan="5"><img style="display:block" src="/arquivos/carrinho-abandonado_11.png" width="550"
+                    height="130" alt="" /></td>
+        </tr>
+        <tr>
+            <td><img style="display:block" src="/arquivos/spacer.gif" width="19" height="1" alt="" /></td>
+            <td><img style="display:block" src="/arquivos/spacer.gif" width="255" height="1" alt="" /></td>
+            <td><img style="display:block" src="/arquivos/spacer.gif" width="36" height="1" alt="" /></td>
+            <td><img style="display:block" src="/arquivos/spacer.gif" width="218" height="1" alt="" /></td>
+            <td><img style="display:block" src="/arquivos/spacer.gif" width="22" height="1" alt="" /></td>
+        </tr> -->
+    </table>
+</body>
+
+</html>

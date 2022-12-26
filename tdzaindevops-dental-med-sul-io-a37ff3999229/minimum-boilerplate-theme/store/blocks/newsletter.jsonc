@@ -1,0 +1,56 @@
+{
+    "flex-layout.row#footer-newsletter": {
+        "children": [
+            "flex-layout.col#newsTitle",
+            "flex-layout.col#newsForm"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "preventHorizontalStretch": true,
+            "colSizing": "auto",
+            "horizontalAlign": "center",
+            "blockClass": [
+                "footerNewsletter",
+                "footerCentered"
+            ]
+        }
+    },
+    "flex-layout.col#newsTitle": {
+        "props": {
+            "preventVerticalStretch": true,
+            "preventHorizontalStretch": true
+        },
+        "children": [
+            "rich-text#newsTitle"
+        ]
+    },
+    "rich-text#newsTitle": {
+        "props": {
+            "text": "## Cadastre seu e-mail e receba nossas promoções, novidades e lançamentos em primeira mão!",
+            "blockClass": [
+                "newsTitle"
+            ]
+        }
+    },
+    "flex-layout.col#newsForm": {
+        "props": {
+            "preventVerticalStretch": true,
+            "preventHorizontalStretch": true,
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "newsletter-form"
+        ]
+    },
+    "newsletter-form": {
+        "children": [
+            "newsletter-input-email",
+            "newsletter-submit"
+        ]
+    },
+    "newsletter-submit": {
+        "props": {
+            "submitButtonLabel": "Cadastre-se"
+        }
+    }
+}

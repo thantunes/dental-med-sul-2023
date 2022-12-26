@@ -1,0 +1,242 @@
+{
+  "vtex.menu@2.x:menu#top-menu": {
+    "children": [
+      "menu-item#categories",
+      "menu-item#brands",
+      "menu-item#rede-clinicas",
+     // "menu-item#emitir-boleto",
+     
+      "menu-item#validadecurta",
+      "menu-item#saldao",
+      "menu-item#ciosp"
+      
+    ]
+  },
+
+  "menu-item#categories": {
+    "props": {
+      "id": "menu-item-custom-categories",
+      "type": "custom",
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 10,
+        "viewBox": "0 0 16 16",
+        "iconToTheRight": true
+      },
+      "iconToTheRight": true,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "TODAS AS CATEGORIAS",
+        "text": "TODAS AS CATEGORIAS"
+      },
+      "blockClass": "top-menu"
+    },
+    "children": ["category-menu#all-categories"]
+  },
+
+  "vtex.menu@2.x:submenu#all-categories": {
+    "children": ["vtex.menu@2.x:menu#all-categories"]
+  },
+
+  "vtex.menu@2.x:menu#all-categories": {
+    "children": ["menu-item#categories-teste", "menu-item#clube"]
+  },
+
+  "menu-item#categories-teste": {
+    "props": {
+      "id": "menu-item-custom-categories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Teste",
+        "text": "Teste"
+      }
+    }
+  },
+
+  "menu-item#clube": {
+    "props": {
+      "id": "menu-item-custom-clube",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "CLUBE",
+        "text": "CLUBE"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 10,
+        "viewBox": "0 0 16 16"
+      },
+      "iconToTheRight": true,
+      "blockClass": "top-menu"
+    }
+  },
+
+  "menu-item#rede-clinicas": {
+    "props": {
+      "id": "menu-item-custom-rede-clinicas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "REDE DE CLÍNICAS",
+        "text": "REDE DE CLÍNICAS"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 10,
+        "viewBox": "0 0 16 16"
+      },
+      "iconToTheRight": true,
+      "blockClass": "top-menu"
+    }
+  },
+
+  "menu-item#emitir-boleto": {
+    "props": {
+      "id": "menu-item-custom-emitir-boleto",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "EMITIR BOLETO",
+        "text": "EMITIR BOLETO"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 10,
+        "viewBox": "0 0 16 16"
+      },
+      "iconToTheRight": true,
+      "blockClass": "top-menu"
+    }
+  },
+  "menu-item#emitir-boletos": {
+    "props": {
+      "id": "menu-item-custom-emitir-boleto",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "EMITIR BOLETO",
+        "text": "EMITIR BOLETO"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 10,
+        "viewBox": "0 0 16 16"
+      },
+      "iconToTheRight": true,
+      "blockClass": "top-menu"
+    }
+  },
+  "menu-item#grandes-marcas": {
+    "props": {
+      "id": "menu-item-custom-grandes-marcas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "GRANDES MARCAS",
+        "text": "GRANDES MARCAS"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 10,
+        "viewBox": "0 0 16 16"
+      },
+      "iconToTheRight": true,
+      "blockClass": ["top-menu", "highlight"]
+    }
+  },
+
+
+  "menu-item#validadecurta": {
+    "props": {
+      "id": "menu-item-custom-validadecurta",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/[144]?map=productClusterIds",
+        "noFollow": true,
+        "tagTitle": "VALIDADE CURTA",
+        "text": "VALIDADE CURTA"
+      },
+      // "iconProps": {
+      //   "id": "nav-caret--down",
+      //   "size": 10,
+      //   "viewBox": "0 0 16 16"
+      // },
+      "iconToTheRight": true,
+      "blockClass": ["top-menu", "red-link"]
+    }
+  },
+
+
+  "menu-item#saldao": {
+    "props": {
+      "id": "menu-item-custom-saldao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/saldao",
+        "noFollow": true,
+        "tagTitle": "SALDÃO",
+        "text": "SALDÃO"
+      },
+      // "iconProps": {
+      //   "id": "nav-caret--down",
+      //   "size": 10,
+      //   "viewBox": "0 0 16 16"
+      // },
+      "iconToTheRight": true,
+      "blockClass": ["top-menu", "blue-link"]
+    }
+  },
+
+
+"menu-item#ciosp": {
+  "props": {
+    "id": "menu-item-custom-ciosp",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/ciosp",
+      "noFollow": true
+    },
+    "iconToTheRight": true,
+    "blockClass": ["menu-ciosp"]
+  }
+}
+
+}

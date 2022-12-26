@@ -1,0 +1,215 @@
+{
+    "list-context.image-list#brands": {
+        "children": [
+            "slider-layout#brands"
+        ],
+        "props": {
+            "blockClass": [
+                "brands"
+            ],
+            "images": [
+                {
+                    "image": "assets/brands/2i.png",
+                    "description": "Parceiro 3M"
+                },
+                {
+                    "image": "assets/brands/3M.png",
+                    "description": "Parceiro Angelus "
+                },
+                {
+                    "image": "assets/brands/American Burrs.png",
+                    "description": "Parceiro Carestream"
+                },
+                {
+                    "image": "assets/brands/Angelus.png",
+                    "description": "Parceiro Coltene"
+                },
+                {
+                    "image": "assets/brands/Biodinmica.png",
+                    "description": "Parceiro Cristalia"
+                },
+                {
+                    "image": "assets/brands/BlueM.png",
+                    "description": "Parceiro Dentsply"
+                },
+                {
+                    "image": "assets/brands/BM4.png",
+                    "description": "Parceiro DFL"
+                },
+                {
+                    "image": "assets/brands/Colgate.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Coltene.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Cristfoli.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Dentsply Sirona.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/DFL.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/FGM.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/GC.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Golgran.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Indusbello.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Ivoclar.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Kavo.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Kerr.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Kulzer.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Maquira.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/MedFio.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Medix.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Microdont.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Morelli.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Orthometric.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Powerdent.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Regenner.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Rennova.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Rioquimica.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Schuster.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/SDI.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Septodont.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/SSplus.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/SSWHITE.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Supermax.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Talmax.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/TDV.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Technew.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Ultradent.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Unigloves.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/VIPI.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Voco.png",
+                    "description": "Parceiro DLA"
+                },
+                {
+                    "image": "assets/brands/Wilcos.png",
+                    "description": "Parceiro DLA"
+                }
+            ]
+        }
+    },
+    "slider-layout#brands": {
+        "props": {
+            "label": "Slider of brands",
+            "autoplay": {
+                "timeout": 1500
+            },
+            "slideTransition" : {
+                "speed": 600,
+                "delay": 500,
+                "timing": "linear"
+            },
+            "itemsPerPage": {
+                "desktop": 8,
+                "tablet": 4,
+                "phone": 3
+            },
+            "navigationStep": 1,
+            "infinite": true,
+            "blockClass": [
+                "brands"
+            ],
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never"
+        }
+    }
+}

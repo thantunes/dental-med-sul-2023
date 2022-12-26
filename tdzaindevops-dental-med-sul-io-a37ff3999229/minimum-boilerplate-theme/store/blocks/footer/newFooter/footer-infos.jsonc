@@ -1,0 +1,102 @@
+{
+  "flex-layout.row#footer-infos": {
+    "children": [
+      "flex-layout.col#footer-infos-logos",
+      "vtex.menu@2.x:menu#footerInstitucional",
+      "vtex.menu@2.x:menu#footerHelp",
+      //"vtex.menu@2.x:menu#footer-fique-por-dentro",
+      "vtex.menu@2.x:menu#attendance"
+    ],
+    "props": {
+      "colGap": 5,
+      "colSizing": "auto",
+      "blockClass": ["footer-infos"]
+    }
+  },
+
+  "flex-layout.col#footer-infos-logos": {
+    "children": [
+      "logo#logo-footer",
+      "flex-layout.row#footer-infos-links",
+      "flex-layout.row#footer-provider-logos"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ["footer-infos-logos"]
+    }
+  },
+  "logo#logo-footer": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo-vertical-120.png",
+      "blockClass": "logo-footer"
+    }
+  },
+
+  "flex-layout.row#footer-infos-links": {
+    "children": ["link#instagram", "link#youtube", "link#facebook"],
+    "props": {
+      "blockClass": ["infos-links"]
+    }
+  },
+
+  "link#instagram": {
+    "props": {
+      "href": "https://www.instagram.com/dentalmedsul/",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "secondary",
+        "size": "small"
+      },
+
+      "blockClass": ["footer-info", "footer-info-instagram"]
+    }
+  },
+  "link#youtube": {
+    "props": {
+      "href": "https://www.youtube.com/channel/UCbjrfQO7Ob5VhtAXO0a3ISA",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "secondary",
+        "size": "small"
+      },
+
+      "blockClass": ["footer-info", "footer-info-youtube"]
+    }
+  },
+  "link#facebook": {
+    "props": {
+      "href": "",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "secondary",
+        "size": "small"
+      },
+
+      "blockClass": ["footer-info", "footer-info-facebook"]
+    }
+  },
+
+  "flex-layout.row#footer-provider-logos": {
+    "children": ["logo#vtex", "logo#buzz","logo#tdzain"]
+  },
+  "logo#tdzain": {
+    "props": {
+      "url": "assets/logo-tdz.png",
+      "blockClass": ["provider-logo"]
+    }
+  },
+  "logo#buzz": {
+    "props": {
+      "url": "arquivos/buzzbe_consultoria-v3.png",
+      "blockClass": ["provider-logo-buzz"]
+    }
+  },
+  "logo#vtex": {
+    "props": {
+      "url": "assets/vtexLogo.png",
+      "blockClass": ["provider-logo"]
+    }
+  }
+}

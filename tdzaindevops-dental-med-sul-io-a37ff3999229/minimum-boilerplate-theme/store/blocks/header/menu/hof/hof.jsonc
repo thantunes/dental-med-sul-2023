@@ -1,0 +1,18 @@
+{
+    "menu-item#hof": {
+      "props": {
+        "id": "menu-item-hof",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "https://www.dentalmedsul.com.br/176?map=productClusterIds",
+          "noFollow": false,
+          "tagTitle": "HOF",
+          "text": "HOF"
+        },
+        "iconToTheRight": true
+      }
+    }
+  }
+  

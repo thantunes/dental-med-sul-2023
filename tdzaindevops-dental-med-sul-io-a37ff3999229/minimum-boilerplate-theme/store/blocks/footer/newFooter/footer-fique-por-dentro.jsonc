@@ -1,0 +1,88 @@
+{
+  "vtex.menu@2.x:menu#footer-fique-por-dentro": {
+    "props": {
+      "blockClass": "footerMenu"
+    },
+    "children": [
+      "menu-item#fique-por-dentro",
+      "menu-item#ciosp",
+      "menu-item#black-friday",
+      "menu-item#mes-do-dentista"
+    ]
+  },
+  "menu-item#fique-por-dentro": {
+    "props": {
+      "id": "menu-item-fique-por-dentro",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Fique por dentro",
+        "text": "Fique por dentro"
+      },
+      "blockClass": ["menuFooterTitle"]
+    }
+  },
+  "menu-item#ciosp": {
+    "props": {
+      "id": "menu-item-ciosp",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ciosp",
+        "noFollow": false,
+        "tagTitle": "CIOSP",
+        "text": "CIOSP"
+      }
+    }
+  },
+  "menu-item#black-friday": {
+    "props": {
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/black-friday",
+        "noFollow": false,
+        "tagTitle": "Black Friday",
+        "text": "Black Friday"
+      }
+    }
+  },
+  "menu-item#mes-do-dentista": {
+    "props": {
+      "id": "menu-item-mes-do-dentista",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mes-do-dentista",
+        "noFollow": false,
+        "tagTitle": "Mês do dentista",
+        "text": "Mês do dentista"
+      }
+    }
+  },
+  "menu-item#cartao-dms": {
+    "props": {
+      "id": "menu-item-cartao-dms",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cartao-dms",
+        "noFollow": false,
+        "tagTitle": "Documentos Obrigatórios",
+        "text": "Documentos Obrigatórios"
+      }
+    }
+  }
+}

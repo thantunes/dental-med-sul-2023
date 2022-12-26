@@ -1,0 +1,18 @@
+{
+    "menu-item#protese": {
+        "props": {
+            "id": "menu-item-protese",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Prótese",
+                "text": "Prótese"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    }
+}

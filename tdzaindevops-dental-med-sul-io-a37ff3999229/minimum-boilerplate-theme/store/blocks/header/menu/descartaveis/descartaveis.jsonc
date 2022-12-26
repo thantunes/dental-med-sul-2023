@@ -1,0 +1,45 @@
+{
+    "menu-item#descartaveis": {
+        "props": {
+            "id": "menu-item-descartaveis",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Descartáveis",
+                "text": "Descartáveis"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+
+    "menu-item#descartaveis-mobile": {
+        "props": {
+            "id": "menu-item-descartaveis-mobile",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Descartáveis",
+                "text": "Descartáveis"
+            },
+            "iconToTheRight": true
+        },
+        "children": ["drawer#descartaveis"]
+    },
+
+    "drawer#descartaveis": {
+        "props": {
+            "maxWidth": "80%"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#descartaveis-mobile"
+        ],
+        "blocks" :["drawer-trigger#arrow"]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "store.custom#trabalhe-sac": {
+        "blocks": [
+            "flex-layout.row#ww-us-sac",
+            "iframe#sac"
+        ]
+    },
+    "iframe#sac": {
+        "props": {
+            "src": "https://blog.dentalmedsul.com.br/formulario-sac/",
+            "width": 600,
+            "height": 1300,
+            "allow": "trabalhe-conosco"
+        }
+    },
+    "flex-layout.row#ww-us-sac": {
+        "children": [
+            "flex-layout.col#text-ww-us-sac"
+        ]
+    },
+    "flex-layout.col#text-ww-us-sac": {
+        "children": [
+            "rich-text#ww-title-sac",
+            "rich-text#ww-content-sac"
+        ],
+        "props": {
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#ww-title-sac": {
+        "props": {
+            "text": "# SAC"
+        }
+    },
+    "rich-text#ww-content-sac": {
+        "props": {
+            "text": ""
+        }
+    }
+}

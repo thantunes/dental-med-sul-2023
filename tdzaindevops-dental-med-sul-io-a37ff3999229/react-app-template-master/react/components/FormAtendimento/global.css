@@ -1,0 +1,138 @@
+.atendimento-form-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: #434752;
+    text-align: center;
+    margin: 0 0 8px;
+
+}
+
+.atendimento-form-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: #4f4f4f;
+    margin: 0 0 24px;
+}
+
+.atendimento-form-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px #f4f4f4;
+    width: 50%;
+    margin: 50px auto;
+    padding: 30px 0;
+    border-radius: 3px;
+}
+
+.form-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-content span {
+    text-align: center;
+    line-height: 3;
+    font-weight: 700;
+    color: #de0808;
+    width: 75%;
+    border: none;
+    height: 40px;
+    padding: 0 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 14px;
+    /* margin-bottom: 12px; */
+}
+
+.form-content input {
+    width: 75%;
+    border: none;
+    height: 40px;
+    padding: 0 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 100%;
+    color: #878181;
+    margin-bottom: 12px;
+    border: solid 3px #f4f4f4;
+    border-radius: 3px;
+    margin: 0 12.5% 12px;
+}
+
+.form-content button {
+  height: 40px;
+  background: #43aadd;
+  border: none;
+  color: #fff;
+  width: 20%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  margin-top: 0;
+  cursor: pointer;
+  margin-right: 12.5%;
+  margin-left: 17.5%;
+}
+
+.form-content input#Mensagem {
+    height: 80px;
+}
+
+.form-content.disabled input {
+    background: gainsboro;
+    pointer-events: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .atendimento-form-title {
+        margin-top: 20px;
+    }
+    .form-content button {
+        margin-bottom: 50px;
+    }
+    .vtex-rich-text-0-x-container--title-item-benefits {
+        margin: 0 20px;
+    }
+}
+
+.input-file input {
+  display: none;
+}
+
+
+.input-file {
+  width: 37.5%;
+  margin-left: 12.5%;
+  margin-right: 0;
+}
+
+.input-file label {
+  color: gray;
+  background: hsl(0deg 0% 90%);
+  text-align: center;
+  height: 40px;
+  padding: 0;
+  line-height: 40px;
+  font-weight: 700;
+  display: inline-block;
+  padding: 0 30px;
+  cursor: pointer;
+}
+
+.input-file span {
+  padding: 0;
+  color: gray;
+  margin-right: 14px;
+}

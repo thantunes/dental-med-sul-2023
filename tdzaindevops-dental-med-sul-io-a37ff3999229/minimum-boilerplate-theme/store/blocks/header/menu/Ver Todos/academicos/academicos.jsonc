@@ -1,0 +1,18 @@
+{
+    
+    "menu-item#academicos": {
+        "props": {
+            "id": "menu-item-academicos",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Acadêmicos",
+                "text": "Acadêmicos"
+            },
+            "iconToTheRight": true
+        }
+    }
+}

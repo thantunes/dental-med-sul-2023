@@ -1,0 +1,16 @@
+
+.trigger--sku-list--hidden {
+    border: none;
+    width: 200px   
+}
+.trigger--sku-list--visible {
+    border: none;
+    width: 200px;
+    background-color: var(--main-light-blue);
+    color: #fff;
+    font-weight: 600;
+}
+
+.trigger--sku-list--visible  :global( .vtex-rich-text-0-x-paragraph) {
+    color: #fff;
+}

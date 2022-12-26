@@ -1,0 +1,15 @@
+.productHighlightWrapper {
+  background-color: #eb8100;
+  padding: 10px 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+  margin: 10px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+  .productHighlightWrapper {
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,71 @@
+{
+    "paymentConfiguration": {
+        "requiresAuthenticationForPreAuthorizedPaymentOption": false,
+        "allowInstallmentsMerge": null,
+        "blockPaymentSession": null,
+        "paymentSystemToCheckFirstInstallment": null,
+        "defaultPaymentSystemToApplyOnUserOrderForm": null
+    },
+    "taxConfiguration": null,
+    "minimumQuantityAccumulatedForItems": 1,
+    "decimalDigitsPrecision": 2,
+    "minimumValueAccumulated": 1000,
+    "apps": [
+        {
+            "fields": [
+                "marketplacePaymentMethod"
+            ],
+            "id": "integration-marketplace-viavarejo",
+            "major": 1
+        },
+        {
+            "fields": [
+                "orderIdMarketplace",
+                "paymentIdMarketplace",
+                "payment_method_id",
+                "payment_type",
+                "installments",
+                "authorization_code",
+                "first_six_digits",
+                "last_four_digits",
+                "currency_id",
+                "pack_id",
+                "shipment_id",
+                "mode",
+                "logistic_type",
+                "total_paid_amount",
+                "collector_id",
+                "marketplacePaymentMethod",
+                "me2_shipping_cost"
+            ],
+            "id": "marketplace-integration",
+            "major": 1
+        },
+        {
+            "fields": [
+                "quantity",
+                "deadlines_1",
+                "deadlines_2",
+                "deadlines_3",
+                "deadlines_4",
+                "deadlines_5",
+                "deadlines_6",
+                "deadlines_7",
+                "deadlines_8",
+                "deadlines_9",
+                "deadlines_10",
+                "deadlines_11",
+                "deadlines_12",
+                "interestRate"
+            ],
+            "id": "customer-credit",
+            "major": 1
+        }
+    ],
+    "allowMultipleDeliveries": false,
+    "allowManualPrice": null,
+    "maxNumberOfWhiteLabelSellers": null,
+    "maskFirstPurchaseData": null,
+    "recaptchaValidation": null,
+    "maskStateOnAddress": null
+}

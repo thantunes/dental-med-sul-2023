@@ -1,0 +1,25 @@
+{
+    "vtex.menu@2.x:menu#menu-equipamentos": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu-third"
+        },
+        "children": [
+            "menu-item#equipamentos-fotopolimerizador"
+        ]
+    },
+    "menu-item#equipamentos-fotopolimerizador": {
+        "props": {
+            "id": "menu-item#equipamentos-fotopolimerizador",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Fotopolimerizador",
+                "text": "Fotopolimerizador"
+            }
+        }
+    }
+}

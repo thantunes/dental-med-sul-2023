@@ -1,0 +1,40 @@
+{
+    "store.custom#trabalhe-conosco": {
+        "blocks": [
+            "flex-layout.row#ww-us",
+            "iframe#trabalhe-conosco"
+        ]
+    },
+    "iframe#trabalhe-conosco": {
+        "props": {
+            "src": "https://blog.dentalmedsul.com.br/trabalhe-conosco/",
+            "width": 600,
+            "height": 1000,
+            "allow": "trabalhe-conosco"
+        }
+    },
+    "flex-layout.row#ww-us": {
+        "children": [
+            "flex-layout.col#text-ww-us"
+        ]
+    },
+    "flex-layout.col#text-ww-us": {
+        "children": [
+            "rich-text#ww-title",
+            "rich-text#ww-content"
+        ],
+        "props": {
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#ww-title": {
+        "props": {
+            "text": "# Trabalhe conosco"
+        }
+    },
+    "rich-text#ww-content": {
+        "props": {
+            "text": " Envie seu currículo para nós!"
+        }
+    }
+}

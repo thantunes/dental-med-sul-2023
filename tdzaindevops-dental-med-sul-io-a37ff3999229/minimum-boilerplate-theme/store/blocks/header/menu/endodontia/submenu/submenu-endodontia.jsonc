@@ -1,0 +1,179 @@
+{
+
+    "vtex.menu@2.x:submenu#endodontia": {
+        "children": [
+            "vtex.menu@2.x:menu#endodontia"
+        ],
+        "props": {
+            "blockClass": ["submenu-third"],
+            "orientation": "vertical"
+        }
+    },
+
+    "vtex.menu@2.x:menu#endodontia": {
+        "children": [
+            "menu-item#broca",
+            "menu-item#broca-gates",
+            "menu-item#broca-largo",
+            "menu-item#broca-lentulo",
+            "menu-item#cimento-reparador",
+            "menu-item#extirpa-nervos",
+            "menu-item#guta-percha",
+            "menu-item#lencol-de-borracha"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": [
+                "menu-third"
+            ]
+        }
+    },
+
+    "menu-item#broca": {
+        "props": {
+            "id": "menu-item-broca",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Broca",
+                "text": "Broca"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#broca-gates": {
+        "props": {
+            "id": "menu-item-broca-gates",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Broca gates",
+                "text": "Broca gates"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#broca-largo": {
+        "props": {
+            "id": "menu-item-broca-largo",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Broca largo",
+                "text": "Broca largo"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#broca-lentulo": {
+        "props": {
+            "id": "menu-item-broca-lentulo",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Broca lentulo",
+                "text": "Broca lentulo"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#cimento-reparador": {
+        "props": {
+            "id": "menu-item-cimento-reparador",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Cimento reparador",
+                "text": "Cimento reparador"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#extirpa-nervos": {
+        "props": {
+            "id": "menu-item-extirpa-nervos",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Extirpa nervos",
+                "text": "Extirpa nervos"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#guta-percha": {
+        "props": {
+            "id": "menu-item-guta-percha",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Guta percha",
+                "text": "Guta percha"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#lencol-de-borracha": {
+        "props": {
+            "id": "menu-item-lencol-de-borracha",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Lençol de borracha",
+                "text": "Lençol de borracha"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+
+    "vtex.menu@2.x:menu#endodontia-mobile": {
+        "children": [
+            "menu-item#broca",
+            "menu-item#broca-gates",
+            "menu-item#broca-largo",
+            "menu-item#broca-lentulo",
+            "menu-item#cimento-reparador",
+            "menu-item#extirpa-nervos",
+            "menu-item#guta-percha",
+            "menu-item#lencol-de-borracha"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": [
+                "menuDrawer"
+            ]
+        }
+    }
+}

@@ -1,0 +1,89 @@
+.paginationDotsContainer {
+  bottom: -5%;
+}
+
+.sliderLeftArrow--productShelf {
+  left: -10px;
+}
+.sliderRightArrow--productShelf {
+  right: -10px;
+}
+.sliderArrows--banner-principal {
+  background-color: #fff !important;
+  border: solid 1px #dadada;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.caretIcon--banner-principal {
+  width: 15px;
+  height: 15px;
+}
+.imageElement--brands {
+  max-width: 150px !important;
+  max-height: 50px !important;
+}
+
+.slide--productShelf {
+  max-width: 400px;
+  margin: 0 5px;
+  border-radius: 10px;
+}
+
+.sliderTrack--productShelf {
+  padding: 10px 0;
+}
+.sliderTrackContainer--productShelf {
+  margin: 0 15px;
+}
+.sliderLayoutContainer--shelf-banner {
+  padding: 0 !important;
+}
+
+.sliderTrack--shelfbanner-product {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  transform: none;
+  justify-content: normal;
+}
+.slide--shelfbanner-product {
+  width: 100% !important;
+}
+
+.slide--shelfbanner-product {
+  border-top: solid 1px #ccc;
+  border-right: solid 1px #ccc;
+  border-bottom: solid 1px #ccc;
+}
+
+@media (max-width: 768px) {
+  .sliderRightArrow--productShelf {
+    right: -10px;
+  }
+  .sliderLeftArrow--productShelf {
+    left: -10px;
+  }
+
+  .slide--shelfbanner-product {
+    border: none;
+    border-top: solid 1px #ccc;
+  }
+
+  .paginationDotsContainer {
+    bottom: -3%;
+  }
+}
+@media (min-width: 1025px) {
+  .sliderLayoutContainer--productShelf .sliderLeftArrow,
+  .sliderLayoutContainer--productShelf .sliderRightArrow {
+    top: -50px;
+    right: 30px;
+    left: auto;
+
+    border: solid 1px #1a1a1a;
+    padding: 5px;
+  }
+  .sliderLayoutContainer--productShelf .sliderRightArrow {
+    right: 0px;
+  }
+}

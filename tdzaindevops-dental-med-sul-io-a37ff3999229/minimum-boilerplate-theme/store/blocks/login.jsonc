@@ -1,0 +1,10 @@
+{
+    "login": {
+        "props": {
+            "showIconProfile" : false,
+            "iconLabel": "Entrar",
+            "hideIconLabel" : false,
+            "iconId": "bnd-logo"
+        }
+      }
+}

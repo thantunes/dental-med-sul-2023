@@ -1,0 +1,51 @@
+{
+  "flex-layout.row#selling-price": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 4,
+      "blockClass": ["sellingPrice"]
+    },
+    "children": [
+      "product-selling-price#pdp",
+      "product-price-savings"
+    ]
+  },
+
+  "product-selling-price#pdp": {
+    "props": {
+      "markers": [
+        "highlight"
+      ],
+      "blockClass": "pdp",
+      "message": "{sellingPriceValue}"
+    }
+  },
+  "flex-layout.row#list-price-savings": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 2,
+      "marginTop": 5
+    },
+    "children": [
+      "product-list-price"
+    ]
+  },
+  "product-price-savings": {
+    "props": {
+      "percentageStyle": "compact"
+    }
+  },
+  "product-selling-price": {
+    "props": {
+      "markers": [
+        "highlight"
+      ],
+      "blockClass": "summary",
+      "message": "A partir de {sellingPriceValue}"
+    }
+  }
+}

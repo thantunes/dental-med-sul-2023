@@ -1,0 +1,33 @@
+.container {
+  position: absolute;
+  height: 120px;
+}
+
+.paperNotFullScreen {
+  background-color: transparent;
+}
+
+.headerContainer {
+  position: fixed;
+  top: 53px;
+  left: 0;
+  border: none;
+  background-color: #003868;
+}
+
+.paperNotFullScreen {
+  margin: 0;
+}
+.closeButton {
+  color: #003868;
+  background-color: #fff;
+}
+
+/* .headerContainer::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 80px;
+  background-color: #fff;
+  z-index: 12;
+} */

@@ -1,0 +1,30 @@
+{
+  "flex-layout.col#modal-menu": {
+    "props": {
+      "width": "grow",
+      "horizontalAlign": "center"
+    },
+    "children": ["modal-trigger#menu-see-all"]
+  },
+  "modal-header#menu-see-all": {
+    "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 32
+    }
+  },
+  "modal-trigger#menu-see-all": {
+    "children": ["rich-text#example", "modal-layout#menu-see-all"]
+  },
+  "rich-text#example": {
+    "props": {
+      "text": "Ver todos os departamentos",
+      "blockClass": ["ver-todos"]
+    }
+  },
+  "modal-layout#menu-see-all": {
+    "children": ["modal-header#menu-see-all", "modal-content#menu-see-all"]
+  },
+  "modal-content#menu-see-all": {
+    "children": ["category-menu"]
+  }
+}

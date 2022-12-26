@@ -1,0 +1,17 @@
+{
+  "Greeting": {
+    "component": "Greeting"
+  },
+  "NameComplement": {
+    "component": "NameComplement"
+  },
+  "FormAtendimento": {
+    "component": "FormAtendimento"
+  },
+  "OrderCustomData": {
+    "component": "OrderCustomData"
+  },
+  "MainMenu": {
+    "component": "MainMenu"
+  }
+}

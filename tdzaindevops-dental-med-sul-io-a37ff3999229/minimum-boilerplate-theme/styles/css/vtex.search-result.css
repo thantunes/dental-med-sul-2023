@@ -1,0 +1,63 @@
+.searchResultContainer {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.galleryTitle--layout{
+  text-transform: uppercase;
+}
+
+.filtersWrapper {
+  margin-right: 20px;
+  background-color: #f6f6f6;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.galleryTitle--layout {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+}
+
+.gallery--grid {
+  padding-left: 0;
+  margin: 0 auto;
+  max-width: 95%;
+}
+.totalProducts--layout {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.totalProductsMessage {
+  font-size: 0.8rem;
+}
+
+.buttonShowMore :global(.vtex-button) {
+  border-radius: 9999px;
+}
+
+/* search layout */
+
+.totalProducts--layout {
+  max-width: 300px;
+  padding-left: 0;
+  font-weight: 600;
+  border-bottom: solid 2px red;
+}
+/* Hotsite Marcas */
+.searchResultContainer--hotSiteContentContainer {
+  background-image: url(assets/site3m.png);
+  background-attachment: fixed;
+  background-position-y: center;
+  max-width: none;
+}
+@media (max-width: 768px) {
+  .gallery--grid {
+    max-width: 100%;
+  }
+  .galleryItem--grid {
+    padding: 0;
+  }
+}

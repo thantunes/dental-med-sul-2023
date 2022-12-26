@@ -1,0 +1,48 @@
+{
+    "menu-item#see-all": {
+        "props": {
+            "id": "menu-item-see-all",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Ver Todos",
+                "text": "Ver Todos"
+            }
+        },
+        "blocks": [
+            "submenu#see-all"
+        ] // Defining a submenu
+    },
+    "submenu#see-all": {
+        "props": {
+            "blockClass": [
+                "submenu-see-all"
+            ]
+        },
+        "children": [
+            "vtex.menu@2.x:menu#menu-see-all"
+        ]
+    },
+    // Main Menu
+    "vtex.menu@2.x:menu#menu-see-all": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu-see-all"
+        },
+        "children": [
+            "menu-item#dentistica",
+            "menu-item#ortodontia",
+            "menu-item#endodontia",
+            "menu-item#radiologia",
+            "menu-item#anestesicos",
+            "menu-item#equipamentos",
+            "menu-item#moldagem",
+            "menu-item#academicos",
+            "menu-item#perifericos",
+            "menu-item#protese"
+        ]
+    }
+}

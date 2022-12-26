@@ -1,0 +1,150 @@
+{
+  "flex-layout.row#footer-payment": {
+    "props": {
+      "colSizing": "auto",
+      "colGap": 6,
+      "blockClass": ["footer-payment"]
+    },
+    "children": [
+     // "flex-layout.col#spacer-25",
+      "flex-layout.col#footer-payment-infos",
+      "flex-layout.col#payment-logos"
+    ]
+  },
+
+  "flex-layout.col#spacer-25": {
+    "props": {
+      "width": "25%"
+    }
+  },
+  "flex-layout.col#footer-payment-infos": {
+    "props": {
+      "width": "50%"
+    },
+    "children": ["flex-layout.row#payment-infos-wrapper"]
+  },
+
+  "flex-layout.row#payment-infos-wrapper": {
+    "children": [
+      "flex-layout.col#payment-info-1",
+      "flex-layout.col#payment-info-2",
+      "flex-layout.col#payment-info-3"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ["payment-infos-wrapper"]
+    }
+  },
+
+  "flex-layout.col#payment-info-1": {
+    "children": ["rich-text#payment-title", "rich-text#payment-desc"],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ["payment-info"]
+    }
+  },
+
+  "rich-text#payment-title": {
+    "props": {
+      "blockClass": ["payment-title"],
+      "font": "t-heading-4",
+      "text": "CARTÃO DE CRÉDITO",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "rich-text#payment-desc": {
+    "props": {
+      "blockClass": ["payment-desc"],
+      "font": "t-heading-4",
+      "text": "Parcele em até 12x sem juros",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "flex-layout.col#payment-info-2": {
+    "children": ["rich-text#payment-title-2", "rich-text#payment-desc-2"],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ["payment-info"]
+    }
+  },
+
+  "rich-text#payment-title-2": {
+    "props": {
+      "blockClass": ["payment-title"],
+      "font": "t-heading-4",
+      "text": "CARTÃO DE CRÉDITO DMS",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "rich-text#payment-desc-2": {
+    "props": {
+      "blockClass": ["payment-desc"],
+      "font": "t-heading-4",
+      "text": "Parcele em até 6x sem juros",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "flex-layout.col#payment-info-3": {
+    "children": ["rich-text#payment-title-3", "rich-text#payment-desc-3"],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ["payment-info"]
+    }
+  },
+
+  "rich-text#payment-title-3": {
+    "props": {
+      "blockClass": ["payment-title"],
+      "font": "t-heading-4",
+      "text": "BOLETO À VISTA E PIX",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "rich-text#payment-desc-3": {
+    "props": {
+      "blockClass": ["payment-desc"],
+      "font": "t-heading-4",
+      "text": "Ganhe 5% de desconto",
+      "textAlignment": "LEFT",
+      "textColor": "c-on-base",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "flex-layout.col#payment-logos": {
+    "children": [
+      "logo#american",
+      "logo#boleto",
+      "logo#deposito",
+      "logo#DINERS",
+      "logo#elo",
+      "logo#hipercard",
+      "logo#mastercard",
+      "logo#Visa",
+      "logo#Santander",
+  //    "logo#Provu",
+      "logo#Paypal"
+
+    ],
+    "props": {
+      "width": "50%",
+      "verticalAlign": "bottom",
+      "blockClass": ["payment-logos"]
+    }
+  }
+}

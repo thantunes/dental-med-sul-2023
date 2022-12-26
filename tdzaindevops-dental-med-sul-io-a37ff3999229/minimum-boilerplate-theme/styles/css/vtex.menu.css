@@ -1,0 +1,254 @@
+@import url(./variables.css);
+.menuContainer--footerMenu {
+  flex-direction: column;
+}
+
+.menuContainerNav--footerMenu .styledLinkContent {
+  display: inline-flex;
+}
+
+.styledLinkContent--menuFooterTitle {
+  font-size: 14px;
+  color: #1a1a1a;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.styledLinkContent--menuFooterTitle {
+  margin: 10px 0;
+}
+
+.menuContainer--main-menu .menuItem:hover {
+  background-color: var(--main-orange);
+  cursor: pointer;
+}
+
+.menuContainer--footerMenu .menuItem .styledLinkContainer {
+  padding: 0.25rem 0;
+  margin: 0;
+}
+
+.menuContainer--footerMenu .menuItem .styledLinkContainer .styledLink {
+  font-size: 14px;
+}
+
+.menuContainer--footerMenu .menuItem .styledLinkContainer .styledLink--footerPhone {
+  font-size: 2rem;
+  color: #f58646;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Topbar Header */
+.menuContainerNav--topbar {
+  display: flex;
+  align-items: center;
+}
+.styledLinkContent--topbar {
+  font-size: 12px;
+  color: #9e9e9e;
+}
+
+.menuContainer--topbar .menuItem--topbar .styledLinkContainer--topbar {
+  margin: 0;
+  padding: 0.3rem;
+  margin-left: 2px;
+  border-left: solid 2px #0000;
+}
+.menuContainer--topbar
+  .menuItem--topbar:first-child
+  .styledLinkContainer--topbar {
+  border-right: solid 2px #e4e5e7;
+  margin: 0;
+  padding: 0 0.5rem;
+}
+
+.styledLinkContent--topbar-highlight {
+  color: rgb(154 153 153);
+  font-weight: 600;
+}
+.styledLinkContainer--topbar-locate,
+.menuItem--topbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.styledLinkContainer--topbar-locate::before {
+  content: "";
+  width: 16px;
+  height: 20px;
+  background: url(assets/icons/pointer.png) no-repeat center center;
+  background-size: 15px 20px;
+  display: inline-block;
+}
+/* Actions Menu */
+
+.menuContainer.menuContainer--action-menu {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.menuContainer--action-menu .menuItem {
+  width: 33%;
+}
+
+.menuContainer--action-menu .styledLinkContent {
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+.menuItem--top-menu {
+  z-index: 9;
+}
+.styledLinkContainer--top-menu {
+  padding: 10px 0;
+}
+.styledLinkContent--top-menu {
+  font-size: 13px;
+}
+.styledLinkContent--top-menu.styledLinkContent--highlight {
+  font-weight: 600;
+}
+
+.menuContainer--main-menu .menuItem .styledLinkContainer, .menuItem--top-menu .styledLinkContainer {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.menuItem--top-menu .styledLinkContainer{
+  margin-right: 1.5rem;
+}
+
+.styledLinkIcon--top-menu {
+  order: 1;
+}
+/* Manual Menu */
+
+.menuContainer {
+  justify-content: space-between;
+}
+
+.menuContainer--main-menu .styledLinkContent {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.submenu .styledLinkContent {
+  color: #000;
+}
+
+.submenuWrapper--submenu-see-all {
+  background-color: var(--main-orange);
+  border-radius: 0 0 0px 10px;
+}
+
+.menuContainer--menu-see-all .menuItem {
+  padding: 5px 0;
+}
+
+.menuContainer--menu-see-all .menuItem .styledLinkContent {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.menuContainer--menu-third .menuItem .styledLinkContent {
+  color: #808080;
+}
+
+.submenuWrapper--submenu-third {
+  left: 100%;
+  top: 0;
+  height: 400px;
+  align-items: flex-start;
+}
+
+.menuContainer--menu-third {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.submenuContainer--submenu-third {
+  position: static;
+}
+
+.menuContainer--menu-third .menuItem {
+  width: 230px;
+}
+
+.menuContainer--menu-third .menuItem:hover .styledLinkContent {
+  color: #fff;
+}
+
+/* Mobile Menu */
+
+.menuContainerNav--menuDrawer {
+  width: 100%;
+}
+
+.menuContainer--menuDrawer .menuItem .styledLinkContainer {
+  order: 1;
+}
+
+@media (max-width: 768px) {
+
+
+
+  .menuContainer--menuDrawer .menuItem {
+    display: flex;
+    align-items: center;
+    background-color: var(--main-light-blue);
+    padding: 0.5rem 0;
+    color: #fff;
+  }
+  .menuContainer--menuDrawer .styledLinkContent {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1.2px;
+  }
+  .menuItem--not-have-children::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+  }
+  .menuContainer--footerMenu {
+    align-items: center;
+    margin: 10px 0;
+  }
+}
+
+/*MENU ENDEREÇO*/
+
+.styledLinkContent--menuFooterTitleAdress {
+  white-space: break-spaces;
+  max-width: 190px;
+}
+
+/*SALDAO*/
+.styledLinkContainer--red-link{
+  background-color: #bababa;
+  padding: 5px 10px !important;
+  border-radius: 5px;
+  margin: 4px -6px !important;
+}
+
+.styledLink--red-link{
+  color: #ffffff;
+}
+
+
+
+
+.styledLinkContainer--blue-link{
+  background-color: #43aadd;
+  padding: 5px 10px !important;
+  border-radius: 5px;
+  margin: 4px 17px 0px 25px!important;
+}
+
+.styledLink--blue-link{
+  color: #ffffff;
+}

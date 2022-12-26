@@ -1,0 +1,25 @@
+{
+    "store.custom#revista": {
+        "blocks": [
+            "flex-layout.row#revista-main"
+        ]
+    },
+
+    "flex-layout.row#revista-main": {
+        "props": {
+            "paddingTop": 5,
+            "paddingBottom": 5
+        },
+        "children": [
+            "iframe#revista"
+        ]
+    },
+
+    "iframe#revista": {
+        "props" : {
+            "src": "https://tdzain.io/accounts/dms/ofertas/#p=1",
+            "width": 1000,
+            "height": 600
+        }
+    }
+}

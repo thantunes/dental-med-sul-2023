@@ -1,0 +1,19 @@
+{
+    "store.custom#content-type": {
+      "blocks": [
+        "rich-text#teste"
+      ]
+    },
+
+    "rich-text#teste": {
+      "props": {
+        "blockClass": ["teste"],
+        "font": "t-body",
+        "text": "Testando Content Type",
+        "textAlignment": "CENTER",
+        "textColor": "c-on-base",
+        "textPosition": "CENTER"
+      }
+    }
+  }
+  

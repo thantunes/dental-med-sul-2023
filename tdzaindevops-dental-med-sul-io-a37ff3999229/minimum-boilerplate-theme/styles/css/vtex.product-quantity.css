@@ -1,0 +1,10 @@
+.quantitySelectorTitle  {
+    font-size: .7rem;
+}
+
+:global(.vtex-numeric-stepper__minus-button), :global(.vtex-numeric-stepper__plus-button) {
+    width: 2.5em !important;
+} 
+:global(.vtex-numeric-stepper__input) {
+    width: 3em !important;
+}

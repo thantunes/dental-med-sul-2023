@@ -1,0 +1,9 @@
+.container {
+  margin: 0 !important;
+  padding: 0;
+  max-width: 100%;
+}
+
+.reviewsHeading {
+  font-size: 1rem;
+}

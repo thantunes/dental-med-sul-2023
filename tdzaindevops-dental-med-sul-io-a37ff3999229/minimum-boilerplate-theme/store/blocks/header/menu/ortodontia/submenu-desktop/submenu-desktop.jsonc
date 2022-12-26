@@ -1,0 +1,30 @@
+{
+    "vtex.menu@2.x:submenu#ortodontia": {
+        "children": [
+            "vtex.menu@2.x:menu#ortodontia"
+        ],
+        "props": {
+            "blockClass": ["submenu-third"],
+            "orientation": "vertical"
+        }
+    },
+    "vtex.menu@2.x:menu#ortodontia": {
+        "children": [
+            "menu-item#ionomero-de-vidro",
+            "menu-item#ceras",
+            "menu-item#acessorios",
+            "menu-item#botao-lingual",
+            "menu-item#caixa-diversas",
+            "menu-item#elastico",
+            "menu-item#instrumento-para-ortodontia",
+            "menu-item#molas",
+            "menu-item#resina-adesivo-ortodontico",
+            "menu-item#alicate-ortodontico",
+            "menu-item#banda"
+        ],
+        "props": {
+            "blockClass":["menu-third"],
+            "orientation": "vertical"
+        }
+    }
+}

@@ -1,0 +1,90 @@
+{
+  "product-summary.shelf": {
+    "props": {
+      "blockClass": "product-shelf"
+    },
+    "children": [
+      "product-summary-image",
+      "vtex.product-highlights@2.x:product-highlights#collection",
+      "product-summary-name",
+      "product-rating-inline",
+      "flex-layout.row#group-price",
+      "condition-layout.product#summary-sob-encomenda-condition"
+    ]
+  },
+  "flex-layout.row#group-price": {
+    "children": [
+      "product-list-price#summary",
+      "flex-layout.row#selling-price-savings",
+      "product-installments#summary"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "group-price"
+    }
+  },
+  "product-list-price#summary": {
+    "props": {
+      "message": "De: {listPriceValue}",
+      "blockClass": "summary"
+    }
+  },
+  "flex-layout.row#selling-price-savings": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 4,
+      "blockClass": "list-price-saving-container"
+    },
+    "children": ["product-selling-price#summary"]
+  },
+  "product-installments#summary": {
+    "props": {
+      "message": "{installmentsNumber}x de {installmentValue}",
+      "blockClass": "summary"
+    }
+  },
+  "product-selling-price#summary": {
+    "props": {
+      "message": "{hasListPrice, select, true {Por: {sellingPriceValue}} false { {sellingPriceValue}}}",
+      "blockClass": "summary"
+    }
+  },
+
+  "condition-layout.product#summary-sob-encomenda-condition": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productClusters",
+          "arguments": {
+            "id": "197"
+          }
+        }
+      ],
+      "Then": "flex-layout.row#summary-sob-encomenda",
+      "Else": "add-to-cart-button"
+     }
+ },
+
+ "flex-layout.row#summary-sob-encomenda": {
+   "props": {
+     "preventVerticalStretch": true,
+     "rowGap": 0
+   },
+   "children": [
+    "rich-text#summary-encomenda-buttom"
+   ]
+ },
+
+ "rich-text#summary-encomenda-buttom": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "SOLICITAR ORÇAMENTO",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "encomenda-buttom"
+    }
+  }
+}

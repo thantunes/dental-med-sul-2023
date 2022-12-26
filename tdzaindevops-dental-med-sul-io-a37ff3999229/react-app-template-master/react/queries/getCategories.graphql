@@ -1,0 +1,9 @@
+query GET_CATEGORIES($treeLevel: Int) {
+  categories(treeLevel: $treeLevel) {
+    name
+    children {
+      name
+    }
+    href
+  }
+}

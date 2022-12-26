@@ -1,0 +1,38 @@
+.newsletterForm {
+    display: flex;
+}
+
+.nameInputContainer :global(.vtex-input-prefix__group), .emailInputContainer :global(.vtex-input-prefix__group)  {
+    border: none;
+    margin: 0 5px;
+}
+
+.formSubmitContainer :global(.vtex-button__label) {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.formSubmitContainer :global(.vtex-button) {
+    background-color: var(--main-orange);
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    
+}
+
+@media (max-width: 768px) {
+    .newsletterForm {
+        flex-direction: column;
+    }
+    .nameInputContainer, .emailInputContainer {
+        margin: 10px 0;
+    }
+    .formSubmitContainer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .formSubmitContainer :global(.vtex-button) {
+        width: 220px;
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "menu-item#radiologia": {
+        "props": {
+            "id": "menu-item-radiologia",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Radiologia",
+                "text": "Radiologia"
+            },
+            "iconPosition": "right",
+            "iconProps": {
+                "id": "nav-caret--right",
+                "view": 24,
+                "sizeBox": "0 0 24 24"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": ["submenu#radiologia"]
+    },
+    "submenu#radiologia": {
+        "props": {
+            "blockClass": [
+                "submenu-third"
+            ]
+        },
+        "children": [
+            "vtex.menu@2.x:menu#menu-radiologia"
+        ]
+    }
+}

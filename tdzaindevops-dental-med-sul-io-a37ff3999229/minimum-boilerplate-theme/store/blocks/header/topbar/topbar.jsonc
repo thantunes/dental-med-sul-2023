@@ -1,0 +1,98 @@
+{
+  "flex-layout.row#topbar": {
+    "children": [
+      "vtex.menu@2.x:menu#topLeft",
+      "flex-layout.col#spacer",
+      "vtex.menu@2.x:menu#topRight"
+    ],
+    "props": {
+      "colsizing": "auto",
+      "preventHorizontalStretch": true,
+      "blockClass": ["topbar"]
+    }
+  },
+  "vtex.menu@2.x:menu#topLeft": {
+    "props": {
+      "blockClass": ["topbar"]
+    },
+    "children": [
+      "menu-item#encontre-nossa-loja",
+      "menu-item#topbar-fale-conosco"
+    ]
+  },
+
+  "menu-item#encontre-nossa-loja": {
+    "props": {
+      "id": "menu-item-encontre-loja",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Encontre nossa loja",
+        "text": "Encontre nossa loja"
+      },
+      "blockClass": ["topbar", "topbar-highlight", "topbar-locate"]
+    }
+  },
+  "menu-item#topbar-fale-conosco": {
+    "props": {
+      "id": "menu-item-fale-conosco",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/central-de-atendimento",
+        "noFollow": false,
+        "tagTitle": "Fale Conosco",
+        "text": "Fale Conosco"
+      },
+
+      "blockClass": ["topbar"]
+    }
+  },
+  "vtex.menu@2.x:menu#topRight": {
+    "props": {
+      "blockClass": ["topbar"]
+    },
+    "children": [
+      "menu-item#topbar-meus-pedidos",
+      "menu-item#topbar-rastreie-encomenda"
+    ]
+  },
+
+  "menu-item#topbar-meus-pedidos": {
+    "props": {
+      "id": "menu-item-meus-pedidos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account#/orders",
+        "noFollow": false,
+        "tagTitle": "Meus Pedidos",
+        "text": "Meus Pedidos"
+      },
+
+      "blockClass": ["topbar"]
+    }
+  },
+
+  "menu-item#topbar-rastreie-encomenda": {
+    "props": {
+      "id": "menu-item-rastreie-encomenda",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Rastreie sua encomenda",
+        "text": "Rastreie sua encomenda"
+      },
+
+      "blockClass": ["topbar", "topbar-highlight"]
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+    "menu-item#brands": {
+      "props": {
+        "id": "menu-item-brands",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "GRANDES MARCAS",
+          "text": "GRANDES MARCAS"
+        },
+        "iconProps": {
+          "id": "nav-caret--down",
+          "size": 10,
+          "viewBox": "0 0 16 16",
+          "iconToTheRight": true
+        },
+        "iconToTheRight": true,
+        "blockClass": ["top-menu"]
+      },
+      "blocks": ["vtex.menu@2.x:submenu#brands"]
+    },
+    "vtex.menu@2.x:submenu#brands": {
+      "props": {
+        "width": "100%"
+      },
+      "children": ["flex-layout.row#brands"]
+    },
+    "flex-layout.row#brands": {
+      "children": ["flex-layout.col#brands-wrapper"]
+    },
+    "flex-layout.col#brands-wrapper": {
+      "children": [
+        "rich-text#brandsTitle",
+        "flex-layout.row#brands-1",
+        "flex-layout.row#brands-2"
+      ]
+    },
+  
+    "rich-text#brandsTitle": {
+      "props": {
+        "text": ""
+      }
+    },
+    "flex-layout.row#brands-1": {
+      "children": [
+        "image#3m",
+        "image#coltene",
+        "image#dfl",
+        "image#kulzer",
+        "image#medfio",
+        "image#sdi"
+      ]
+    },
+    "image#3m": {
+      "props": {
+        "src": "assets/brands-new/3m .jpg",
+        "blockClass": "box-image"
+      }
+    },
+    "image#coltene": {
+      "props": {
+        "src": "assets/brands-new/Vigodent.jpg",
+        "blockClass": "box-image"
+      }
+    },
+    "image#dfl": {
+      "props": {
+        "src": "assets/brands-new/DFL.jpg",
+        "blockClass": "box-image"
+      }
+    },
+    "image#kulzer": {
+      "props": {
+        "src": "assets/brands-new/Kulzer.jpg",
+        "blockClass": "box-image"
+      }
+    },
+    "image#medfio": {
+      "props": {
+        "src": "assets/brands-new/Med Fio.jpg",
+        "blockClass": "box-image"
+      }
+    },
+    "image#sdi": {
+      "props": {
+        "src": "assets/brands-new/SDI.jpg",
+        "blockClass": "box-image"
+      }
+    },
+    "flex-layout.row#brands-2": {
+      "children": [
+        "image#american-burrs",
+        "image#denstply",
+        "image#kerr",
+        "image#maquira",
+        "image#microdont",
+        "image#fgm"
+      ]
+    },
+    "image#american-burrs": {
+      "props": {
+        "src": "assets/brands-new/American Burrs.jpg",
+        "blockClass": "box-image"
+      }
+    },
+    "image#denstply": {
+      "props": {
+        "src": "assets/brands-new/Dentsply.jpg",
+        "blockClass": "box-image"
+      }
+    },
+    "image#kerr": {
+      "props": {
+        "src": "assets/brands-new/Kerr.jpg",
+        "blockClass": "box-image"
+      }
+    },
+    "image#maquira": {
+      "props": {
+        "src": "assets/brands-new/Maquira.jpg",
+        "blockClass": "box-image"
+      }
+    },
+    "image#microdont": {
+      "props": {
+        "src": "assets/brands-new/Microdont.jpg",
+        "blockClass": "box-image"
+      }
+    },
+    "image#fgm": {
+      "props": {
+        "src": "assets/brands-new/FGM.jpg",
+        "blockClass": "box-image"
+      }
+    }
+  }
+  

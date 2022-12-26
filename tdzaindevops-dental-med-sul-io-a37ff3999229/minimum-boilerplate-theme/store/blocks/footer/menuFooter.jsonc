@@ -1,0 +1,267 @@
+{
+  "menu-item#fabricantes": {
+    "props": {
+      "id": "menu-item-fabricantes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fabricantes",
+        "noFollow": false,
+        "tagTitle": "Fabricantes",
+        "text": "Fabricantes"
+      }
+    }
+  },
+  // MENU AJUDA
+  "vtex.menu@2.x:menu#footerHelp": {
+    "props": {
+      "blockClass": "footerMenu"
+    },
+    "children": [
+      "menu-item#help",
+      "menu-item#trocas-e-devolucoes",
+      "menu-item#formas-de-pagamento",
+      "menu-item#frete-e-entrega",
+      "menu-item#central-de-atendimento",
+      //"menu-item#codigo-defesa",
+      "menu-item#codigo-sac"
+    ]
+  },
+  "menu-item#help": {
+    "props": {
+      "id": "menu-item-help",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ajuda",
+        "text": "Ajuda e suporte"
+      },
+      "blockClass": ["menuFooterTitle"]
+    }
+  },
+  "menu-item#trocas-e-devolucoes": {
+    "props": {
+      "id": "menu-item-trocas-e-devolucoes",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Trocas e Devoluções",
+        "text": "Trocas e Devoluções"
+      }
+    }
+  },
+  "menu-item#formas-de-pagamento": {
+    "props": {
+      "id": "menu-item-formas-de-pagamento",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/formas-de-pagamento",
+        "noFollow": false,
+        "tagTitle": "Formas de Pagamento",
+        "text": "Formas de Pagamento"
+      }
+    }
+  },
+  "menu-item#frete-e-entrega": {
+    "props": {
+      "id": "menu-item-frete-e-entrega",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/frete-e-entrega",
+        "noFollow": false,
+        "tagTitle": "Frete e Entrega",
+        "text": "Frete e Entrega"
+      }
+    }
+  },
+  "menu-item#central-de-atendimento": {
+    "props": {
+      "id": "menu-item-central-de-atendimento",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/central-de-atendimento",
+        "noFollow": false,
+        "tagTitle": "Central de Atendimento",
+        "text": "Central de Atendimento"
+      }
+    }
+  },
+  "menu-item#codigo-defesa": {
+    "props": {
+      "id": "menu-item-codigo-defesa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Código de Defesa do Consumidor",
+        "text": "Código de Defesa do Consumidor"
+      }
+    }
+  },
+
+
+
+  "menu-item#codigo-sac": {
+    "props": {
+      "id": "menu-item-codigo-sac",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sac",
+        "noFollow": false,
+        "tagTitle": "SAC",
+        "text": "SAC"
+      }
+    }
+  },
+
+
+  "menu-item#boleto": {
+    "props": {
+      "id": "2-via-do-boleto",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/2-via-do-boleto",
+        "noFollow": false,
+        "tagTitle": "boleto",
+        "text": "2ª via do boleto"
+      }
+    }
+  },
+
+  // ATENDIMENTO
+
+  "vtex.menu@2.x:menu#attendance": {
+    "props": {
+      "blockClass": "footerMenu"
+    },
+    "children": [
+      "menu-item#attendance",
+      "menu-item#week-schedule",
+      "menu-item#contact-number",
+      "menu-item#email",
+      "menu-item#adress",
+      "menu-item#adress-2"
+    ]
+  },
+  "menu-item#attendance": {
+    "props": {
+      "id": "menu-item-attendance",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Atendimento",
+        "text": "Atendimento"
+      },
+      "blockClass": ["menuFooterTitle"]
+    }
+  },
+  "menu-item#contact-number": {
+    "props": {
+      "id": "menu-item-contact-number",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Telefone de Contato",
+        "text": "0800 727 7565"
+      },
+      "blockClass": "footerPhone"
+    }
+  },
+  "menu-item#week-schedule": {
+    "props": {
+      "id": "menu-item-schedule",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Horário de atendimento",
+        "text": "Seg. a Sex das 8h às 18h"
+      }
+    }
+  },
+  "menu-item#email": {
+    "props": {
+      "id": "menu-item-email",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Horário de atendimento",
+        "text": "ecommerce@dentalmedsul.com.br"
+      }
+    }
+  },
+  //ENDEREÇO
+  "menu-item#adress": {
+    "props": {
+      "id": "menu-item-adress",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Endereço",
+        "text": "Rua Anne Frank, 5241 - Hauer, Curitiba - PR, 81730-010"
+      },
+      "blockClass": ["menuFooterTitleAdress"]
+    }
+  },
+
+
+  "menu-item#adress-2": {
+    "props": {
+      "id": "menu-item-adress",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Endereço",
+        "text": "Centro de Distribuição:\nÚltimo pavilhão - Rua Tavares de Lyra, 3440 - Vila Ina, São José dos Pinhais - PR, 83065-180"
+      },
+      "blockClass": ["menuFooterTitleAdress"]
+    }
+  }
+
+
+
+
+}

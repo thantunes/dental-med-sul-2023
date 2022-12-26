@@ -1,0 +1,83 @@
+{
+    "slider-layout#deals": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 2,
+                "phone": 1
+            },
+            "infinite": false,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "desktopOnly",
+            "blockClass": [
+                "deals"
+            ],
+            "autoplay": false,
+            "stopOnHover": true
+        },
+        "children": [
+            "image#deal1",
+            "image#deal2",
+            "image#deal3",
+            "image#deal4"
+        ]
+    },
+    "slider-layout#deals-phone": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 2,
+                "phone": 1
+            },
+            "infinite": false,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "desktopOnly",
+            "blockClass": [
+                "deals-phone"
+            ],
+            "fullWidth": false,
+            "stopOnHover": true,
+            "centerMode": {
+                "phone": "to-the-left"
+            }
+        },
+        "children": [
+            "image#deal1",
+            "image#deal2",
+            "image#deal3",
+            "image#deal4"
+        ]
+    },
+    "image#deal1": {
+        "props": {
+            "src": "",
+            "blockClass": [
+                "deals-phone"
+            ]
+        }
+    },
+    "image#deal2": {
+        "props": {
+            "src": "",
+            "blockClass": [
+                "deals-phone"
+            ]
+        }
+    },
+    "image#deal3": {
+        "props": {
+            "src": "",
+            "blockClass": [
+                "deals-phone"
+            ]
+        }
+    },
+    "image#deal4": {
+        "props": {
+            "src": "",
+            "blockClass": [
+                "deals-phone"
+            ]
+        }
+    }
+}

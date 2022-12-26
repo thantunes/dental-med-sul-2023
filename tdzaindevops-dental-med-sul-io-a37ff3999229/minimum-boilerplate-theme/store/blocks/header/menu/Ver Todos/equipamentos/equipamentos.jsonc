@@ -1,0 +1,35 @@
+{
+    "menu-item#equipamentos": {
+        "props": {
+            "id": "menu-item-equipamentos",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Equipamentos",
+                "text": "Equipamentos"
+            },
+            "iconPosition": "right",
+            "iconProps": {
+                "id": "nav-caret--right",
+                "view": 24,
+                "sizeBox": "0 0 24 24"
+            },
+            "iconToTheRight": true
+        },
+        "blocks" : ["submenu#equipamentos"]
+    },
+
+    "submenu#equipamentos": {
+        "props": {
+            "blockClass": [
+                "submenu-third"
+            ]
+        },
+        "children": [
+            "vtex.menu@2.x:menu#menu-equipamentos"
+        ]
+    }
+}

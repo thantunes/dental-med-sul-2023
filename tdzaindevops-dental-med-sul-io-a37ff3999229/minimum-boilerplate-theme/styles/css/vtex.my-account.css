@@ -1,0 +1,731 @@
+
+
+/* ------------ Códigos Black Friday -------------------- */
+
+/*:global(.vtex-category-menu-2-x-departmentList),
+:global(.vtex-category-menu-2-x-submenuItem),
+:global(.bg-base) {background-color: #000!important;}
+:global(.vtex-flex-layout-0-x-flexColChild--skuList) {background-color: #000!important;}
+:global(.vtex-sku-list-1-x-skuContentWrapper) {background-color: #000!important;}
+:global(.vtex-store-components-3-x-productDescriptionText){    color: #fff!important;}
+:global(.vtex-shelf-1-x-title){color: #fff!important;}
+:global(.vtex-tab-layout-0-x-listItem--pdp)
+:global(.vtex-button__label){color: #fff!important;}
+:global(.vtex-flex-layout-0-x-flexRowContent--productMain){    background-color: #000!important;}
+:global(.vtex-flex-layout-0-x-flexColChild--product-info)
+:global(.vtex-flex-layout-0-x-flexRowContent){    background-color: #000!important;}
+:global(.vtex-flex-layout-0-x-flexCol--skuList){    background-color: #000!important;}
+:global(.vtex-flex-layout-0-x-flexRow--menuRow) {background-color: #000!important;}
+:global(.vtex-category-menu-2-x-departmentLink),
+:global(.vtex-search-result-3-x-orderByText),
+:global(.vtex-search-result-3-x-galleryTitle--layout),
+:global(.vtex-breadcrumb-1-x-link),
+:global(.vtex-search-result-3-x-filterMessage),
+:global(.vtex-search-result-3-x-filter),
+:global(.c-on-base) {color: #fff!important;}
+:global(.vtex-rich-text-0-x-link--produto-texto-frete-gratis),
+:global(.vtex-sku-list-1-x-currencyContainer),
+:global(.vtex-sku-list-1-x-skuName),
+:global(.tfcvgc-custom-0-x-shortDescriptionText),
+:global(.vtex-product-price-1-x-installments),
+:global(.vtex-store-components-3-x-productBrand),
+:global(.vtex-rich-text-0-x-paragraph--produto-texto-frete-gratis),
+:global(.vtex-minicart-2-x-closeIconButton){color: #fff!important;}
+:global(.vtex-flex-layout-0-x-flexRow--brands),
+:global(.vtex-flex-layout-0-x-flexRowContent--shelf){background-color: #000!important;}
+:global(.vtex-menu-2-x-styledLinkContent--top-menu) {color: #fff!important;}
+:global(.vtex-rich-text-0-x-paragraph--frete){    color: #fff!important;}
+:global(.vtex-flex-layout-0-x-flexRow--main-header) {background-color: #000!important;}
+:global(.vtex-flex-layout-0-x-flexRowContent--mosaicContainer){background-color: #000!important;}
+:global(.vtex-flex-layout-0-x-flexRowContent--mosaic){background-color: #000!important;}
+:global(.vtex-flex-layout-0-x-flexRow--footer-infos){    background-color: #000!important;}
+:global(.vtex-menu-2-x-menuContainerNav--footerMenu) {    color: #fff!important;}
+:global(.vtex-menu-2-x-menuContainerNav--footerMenu)
+:global(.vtex-menu-2-x-styledLinkContent),
+:global(.vtex-rich-text-0-x-paragraph--payment-title),
+:global(.vtex-rich-text-0-x-paragraph--payment-desc),
+:global(.vtex-product-price-1-x-sellingPriceValue),
+:global(.vtex-product-price-1-x-listPriceValue), 
+:global(.vtex-product-price-1-x-installments--summary), 
+:global(.vtex-product-price-1-x-sellingPrice--hasListPrice),
+:global(.vtex-product-summary-2-x-brandName),
+:global(.vtex-store-components-3-x-imageElementLink--wishlist),
+:global(.vtex-login-2-x-label){    color: #fff!important;}
+:global(.vtex-search-result-3-x-filtersWrapper){    background-color: #000!important;}
+:global(.vtex-flex-layout-0-x-flexRow--footerNewsletter){    background-color: #4d4d4d!important;}
+:global(.vtex-flex-layout-0-x-flexRow--footerNewsletter)
+:global(::-webkit-input-placeholder){color:#fff!important;}
+:global(.vtex-slider-layout-0-x-sliderTrack--shelfbanner-product){background-color:#000!important;}
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){background-color:#000!important;}
+:global(.vtex-product-summary-2-x-column--summaryCol){    padding-left: 20px;}
+:global(.vtex-rich-text-0-x-paragraph--grid-banner-message){color: #fff!important;}
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--productShelf)
+:global(.vtex-slider-layout-0-x-sliderLeftArrow), 
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--productShelf)
+:global(.vtex-slider-layout-0-x-sliderRightArrow) {color:#fff!important;    border: solid 1px #fff!important;}
+
+*/
+
+
+:global(.vtex-slider-layout-0-x-slide--productShelf){    box-shadow: 0px 2px 7px rgb(55 84 102 / 15%)!important;}
+
+
+
+:global(.vtex-store-components-3-x-imageElementLink--wishlist) {
+  background-image: url(/arquivos/icone-estrela-bra.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 40px;
+  background-size: 33px;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas)
+:global(.vtex-flex-layout-0-x-flexCol){    flex-direction: row;}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas)
+:global(.vtex-flex-layout-0-x-flexColChild){width:20%;}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas)
+:global(.vtex-flex-layout-0-x-flexColChild) img{display:block;margin:auto!important;}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas)
+:global(.vtex-flex-layout-0-x-flexColChild)
+:global(.vtex-store-components-3-x-imageElementLink){text-decoration:none!important;}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas)
+:global(.vtex-flex-layout-0-x-flexColChild)
+:global(.vtex-store-components-3-x-imageElementLink)::after {
+  color: #000;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none!important;
+  font-size: 16px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas){    padding-bottom: 25px;}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas)
+:global(.vtex-flex-layout-0-x-flexColChild):nth-child(1)
+:global(.vtex-store-components-3-x-imageElementLink)::after {
+  content: "Anestesia";
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas)
+:global(.vtex-flex-layout-0-x-flexColChild):nth-child(2)
+:global(.vtex-store-components-3-x-imageElementLink)::after {
+  content: "Dentística";
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas)
+:global(.vtex-flex-layout-0-x-flexColChild):nth-child(3)
+:global(.vtex-store-components-3-x-imageElementLink)::after {
+  content: "Endodontia";
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas)
+:global(.vtex-flex-layout-0-x-flexColChild):nth-child(4)
+:global(.vtex-store-components-3-x-imageElementLink)::after {
+  content: "Periféricos";
+}
+
+
+
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas)
+:global(.vtex-flex-layout-0-x-flexColChild):nth-child(5)
+:global(.vtex-store-components-3-x-imageElementLink)::after {
+  content: "Ortodontia";
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas)
+:global(.vtex-flex-layout-0-x-flexColChild):nth-child(6)
+:global(.vtex-store-components-3-x-imageElementLink)::after {
+  content: "Harmonização Orofacial";
+}
+
+/*mobile*/
+
+
+
+
+@media (max-width: 780px)
+{
+  :global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas){display:none!important;}
+
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--faq-ciosp) 
+  :global(.vtex-rich-text-0-x-paragraph) {
+    padding: 0px!important;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bloco-titulo-perguntas-frequentes-faq-ciosp) {    max-width: 85%!important;}
+
+
+
+}
+
+@media (min-width: 781px)
+{
+  :global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas-mobile){display:none!important;}
+  :global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas)
+  :global(.vtex-flex-layout-0-x-flexColChild) img {max-width: 75%;}
+  :global(.vtex-menu-2-x-menuContainerNav--main-menu){display:none;}
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas-mobile)
+:global(.vtex-flex-layout-0-x-flexCol){    flex-direction: row;}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas-mobile)
+:global(.vtex-flex-layout-0-x-flexColChild){width:33%;    padding: 0px 10px;}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas-mobile)
+:global(.vtex-flex-layout-0-x-flexColChild) img{display:block;margin:auto!important;}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas-mobile)
+:global(.vtex-flex-layout-0-x-flexColChild)
+:global(.vtex-store-components-3-x-imageElementLink){text-decoration:none!important;}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas-mobile)
+:global(.vtex-flex-layout-0-x-flexColChild)
+:global(.vtex-store-components-3-x-imageElementLink)::after {
+  color: #000;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none!important;
+  font-size: 16px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas-mobile){    padding-bottom: 25px;}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas-mobile)
+:global(.vtex-flex-layout-0-x-flexColChild):nth-child(1)
+:global(.vtex-store-components-3-x-imageElementLink)::after {
+  content: "Anestesia";
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas-mobile)
+:global(.vtex-flex-layout-0-x-flexColChild):nth-child(2)
+:global(.vtex-store-components-3-x-imageElementLink)::after {
+  content: "Dentística";
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas-mobile)
+:global(.vtex-flex-layout-0-x-flexColChild):nth-child(3)
+:global(.vtex-store-components-3-x-imageElementLink)::after {
+  content: "Endodontia";
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas-mobile)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2)
+:global(.vtex-flex-layout-0-x-flexColChild):nth-child(1)
+:global(.vtex-store-components-3-x-imageElementLink)::after {
+  content: "Periféricos";
+}
+
+
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas-mobile)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2)
+:global(.vtex-flex-layout-0-x-flexColChild):nth-child(2)
+:global(.vtex-store-components-3-x-imageElementLink)::after {
+  content: "Ortodontia";
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--bloco-categorias-rapidas-mobile)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2)
+:global(.vtex-flex-layout-0-x-flexColChild):nth-child(3)
+:global(.vtex-store-components-3-x-imageElementLink)::after {
+  content: "Harmonização Orofacial";
+}
+
+/*end- mobile*/
+
+
+
+
+
+
+
+:global(.vtex-store-components-3-x-imageElementLink--wishlist) img {display:none;}
+/*:global(.vtex-login-2-x-label::before){  background-image: url(/arquivos/user-white-v2.png);}*/
+/*:global(.vtex-minicart-2-x-minicartIconContainer){background-image: url(/arquivos/cartBag-white.png);background-repeat: no-repeat;background-position: top center;padding-top: 40px;    width: 25px;}*/
+
+
+:global(.vtex-minicart-2-x-minicartIconContainer) {
+  background-image: url(/arquivos/carrinho-de-compras-de-design-xadrez.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 40px;
+  width: 41px;
+  background-size: 37px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0px;
+  margin-left: -9px;
+}
+
+/*
+:global(.vtex-minicart-2-x-minicartIconContainer) img {display:none;}
+:global(.vtex-minicart-2-x-minicartContainer::after){color:#fff!important;}
+:global(.vtex-flex-layout-0-x-flexCol--payment-logos)
+:global(.vtex-flex-layout-0-x-flexColChild--payment-logos):nth-child(2){background-image: url(/arquivos/boleto-white.png);display: block;width: 40px;height: 23px!important;background-size: contain;background-repeat: no-repeat;}
+:global(.vtex-flex-layout-0-x-flexColChild--payment-logos):nth-child(2)img {display:none;}
+:global(.vtex-flex-layout-0-x-flexCol--payment-logos)
+:global(.vtex-flex-layout-0-x-flexColChild--payment-logos):nth-child(3){background-image: url(/arquivos/pix-white.png);    display: block; width: 50px;height: 27px!important;background-size: contain; background-repeat: no-repeat;background-position: center;}
+:global(.vtex-flex-layout-0-x-flexColChild--payment-logos):nth-child(3) img {display:none!important;}
+:global(.vtex-flex-layout-0-x-flexRow--footerCopyright){background-color:#000!important}
+:global(.vtex-flex-layout-0-x-flexRow--footerRow) {background-color: #000!important;}
+:global(.vtex-store-components-3-x-shippingTableCell){color:#fff!important;}
+:global(.vtex-store-components-3-x-currencyContainer){color:#fff!important;}
+:global(.vtex-store-components-3-x-shippingTableLabel){color:#fff!important;}
+:global(.vtex-store-components-3-x-subscriberContainer){color:#fff!important;}*/
+/*
+@media (max-width: 780px)
+{
+ 
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile){background-color: #000!important;}
+:global(.vtex-category-menu-2-x-menuIcon) {color: #fff!important;}
+:global(.vtex-store-components-3-x-imageElementLink--wishlist){padding-top: 23px!important;background-size: 22px!important;}
+:global(.vtex-minicart-2-x-minicartIconContainer){padding-top: 28px!important;width: 19px!important;background-size: contain!important;}
+:global(.vtex-category-menu-2-x-sidebarItemContainer)
+:global(.c-on-base){color:#000!important;}
+:global(.vtex-category-menu-2-x-sidebarItemContainer)
+:global(.c-on-base){color:#000!important;}
+
+}*/
+
+/* ------------ END - Códigos Black Friday -------------------- */
+
+
+/* ------------------ Ajuste de Login ------------------------- */
+/*:global(.vtex-login-2-x-profile){content: "";width: 24px;height: 30px;display: flex;background: url(/arquivos/user-white.png);background-size: cover;width: 70px!important;height: 15px;background-position: center;background-size: 24px;padding-top: 41px;background-repeat: no-repeat;background-position: 21px 1px;font-size: 14px;padding-left: 0px;text-transform: capitalize;    margin-top: 1px; }
+
+:global(.vtex-rich-text-0-x-link--botaoharmonizacaomobile){
+  background-color: #43aadd!important;}*/
+/* ------------------ END - Ajuste de Login ------------------------- */
+
+
+
+:global(.vtex-login-2-x-profile){    color: #000!important;    max-width: 14ch!important;    font-size: 12px!important;}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--footerNewsletter) {
+  background-color: #4d4d4d!important;
+}
+
+
+:global(.vtex-store-components-3-x-imageElementLink--wishlist) {
+  background-image: url(/arquivos/novo-icone-estrela.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 40px;
+  background-size: 33px;
+}
+        
+:global(.vtex-flex-layout-0-x-flexColChild--product-info)
+[data-highlight-id="239"] {font-size:0px;}
+
+
+:global(.vtex-minicart-2-x-minicartIconContainer) {
+  background-image: url(/arquivos/novo-icone-carrinho.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 40px;
+  width: 41px;
+  background-size: 37px;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0 0 0 -9px;
+}
+
+
+:global(.vtex-minicart-2-x-minicartIconContainer) img {
+  display: none!important;
+}
+
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sku-list)
+  :global(.vtex-button.bg-disabled)
+  :global(.vtex-sku-list-1-x-buttonText)::before {
+  width: 100%;
+  content: "Produto Indisponível";
+  color: #ccc;
+  display: block;
+  font-size: 10px;
+}
+
+:global(.vtex-shelf-1-x-sliderContainer--product-related)
+:global(.bg-disabled)
+:global(.vtex-add-to-cart-button-0-x-buttonText){color:#fff!important;}
+
+
+
+
+
+
+:global(.render-route-store-product)
+[data-highlight-id="170"]
+:global(.vtex-product-highlights-2-x-productHighlightText) {
+  font-size: 0px;
+  padding: 0px 10px;
+  display: block;
+  line-height: 14px;
+}
+:global(.render-route-store-product)
+[data-highlight-id="170"]
+:global(.vtex-product-highlights-2-x-productHighlightText::after) {
+  content: "Vendas autorizadas somente aos cirurgiões dentistas ou mediante apresentação de receituário. \A Sujeito a análise.";
+  white-space: pre-wrap;
+  font-size: 16px;
+}
+
+
+/* TOXINA */
+
+:global(.render-route-store-product)
+[data-highlight-id="239"]
+:global(.vtex-product-highlights-2-x-productHighlightText::before) {
+  content: "Favor consultar as regiões disponíveis para entrega antes de finalizar seu pedido";
+  white-space: pre-wrap;
+  font-size: 16px;
+  background-color: #bababa;
+  display: block;
+  padding: 10px;
+  line-height: 22px;
+  border-radius: 5px;}
+
+  :global(.render-route-store-product) 
+  [data-highlight-id="239"] 
+  :global(.vtex-product-highlights-2-x-productHighlightText::after) {
+    content: "Vendas autorizadas somente aos cirurgiões dentistas ou mediante apresentação de receituário. \A Sujeito a análise.";
+    white-space: pre-wrap;
+    font-size: 16px;
+    background-color: #ff0000;
+    display: block;
+    padding: 12px;
+    display: none;
+}
+
+[data-highlight-id="239"]
+:global(.vtex-search-result-3-x-galleryItem){display:none;}
+
+
+/* END - TOXINA */
+
+
+
+
+:global(.vtex-rich-text-0-x-wrapper--encomenda-buttom) {    background-color: #eb8100!important;}
+
+:global([allow=trabalhe-conosco]) html {    overflow-y: hidden;}
+
+:global(.vtex-store-components-3-x-discountInsideContainer){background-color: #66cc33!important;
+  font-weight: normal;
+  color: #1d1d1d;}
+
+
+  :global(.vtex-rich-text-0-x-heading--newsTitle){    margin: 10px 20px 10px 0px!important;}
+
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--footerNewsletter)
+  :global(.vtex-store-newsletter-1-x-defaultSuccessMessage){font-size:0px;}
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--footerNewsletter)
+  :global(.vtex-store-newsletter-1-x-defaultSuccessMessage)::before {
+    content: "Obrigado por se inscrever :)";
+    margin-top: 13px;
+    color:#fff;
+    font-size: 16px;
+  }
+
+
+  @media (max-width: 780px)
+  {
+
+
+    :global(.vtex-store-components-3-x-imageElementLink--wishlist) {
+
+      padding-top: 25px!important;
+      background-size: 28px!important;
+  }
+
+  :global(.vtex-minicart-2-x-minicartIconContainer){    padding-top: 26px!important;background-size: 27px!important;}
+
+  :global(.vtex-rich-text-0-x-heading--newsTitle){text-align: center;}
+  :global(.vtex-store-newsletter-1-x-defaultSuccessMessage){text-align: center;}
+  }
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sku-list)
+  :global(.vtex-button.bg-disabled)
+  :global(.vtex-sku-list-1-x-buttonText) {
+  color: transparent;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 0;
+}
+
+
+:global([allow="trabalhe-conosco"]){
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+:global(.vtex-reviews-and-ratings-2-x-container){
+  max-width: 100%;
+}
+:global(.vtex-reviews-and-ratings-2-x-reviewsHeading){
+  font-size: 1.5rem;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-loginLink){
+  color: #F58646;
+  font-size: 14px;
+}
+:global(.vtex-reviews-and-ratings-2-x-reviewCommentsContainer){
+  background-color: #f1f1f1;
+  padding: 1rem;
+  border-radius: 10px;
+}
+:global(.vtex-reviews-and-ratings-2-x-reviewCommentsContainer) .review__comment--user{
+  font-size: 14px;
+  color: #ccc;
+}
+:global(.vtex-reviews-and-ratings-2-x-reviewCommentsContainer) .review__comment{
+  padding: 0;
+  margin: 5px 0;
+}
+
+
+
+
+:global(.vtex-flex-layout-0-x-flexColChild--payment-logos):nth-child(9)
+:global(.vtex-store-components-3-x-logoContainer--paymentLogo){ max-width: 90px!important;    margin-top: -4px;}
+
+:global(.vtex-flex-layout-0-x-flexColChild--payment-logos):nth-child(11)
+:global(.vtex-store-components-3-x-logoContainer--paymentLogo){max-width: 69px!important;}
+
+
+:global(.render-route-store-product)
+:global(.vtex-store-components-3-x-shippingTableRow)
+:global(.vtex-store-components-3-x-shippingTableRadioBtn){display:none;}
+
+:global(.render-route-store-product)
+:global(.vtex-address-form__postalCode-forgottenURL) a {font-size: 11px;}
+
+:global(.render-route-store-product)
+:global(.vtex-address-form__postalCode) {padding-bottom: 15px;}
+
+:global(.render-route-store-product)
+:global(.vtex-address-form__postalCode)
+:global(.vtex-input__suffix){display:none;}
+
+
+:global(.vtex-flex-layout-0-x-flexColChild--skuList){    margin-bottom: 15px;}
+
+:global(.render-route-store-product)
+:global(.vtex-store-components-3-x-shippingTable) {
+  margin: 10px;
+  max-width: 415px;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--botoesvalidadecurtaharmonizacaomobile)
+:global(.vtex-flex-layout-0-x-flexColChild){width:50%!important;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--botoesvalidadecurtaharmonizacaomobile)
+:global(.vtex-flex-layout-0-x-flexCol){    flex-direction: row!important;}
+
+
+:global(.vtex-rich-text-0-x-link--botaovalidadecurtamobile){background-color: #cdcdcd;
+  padding: 5px 10px!important;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;}
+
+  :global(.vtex-rich-text-0-x-link--botaoharmonizacaomobile){
+    background-color: #43aadd!important;
+    padding: 5px 10px!important;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+
+
+  }
+    
+:global(.vtex-flex-layout-0-x-flexRow--deals){    margin-top: 10px;
+   margin-bottom: 0px;}
+
+
+   @media (max-width: 600px){
+    :global(.vtex-flex-layout-0-x-flexRow--deals){    margin-top: 10px;
+      margin-bottom:15px;}
+
+   }
+
+
+  :global(.vtex-rich-text-0-x-paragraph--botaovalidadecurtamobile),
+  :global(.vtex-rich-text-0-x-paragraph--botaoharmonizacaomobile){ margin: 10px 5px!important;}
+
+  :global(.vtex-rich-text-0-x-container--botaoharmonizacaomobile){display: flex;flex-flow: column wrap;align-content: flex-end;}
+
+
+  :global(.vtex-menu-2-x-menuContainer--main-menu)
+  :global(.vtex-menu-2-x-styledLinkContent) {text-transform: inherit!important;}
+
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--barra-de-frete-gratis-topo){max-width: 100%!important;}
+
+
+  :global(.vtex-flex-layout-0-x-flexRow--barra-de-frete-gratis-topo)
+  :global(.vtex-store-components-3-x-container) {padding: 0px!important;    max-width: 100%;}
+
+
+  :global(.vtex-flex-layout-0-x-flexColChild--top-menu)
+  :global(.vtex-menu-2-x-menuContainer) li:nth-child(3)
+  :global(.vtex-menu-2-x-styledLinkIcon){display:none;}
+
+  :global(.vtex-flex-layout-0-x-flexColChild--top-menu)
+  :global(.vtex-menu-2-x-menuContainer) li:nth-child(4)
+  :global(.vtex-menu-2-x-styledLinkIcon){display:none;}
+
+
+  :global(.vtex-menu-2-x-styledLinkContent--menuFooterTitleAdress) {
+    max-width: 215px;
+}
+
+
+
+  :global(.vtex-flex-layout-0-x-flexRow--barra-de-frete-gratis-topo)
+  :global(.vtex-store-components-3-x-imageElement){margin: auto;
+    display: block;}
+
+
+  @media (max-width: 600px){
+  :global(.vtex-flex-layout-0-x-flexRow--search-bar){padding-bottom:0px!important;}
+}
+@media (max-width: 600px)
+{
+  :global(.vtex-store-components-3-x-logoContainer--paymentLogo) {
+  max-width: 45px!important;
+  padding-left: 5px!important;
+  display: block!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--paymentCol)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(9)
+:global(.vtex-store-components-3-x-logoContainer--paymentLogo){   width: 42px!important;    margin-top: -4px;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--paymentCol)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(10)
+:global(.vtex-store-components-3-x-logoContainer--paymentLogo){    margin-top: -2px;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--paymentCol)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(11)
+:global(.vtex-store-components-3-x-logoContainer--paymentLogo){  margin-top: -3px;}
+
+
+
+
+
+}
+
+
+:global(.vtex-rich-text-0-x-paragraph--descricao-ciosp-texto){text-align: left;line-height: 34px;max-width: 975px;}
+:global(.vtex-rich-text-0-x-wrapper--descricao-ciosp-texto){margin: auto; padding-top: 35px;padding-bottom: 35px;}
+:global(.vtex-flex-layout-0-x-flexColChild--ciosp-banners-leads-1){padding: 15px;}
+:global(.vtex-rich-text-0-x-paragraph--titulo-perguntas-frequentes-faq-ciosp){font-size: 25px;padding: 0px 17px;}
+:global(.vtex-flex-layout-0-x-flexRow--faq-ciosp)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth){display:block!important;}
+:global(.vtex-flex-layout-0-x-flexRowContent--faq-ciosp)
+:global(.vtex-disclosure-layout-1-x-trigger){ 
+  background-color: #fff;
+  border: none;
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 0px 25px;
+  margin-bottom: 10px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--faq-ciosp) 
+:global(.vtex-rich-text-0-x-paragraph) {
+
+  padding: 0px 30px;
+}
+
+:global(.vtex-store-link-0-x-label--link-contato-encomenda:before){    background-image: url(/arquivos/icon-whats-white.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 0!important;
+  width: 35px;
+  height: 35px;
+  margin: auto;
+  padding-bottom: 20px;}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--faq-ciosp){    padding: 0px 15px 35px 15px;}
+:global(.vtex-rich-text-0-x-wrapper--title-faq){    width: 100%;}
+:global(.vtex-rich-text-0-x-paragraph--title-faq)::after {content: "›";display: block;float: right;transform: rotate(90deg);font-size: 20px;}
+:global(.vtex-menu-2-x-styledLinkContainer--menu-ciosp) {margin: 0px;padding: 0px;}
+
+:global(#menu-item-custom-ciosp){background-color: #fff; width: 90px; height: 25px;display: block;padding: 0px;margin: 0px;background-size: contain;background-repeat: no-repeat;background-position: center;border-radius: 5px;margin-top: 3px;  background-image: url(/arquivos/CIOSP.png);float: right;}
+
+
+
+@media (max-width: 480px){
+  :global(.vtex-rich-text-0-x-link--botaoharmonizacaomobile),
+  :global(.vtex-rich-text-0-x-link--botaovalidadecurtamobile){font-size: 10px!important;    padding: 5px 5px!important;}
+  :global(#menu-item-custom-ciosp){width: 100%!important;    margin-top: 16px!important;}
+
+}
+
+
+@media only screen and (max-width: 1023px) and (min-width: 491px)  {
+
+:global(#menu-item-custom-ciosp){    margin-top: 12px;}
+
+}
+
+
+
+@media (max-width: 600px)
+{
+:global(.vtex-store-components-3-x-logoImage--tech-logo) {
+  max-height: 26px;
+  margin: auto;
+  padding-top: 20px;
+}
+:global(.vtex-store-footer-2-x-footerLayout)
+:global(.vtex-store-components-3-x-logoImage--provider-logo-buzz){    padding-top: 19px;}
+
+:gloval(.vtex-store-components-3-x-logoImage--tech-logo){max-height: 18px;}
+
+:gloval(.vtex-store-footer-2-x-footerLayout)
+:gloval(.vtex-store-components-3-x-logoImage--provider-logo-buzz) {
+
+  max-width: 51px;
+}
+
+:global(.vtex-store-components-3-x-logoContainer.vtex-store-components-3-x-sizeMobile) {
+  max-width: 160px;
+  max-height: auto!important;
+  display: flex;
+}
+
+}

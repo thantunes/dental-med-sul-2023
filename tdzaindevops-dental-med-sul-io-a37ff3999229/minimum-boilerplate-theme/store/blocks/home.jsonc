@@ -1,0 +1,602 @@
+{
+  "store.home": {
+    "blocks": [
+
+
+      "flex-layout.row#bloco-categorias-rapidas",
+      "flex-layout.row#bloco-categorias-rapidas-mobile",
+
+      "list-context.image-list#main-banners-2",
+      "flex-layout.row#deals",
+      "flex-layout.row#grid-banner-product",
+
+
+
+      "__fold__.experimentalLazyAssets",
+    //  "flex-layout.row#deals",
+
+
+      "flex-layout.row#shelf-01",
+      "flex-layout.row#shelf-04",
+      "responsive-layout.phone#banner-shelf-banner",
+      "responsive-layout.desktop#banner-shelf-banner",
+      "flex-layout.row#shelf-05",
+      "flex-layout.row#mosaic-row-desk",
+      "flex-layout.row#shelf-03",
+      "flex-layout.row#shelf-banner",
+      "flex-layout.row#brand-row"
+    ]
+  },
+
+
+
+  "flex-layout.row#bloco-categorias-rapidas":{
+    "children": ["flex-layout.col#bloco-categorias-rapidas"],
+    "props": {
+
+      "blockClass": ["bloco-categorias-rapidas"]
+    }
+
+  },
+
+  "flex-layout.col#bloco-categorias-rapidas":{
+    "children": [
+      "image#banner-rapido-anestesia",
+      "image#banner-rapido-dentistica",
+      "image#banner-rapido-endodontia",
+      "image#banner-rapido-perifericos",
+      "image#banner-rapido-ortodontia",
+     
+      "image#banner-rapido-hof"
+
+    ]
+
+  },
+
+
+
+
+
+
+
+  "flex-layout.row#bloco-categorias-rapidas-mobile":{
+    "children": ["flex-layout.col#bloco-categorias-rapidas-mobile-1","flex-layout.col#bloco-categorias-rapidas-mobile-2"],
+    "props": {
+
+      "blockClass": ["bloco-categorias-rapidas-mobile"]
+    }
+
+  },
+
+  "flex-layout.col#bloco-categorias-rapidas-mobile-1":{
+    "children": [
+      "image#banner-rapido-anestesia",
+      "image#banner-rapido-dentistica",
+      "image#banner-rapido-endodontia"
+      
+
+    ]
+
+  },
+
+  "flex-layout.col#bloco-categorias-rapidas-mobile-2":{
+    "children": [
+    
+    
+      "image#banner-rapido-perifericos",
+      "image#banner-rapido-ortodontia",
+      "image#banner-rapido-hof"
+
+    ]
+
+  },
+
+
+
+
+
+
+
+
+  "image#banner-rapido-anestesia": {
+    "props": {
+      "src": "/arquivos/Banner-acesso-rapido-Anestesia.png",
+      "link": {
+        "url":"/anestesia"
+      },
+      "blockClass": ["banners-atalho-categoria"]
+    }
+  },
+
+  "image#banner-rapido-dentistica": {
+    "props": {
+      "src": "/arquivos/Banner-acesso-rapido-Dentistica.png",
+      "link": {
+        "url":"/dentistica-e-estetica"
+      },
+      "blockClass": ["banners-atalho-categoria"]
+    }
+  },
+
+  "image#banner-rapido-endodontia": {
+    "props": {
+      "src": "/arquivos/Banner-acesso-rapido-Endodontia.png",
+      "link": {
+        "url":"/endodontia"
+      },
+      "blockClass": ["banners-atalho-categoria"]
+    }
+  },
+
+
+  "image#banner-rapido-hof": {
+    "props": {
+      "src": "/arquivos/Banner-acesso-rapido-HOF.png",
+      "link": {
+        "url":"/harmonizacao-orofacial"
+      },
+      "blockClass": ["banners-atalho-categoria"]
+    }
+  },
+
+  "image#banner-rapido-ortodontia": {
+    "props": {
+      "src": "/arquivos/Banner-acesso-rapido-Ortodontia.png",
+      "link": {
+        "url":"/ortodontia"
+      },
+      "blockClass": ["banners-atalho-categoria"]
+    }
+  },
+
+  "image#banner-rapido-perifericos": {
+    "props": {
+      "src": "/arquivos/Banner-acesso-rapido-Perifericos.png",
+      "link": {
+        "url":"/perifericos-e-pecas-de-mao"
+      },
+      "blockClass": ["banners-atalho-categoria"]
+    }
+  },
+
+  
+
+
+
+
+
+  "rich-text": {
+    "props": {
+      "text": "A melhor odonto do Brasil!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
+  "list-context.image-list#main-banners-2": {
+    "children": ["slider-layout#main-banners"],
+    "props": {
+      "images": [
+        {
+          "image": "assets/bannerFull.png"
+        },
+        {
+          "image": "assets/Medix.png"
+        },
+        {
+          "image": "assets/Supermax Sonic.png"
+        },
+        {
+          "image": "assets/Financiamento.png"
+        },
+        {
+          "image": "assets/Kulzer.png"
+        },
+        {
+          "image": "assets/Formas de Pagamento.png"
+        },
+        {
+          "image": "assets/Supermax.png"
+        }
+      ],
+      "skusFilter": {
+        "First Available": "FIRST_AVAILABLE"
+      }
+    }
+  },
+  "list-context.image-list#main-banners": {
+    "children": ["slider-layout#main-banners"],
+    "props": {
+      "images": [
+        {
+          "image": "assets/bannerFull.png"
+        },
+        {
+          "image": "https://tfcvgc.vteximg.com.br/arquivos/banner-niver-dental.png"
+        }
+      ],
+      "skusFilter": {
+        "First Available": "FIRST_AVAILABLE"
+      }
+    }
+  },
+  "slider-layout#main-banners": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 4000
+      },
+      "fullWidth": true,
+      "stopOnHover": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": "banner-principal"
+    }
+  },
+
+  "flex-layout.row#grid-banner-product": {
+    "children": ["image#grid-banner", "flex-layout.row#banner-product"],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": ["grid-banner-product"]
+    }
+  },
+
+  "image#grid-banner": {
+    "props": {
+      "blockClass": ["grid-banner"],
+      "src": "assets/Banner Invicta.png"
+    }
+  },
+
+  "flex-layout.row#deals": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["deals"]
+    },
+    "children": ["slider-layout#deals"]
+  },
+  "flex-layout.row#brand-row": {
+    "props": {
+      "fullWidth": true,
+      "preventVerticalStretch": true,
+      "blockClass": ["brands"]
+    },
+    "children": ["list-context.image-list#brands"]
+  },
+  "responsive-layout.desktop#mosaic": {
+    "children": [
+      "flex-layout.row#mosaic-title",
+      "flex-layout.row#mosaic-row-desk"
+    ]
+  },
+  "flex-layout.row#mosaic-row-desk": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ["mosaicContainer"]
+    },
+    "children": ["flex-layout.col#mosaic-wrapper"]
+  },
+  "flex-layout.col#mosaic-wrapper": {
+    "children": [
+      "flex-layout.row#mosaic-title",
+      "flex-layout.row#mosaic-images"
+    ]
+  },
+  "flex-layout.row#mosaic-title": {
+    "props": {
+      "preventVerticalStretch": true
+    },
+    "children": ["rich-text#mosaic-title"]
+  },
+  "flex-layout.row#mosaic-images": {
+    "props": {
+      "horizontalAlign": "center",
+      "colSizing": "auto",
+      "blockClass": ["mosaic"]
+    },
+    "children": [
+      "flex-layout.col#mosaic-col-left",
+      "flex-layout.col#mosaic-col-middle",
+      "flex-layout.col#mosaic-col-right"
+    ]
+  },
+  "rich-text#mosaic-title": {
+    "props": {
+      "text": "## As melhores ofertas",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.col#mosaic-col-left": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ["mosaic"]
+    },
+    "children": ["image#mosaic-left-big"]
+  },
+  "flex-layout.col#mosaic-col-middle": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ["mosaic-middle", "mosaic"]
+    },
+    "children": ["image#mosaic-middle-top", "image#mosaic-middle-down"]
+  },
+  "flex-layout.col#mosaic-col-right": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ["mosaic"]
+    },
+    "children": ["image#mosaic-right-big"]
+  },
+  "image#mosaic-left-big": {
+    "props": {
+      "src": "assets/Banner Fresa.png",
+      "blockClass": ["mosaic"]
+    }
+  },
+  "image#mosaic-middle-top": {
+    "props": {
+      "src": "assets/mosaic-silicone.jpg",
+      "blockClass": ["mosaic"]
+    }
+  },
+  "image#mosaic-middle-down": {
+    "props": {
+      "src": "assets/mosaic-silicone.jpg",
+      "blockClass": ["mosaic"]
+    }
+  },
+  "image#mosaic-right-big": {
+    "props": {
+      "src": "assets/Banner Fotopolimerizador.png",
+      "blockClass": ["mosaic"]
+    }
+  },
+  // Resumo de produto
+  // Lista de Produto
+  "flex-layout.row#shelf-01": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "shelf"
+    },
+    "children": ["rich-text#shelf-01", "list-context.product-list#shelf-01"]
+  },
+  "rich-text#shelf-01": {
+    "props": {
+      "text": "## Vitrine",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "list-context.product-list#shelf-01": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-01"]
+  },
+  "slider-layout#shelf-01": {
+    "props": {
+      "label": "Products",
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "showPaginationDots": "never",
+      "blockClass": ["productShelf"],
+      "infinite": true,
+      "arrowSize": {
+        "desktop": 15,
+        "mobile": 15
+      }
+    }
+  },
+  // Slider da vitrine
+  "slider-layout#shelf": {
+    "props": {
+      "label": "Products",
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "showPaginationDots": "never",
+      "blockClass": ["productShelf"],
+      "infinite": true,
+      "arrowSize": {
+        "desktop": 15,
+        "mobile": 15
+      }
+    }
+  },
+
+  "responsive-layout.phone#banner-shelf-banner": {
+    "children": [
+      "flex-layout.row#mkt-banner-1",
+      "flex-layout.row#shelf-02",
+      "flex-layout.row#mkt-banner-2"
+    ]
+  },
+  "responsive-layout.desktop#banner-shelf-banner": {
+    "children": ["flex-layout.row#mkt-banners", "flex-layout.row#shelf-02"]
+  },
+  "flex-layout.row#mkt-banners": {
+    "props": {
+      "colSizing": "auto",
+      "colGap": 5
+    },
+    "children": [
+      "image#banner-product-1",
+      "image#banner-product-2",
+      "image#banner-product-3"
+    ]
+  },
+  //nova lista de produto
+  "flex-layout.row#shelf-04": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "shelf"
+    },
+    "children": ["rich-text#shelf-04", "list-context.product-list#shelf-04"]
+  },
+  "rich-text#shelf-04": {
+    "props": {
+      "text": "## Mais Vendidos",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "list-context.product-list#shelf-04": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-04"]
+  },
+  "slider-layout#shelf-04": {
+    "props": {
+      "label": "Products",
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4,
+        "phone": 2
+      },
+      "showPaginationDots": "never",
+      "blockClass": ["productShelf"],
+      "infinite": true,
+      "arrowSize": {
+        "desktop": 15,
+        "mobile": 15
+      }
+    }
+  },
+
+  // Mobile banner section
+  "flex-layout.row#mkt-banner-1": {
+    "props": {},
+    "children": ["image#banner-product-1"]
+  },
+  // Mobile banner section
+  "flex-layout.row#mkt-banner-2": {
+    "props": {},
+    "children": ["image#banner-product-2"]
+  },
+
+  "image#banner-product-1": {
+    "props": {
+      "src": "assets/fresa.jpg",
+      "link": {
+        "url":"/brocas/broca-de-tungstenio"
+      },
+      "blockClass": ["bannerMkt"]
+    }
+  },
+  "image#banner-product-2": {
+    "props": {
+      "src": "assets/fotopolimerizador.jpg",
+      "link": {
+        "url":"/fotopolimerizador-radii-xpert---sdi/p"
+      },
+      "blockClass": ["bannerMkt"]
+    }
+  },
+  "image#banner-product-3": {
+    "props": {
+      "src": "assets/silicone.jpg",
+      "link": {
+        "url": "/silicone-de-adicao-futura-ad-denso---dfl/p"
+      },
+      "blockClass": ["bannerMkt"]
+    }
+  },
+  // Lista de Produto
+  "flex-layout.row#shelf-02": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "shelf"
+    },
+    "children": ["rich-text#shelf-02", "list-context.product-list#shelf-02"]
+  },
+  "list-context.product-list#shelf-02": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf"]
+  },
+  "rich-text#shelf-02": {
+    "props": {
+      "text": "## Vitrine",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+ // Lista de Produto
+ "flex-layout.row#shelf-05": {
+  "props": {
+    "colSizing": "auto",
+    "blockClass": "shelf"
+  },
+  "children": ["rich-text#shelf-05", "list-context.product-list#shelf-05"]
+},
+"list-context.product-list#shelf-05": {
+  "blocks": ["product-summary.shelf"],
+  "children": ["slider-layout#shelf"]
+},
+"rich-text#shelf-05": {
+  "props": {
+    "text": "## Consultório Completo",
+    "blockClass": "shelfTitle"
+  }
+},
+
+
+  
+  // Lista de Produto
+  "flex-layout.row#shelf-03": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "shelf"
+    },
+    "children": ["rich-text#shelf-03", "list-context.product-list#shelf-03"]
+  },
+  "list-context.product-list#shelf-03": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf"]
+  },
+  "rich-text#shelf-03": {
+    "props": {
+      "text": "## Saldo",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+  "flex-layout.row#shelf-banner": {
+    "children": ["list-context.image-list#shelf-banner"],
+    "props": {
+      "blockClass": ["shelf-banner"]
+    }
+  },
+  "list-context.image-list#shelf-banner": {
+    "children": ["slider-layout#shelf-banner"],
+    "props": {
+      "images": [
+        {
+          "image": "assets/banner-sorria.png"
+        }
+      ],
+      "skusFilter": {
+        "First Available": "FIRST_AVAILABLE"
+      }
+    }
+  },
+
+  "slider-layout#shelf-banner": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "fullWidth": false,
+      "stopOnHover": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "shelf-banner"
+    }
+  }
+}

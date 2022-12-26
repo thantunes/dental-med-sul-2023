@@ -1,0 +1,160 @@
+{
+    "vtex.menu@2.x:menu#menu-moldagem": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu-third"
+        },
+        "children": [
+            "menu-item#acessorio-para-dispensador",
+            "menu-item#medidas-de-alginato",
+            "menu-item#pontas-misturadoras",
+            "menu-item#dispensador-universal",
+            "menu-item#pontas-intraorais",
+            "menu-item#alginato",
+            "menu-item#moldeira",
+            "menu-item#tigela-de-borracha",
+            "menu-item#fio-retrator",
+            "menu-item#adesivo-de-moldeira"
+        ]
+    },
+    "menu-item#acessorio-para-dispensador": {
+        "props": {
+            "id": "menu-item#acessorio-para-dispensador",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Acessório para dispensador",
+                "text": "Acessório para dispensador"
+            }
+        }
+    },
+    "menu-item#medidas-de-alginato": {
+        "props": {
+            "id": "menu-item#medidas-de-alginato",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Medidas de alginato",
+                "text": "Medidas de alginato"
+            }
+        }
+    },
+    "menu-item#pontas-misturadoras": {
+        "props": {
+            "id": "menu-item#pontas-misturadoras",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Pontas misturadoras",
+                "text": "Pontas misturadoras"
+            }
+        }
+    },
+    "menu-item#dispensador-universal": {
+        "props": {
+            "id": "menu-item#dispensador-universal",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Dispensador universal",
+                "text": "Dispensador universal"
+            }
+        }
+    },
+    "menu-item#pontas-intraorais": {
+        "props": {
+            "id": "menu-item#pontas-intraorais",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Pontas intraorais",
+                "text": "Pontas intraorais"
+            }
+        }
+    },
+    "menu-item#alginato": {
+        "props": {
+            "id": "menu-item#alginato",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Alginato",
+                "text": "Alginato"
+            }
+        }
+    },
+    "menu-item#moldeira": {
+        "props": {
+            "id": "menu-item#moldeira",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Moldeira",
+                "text": "Moldeira"
+            }
+        }
+    },
+    "menu-item#tigela-de-borracha": {
+        "props": {
+            "id": "menu-item#tigela-de-borracha",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Tigela de borracha",
+                "text": "Tigela de borracha"
+            }
+        }
+    },
+    "menu-item#fio-retrator": {
+        "props": {
+            "id": "menu-item#fio-retrator",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Fio retrator",
+                "text": "Fio retrator"
+            }
+        }
+    },
+    "menu-item#adesivo-de-moldeira": {
+        "props": {
+            "id": "menu-item#adesivo-de-moldeira",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Adesivo de moldeira",
+                "text": "Adesivo de moldeira"
+            }
+        }
+    }
+}

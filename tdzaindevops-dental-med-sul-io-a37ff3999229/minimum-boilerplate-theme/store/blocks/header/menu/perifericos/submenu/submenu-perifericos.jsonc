@@ -1,0 +1,160 @@
+{
+
+    "submenu#perifericos": {
+        "props": {
+            "blockClass": [
+                "submenu-third"
+            ]
+        },
+        "children": [
+            "vtex.menu@2.x:menu#menu-perifericos"
+        ]
+    },
+    "vtex.menu@2.x:menu#menu-perifericos": {
+        "children": [
+            "menu-item#alta-rotacao",
+            "menu-item#autoclave",
+            "menu-item#camara-escura",
+            "menu-item#fotopolimerizador",
+            "menu-item#amalgamador",
+            "menu-item#bomba-a-vacuo",
+            "menu-item#contra-angulo"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": [
+                "menu-third"
+            ]
+        }
+    },
+    "menu-item#alta-rotacao": {
+        "props": {
+            "id": "menu-item-alta-rotacao",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Alta rotação",
+                "text": "Alta rotação"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#autoclave": {
+        "props": {
+            "id": "menu-item-autoclave",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Autoclave",
+                "text": "Autoclave"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#camara-escura": {
+        "props": {
+            "id": "menu-item-camara-escura",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Câmara escura",
+                "text": "Câmara escura"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#fotopolimerizador": {
+        "props": {
+            "id": "menu-item-fotopolimerizador",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Fotopolimerizador",
+                "text": "Fotopolimerizador"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#amalgamador": {
+        "props": {
+            "id": "menu-item-amalgamador",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Amalgamador",
+                "text": "Amalgamador"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#bomba-a-vacuo": {
+        "props": {
+            "id": "menu-item-bomba-a-vacuo",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Bomba à vacuo",
+                "text": "Bomba à vacuo"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#contra-angulo": {
+        "props": {
+            "id": "menu-item-contra-angulo",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Contra-ângulo",
+                "text": "Contra-ângulo"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+
+    "vtex.menu@2.x:menu#menu-perifericos-mobile": {
+        "children": [
+            "menu-item#alta-rotacao",
+            "menu-item#autoclave",
+            "menu-item#camara-escura",
+            "menu-item#fotopolimerizador",
+            "menu-item#amalgamador",
+            "menu-item#bomba-a-vacuo",
+            "menu-item#contra-angulo"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": [
+                "menuDrawer"
+            ]
+        }
+    }
+}

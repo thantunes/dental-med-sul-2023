@@ -1,0 +1,37 @@
+{
+    "menu-item#anestesicos": {
+        "props": {
+            "id": "menu-item-anestesicos",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Anestésicos",
+                "text": "Anestésicos"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#anestesicos-mobile": {
+        "props": {
+            "id": "menu-item-anestesicos",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Anestésicos",
+                "text": "Anestésicos"
+            },
+            "iconToTheRight": true,
+            "blockClass" : [
+                "not-have-children"
+            ]
+        },
+        "blocks": []
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "menu-item#ortodontia": {
+        "props": {
+            "id": "menu-item-ortodontia",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Ortodontia",
+                "text": "Ortodontia"
+            },
+            "iconPosition": "right",
+            "iconProps": {
+                "id": "nav-caret--right",
+                "view": 24,
+                "sizeBox": "0 0 24 24"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#ortodontia"
+        ]
+    },
+    "menu-item#ortodontia-mobile": {
+        "props": {
+            "id": "menu-item-ortodontia-mobile",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Ortodontia",
+                "text": "Ortodontia"
+            },
+            "iconToTheRight": true
+        },
+        "children": [
+            "drawer#ortodontia"
+        ]
+    },
+
+    "drawer-trigger#arrow" : {
+        "children" : [
+            "icon#submenu-arrow"
+        ]
+    },
+
+    "icon#submenu-arrow" : {
+        "props" : {
+            "id" : "nav-arrow--right"
+        }
+    },
+    "drawer#ortodontia": {
+        "props": {
+            "maxWidth": "80%"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#ortodontia-mobile"
+        ],
+        "blocks" :["drawer-trigger#arrow"]
+    }
+}

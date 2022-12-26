@@ -1,0 +1,13 @@
+query GET_CUSTOM_FIELDS {
+  orderGroup(orderGroup: String) {
+    orders {
+      customData {
+        customApps {
+          fields
+          id
+          major
+        }
+      }
+    }
+  }
+}

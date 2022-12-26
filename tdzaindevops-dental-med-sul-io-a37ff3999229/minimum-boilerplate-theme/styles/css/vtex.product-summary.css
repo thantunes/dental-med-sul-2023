@@ -1,0 +1,130 @@
+.imageContainer {
+  display: flex;
+  align-items: center;
+  min-height: 190px;
+}
+
+.element {
+  padding: 0 5px;
+  justify-content: space-between;
+}
+
+.element :global(.vtex-product-highlights-2-x-productHighlightWrapper) {
+  padding: 5px;
+  margin: 1px 0;
+  font-size: 11px;
+}
+
+.productNameContainer {
+  color: #3d7fc2;
+}
+.element :global(.vtex-button__label) {
+  padding: 0;
+}
+
+/* Black friday */
+.element :global(.vtex-button) {
+  border: none;
+}
+
+.element :global(.vtex-button) {
+  max-width: 170px;
+  margin: 10px 0;
+}
+
+.nameContainer {
+  padding: 5px 0;
+  text-align: left;
+  overflow: hidden;
+  height: 60px;
+  justify-content: start;
+}
+
+.brandName {
+  font-size: 0.85rem;
+  font-weight: 600;
+
+  text-align: center;
+}
+
+.priceContainer {
+  text-align: initial;
+  align-items: flex-start;
+  padding: 10px 0;
+}
+.currencyContainer {
+  color: #eb8100;
+}
+
+[data-highlight-id="172"] {
+  background-color: #581845;
+}
+[data-highlight-id="170"] {
+  background-color: #ff0000;
+}
+[data-highlight-id="239"] {
+  background-color: #fff;
+  padding: 0px;
+}
+[data-highlight-id="171"],
+[data-highlight-id="160"] {
+  background-color: #000;
+}
+[data-highlight-id="169"] {
+  background-color: #ff8c00;
+}
+[data-highlight-id="145"] {
+  background-color: #006400;
+}
+[data-highlight-id="144"] {
+  background-color: #bababa;
+}
+[data-highlight-id="152"] {
+  background-color: #ff8c00;
+}
+[data-highlight-id="165"],
+[data-highlight-id="168"],
+[data-highlight-id="166"],
+[data-highlight-id="167"] {
+  background-color: #0000ff;
+}
+
+[data-highlight-id="200"]{
+  background-color:#66cc33;
+}
+
+[data-highlight-id="219"] {
+  background-color: #43aadd;
+}
+
+
+.nameWrapper--grid-product-name {
+  color: #000;
+}
+.column--summaryCol {
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+}
+.element--banner-productSummary {
+  padding: 0;
+}
+
+.element--product-shelf :global(.vtex-button) ,
+.element :global(.vtex-button){
+  border-radius: 20px;
+  background-color: #040504;
+}
+
+@media screen and (max-width: 768px) {
+  .imageContainer {
+    flex-grow: 1;
+  }
+  .element {
+    margin: 0 5px;
+  }
+  .containerNormal--banner-productSummary{
+    max-width: 100% !important;
+  }
+
+}

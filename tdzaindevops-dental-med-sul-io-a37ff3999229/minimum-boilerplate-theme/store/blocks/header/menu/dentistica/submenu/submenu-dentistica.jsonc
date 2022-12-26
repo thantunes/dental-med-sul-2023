@@ -1,0 +1,483 @@
+{
+    "vtex.menu@2.x:submenu#dentistica": {
+        "children": [
+            "vtex.menu@2.x:menu#dentistica"
+        ],
+        "props": {
+            "blockClass": [
+                "submenu-third"
+            ],
+            "orientation": "vertical"
+        }
+    },
+    "vtex.menu@2.x:menu#dentistica": {
+        "children": [
+            "menu-item#adesivos-para-amalgama",
+            "menu-item#afastador-para-dentistica",
+            "menu-item#amalgama-capsula",
+            "menu-item#tira-de-lixa",
+            "menu-item#acido",
+            "menu-item#resina-composta",
+            "menu-item#aplicador-descartavel",
+            "menu-item#acabamento-e-polimento",
+            "menu-item#dessensibilizante",
+            "menu-item#adesivo-monocomponente",
+            "menu-item#disco-de-lixa",
+            "menu-item#adesivo-universal",
+            "menu-item#adesivo-de-dois-passos",
+            "menu-item#restaurador-provisorio",
+            "menu-item#carbono",
+            "menu-item#matriz",
+            "menu-item#arcos-diversos",
+            "menu-item#facetas",
+            "menu-item#clareadores",
+            "menu-item#fibra-de-vidro",
+            "menu-item#cunha",
+            "menu-item#mercurio",
+            "menu-item#barreira-gengival",
+            "menu-item#resina-bisacrilica",
+            "menu-item#ionomero-de-vidro"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": [
+                "menu-third"
+            ]
+        }
+    },
+    "menu-item#adesivos-para-amalgama": {
+        "props": {
+            "id": "menu-item-adesivos-para-amalgama",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Adesivos para amalgama",
+                "text": "Adesivos para amalgama"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#afastador-para-dentistica": {
+        "props": {
+            "id": "menu-item-afastador-para-dentistica",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Afastador para dentística",
+                "text": "Afastador para dentística"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#amalgama-capsula": {
+        "props": {
+            "id": "menu-item-amalgama-capsula",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Amálgama cápsula",
+                "text": "Amálgama cápsula"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#tira-de-lixa": {
+        "props": {
+            "id": "menu-item-tira-de-lixa",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Tira de lixa",
+                "text": "Tira de lixa"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#acido": {
+        "props": {
+            "id": "menu-item-acido",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Ácido",
+                "text": "Ácido"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#resina-composta": {
+        "props": {
+            "id": "menu-item-resina-composta",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Resina composta",
+                "text": "Resina composta"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#aplicador-descartavel": {
+        "props": {
+            "id": "menu-item-aplicador-descartavel",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Aplicador descartável",
+                "text": "Aplicador descartável"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#acabamento-e-polimento": {
+        "props": {
+            "id": "menu-item-acabamento-e-polimento",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Acabamento e polimento",
+                "text": "Acabamento e polimento"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#dessensibilizante": {
+        "props": {
+            "id": "menu-item-dessensibilizante",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Dessensibilizante",
+                "text": "Dessensibilizante"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#adesivo-monocomponente": {
+        "props": {
+            "id": "menu-item-adesivo-monocomponente",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Adesivo monocomponente",
+                "text": "Adesivo monocomponente"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#disco-de-lixa": {
+        "props": {
+            "id": "menu-item-disco-de-lixa",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Disco de lixa",
+                "text": "Disco de lixa"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#adesivo-universal": {
+        "props": {
+            "id": "menu-item-adesivo-universal",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Adesivo universal",
+                "text": "Adesivo universal"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#adesivo-de-dois-passos": {
+        "props": {
+            "id": "menu-item-adesivo-de-dois-passos",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Adesivo de dois passos",
+                "text": "Adesivo de dois passos"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#restaurador-provisorio": {
+        "props": {
+            "id": "menu-item-restaurador-provisorio",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Adesivo monocomponente",
+                "text": "Adesivo monocomponente"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#carbono": {
+        "props": {
+            "id": "menu-item-carbono",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Carbono",
+                "text": "Carbono"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#matriz": {
+        "props": {
+            "id": "menu-item-matriz",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Matriz",
+                "text": "Matriz"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#arcos-diversos": {
+        "props": {
+            "id": "menu-item-arcos-diversos",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Placa para moldeira",
+                "text": "Placa para moldeira"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#facetas": {
+        "props": {
+            "id": "menu-item-facetas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Facetas",
+                "text": "Facetas"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#clareadores": {
+        "props": {
+            "id": "menu-item-clareadores",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Clareadores",
+                "text": "Clareadores"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#fibra-de-vidro": {
+        "props": {
+            "id": "menu-item-fibra-de-vidro",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Fibra de vidro",
+                "text": "Fibra de vidro"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#cunha": {
+        "props": {
+            "id": "menu-item-cunha",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Cunha",
+                "text": "Cunha"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#mercurio": {
+        "props": {
+            "id": "menu-item-mercurio",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Mercúrio",
+                "text": "Mercúrio"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#barreira-gengival": {
+        "props": {
+            "id": "menu-item-barreira-gengival",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Barreira gengival",
+                "text": "Barreira gengival"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#resina-bisacrilica": {
+        "props": {
+            "id": "menu-item-resina-bisacrilica",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Resina bisacrílica",
+                "text": "Resina bisacrílica"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#dentistica-ionomero-de-vidro": {
+        "props": {
+            "id": "menu-item-dentistica-ionomero-de-vidro",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Ionômero de vidro",
+                "text": "Ionômero de vidro"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "vtex.menu@2.x:menu#dentistica-mobile": {
+        "children": [
+            "menu-item#adesivos-para-amalgama",
+            "menu-item#afastador-para-dentistica",
+            "menu-item#amalgama-capsula",
+            "menu-item#tira-de-lixa",
+            "menu-item#acido",
+            "menu-item#resina-composta",
+            "menu-item#aplicador-descartavel",
+            "menu-item#acabamento-e-polimento",
+            "menu-item#dessensibilizante",
+            "menu-item#adesivo-monocomponente",
+            "menu-item#disco-de-lixa",
+            "menu-item#adesivo-universal",
+            "menu-item#adesivo-de-dois-passos",
+            "menu-item#restaurador-provisorio",
+            "menu-item#carbono",
+            "menu-item#matriz",
+            "menu-item#arcos-diversos",
+            "menu-item#facetas",
+            "menu-item#clareadores",
+            "menu-item#fibra-de-vidro",
+            "menu-item#cunha",
+            "menu-item#mercurio",
+            "menu-item#barreira-gengival",
+            "menu-item#resina-bisacrilica",
+            "menu-item#ionomero-de-vidro"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": [
+                "menuDrawer"
+            ]
+        }
+    }
+}

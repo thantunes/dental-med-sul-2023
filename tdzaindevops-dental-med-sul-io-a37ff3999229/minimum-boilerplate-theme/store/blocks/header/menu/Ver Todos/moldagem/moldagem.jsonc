@@ -1,0 +1,35 @@
+{
+    "menu-item#moldagem": {
+        "props": {
+            "id": "menu-item-moldagem",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Moldagem",
+                "text": "Moldagem"
+            },
+            "iconPosition": "right",
+            "iconProps": {
+                "id": "nav-caret--right",
+                "view": 24,
+                "sizeBox": "0 0 24 24"
+            },
+            "iconToTheRight": true
+        },
+        "blocks" : ["submenu#moldagem"]
+    },
+
+    "submenu#moldagem": {
+        "props": {
+            "blockClass": [
+                "submenu-third"
+            ]
+        },
+        "children": [
+            "vtex.menu@2.x:menu#menu-moldagem"
+        ]
+    }
+}

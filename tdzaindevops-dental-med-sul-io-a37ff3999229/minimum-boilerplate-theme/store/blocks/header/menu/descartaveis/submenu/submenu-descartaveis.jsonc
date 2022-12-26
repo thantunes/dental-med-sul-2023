@@ -1,0 +1,132 @@
+{
+    "vtex.menu@2.x:menu#descartaveis": {
+        "children": [
+            "menu-item#luva-de-procedimento",
+            "menu-item#abaixador-lingual",
+            "menu-item#agulhas-diversas",
+            "menu-item#agulha-gengival",
+            "menu-item#acessorio-para-seringa-triplice",
+            "menu-item#algodao"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": [
+                "menuDrawer"
+            ]
+        }
+    },
+    "menu-item#luva-de-procedimento": {
+        "props": {
+            "id": "menu-item-luva-de-procedimento",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Luva de procedimento",
+                "text": "Luva de procedimento"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#abaixador-lingual": {
+        "props": {
+            "id": "menu-item-abaixador-lingual",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Abaixador lingual",
+                "text": "Abaixador lingual"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#agulhas-diversas": {
+        "props": {
+            "id": "menu-item-agulhas-diversas",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Agulhas diversas",
+                "text": "Agulhas diversas"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#agulha-gengival": {
+        "props": {
+            "id": "menu-item-agulha-gengival",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Agulha gengival",
+                "text": "Agulha gengival"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#acessorio-para-seringa-triplice": {
+        "props": {
+            "id": "menu-item-acessorio-para-seringa-triplice",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Acessório para seringa tríplice",
+                "text": "Acessório para seringa tríplice"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+    "menu-item#algodao": {
+        "props": {
+            "id": "menu-item-algodao",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Algodão",
+                "text": "Algodão"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": []
+    },
+
+
+    "vtex.menu@2.x:menu#descartaveis-mobile": {
+        "children": [
+            "menu-item#luva-de-procedimento",
+            "menu-item#abaixador-lingual",
+            "menu-item#agulhas-diversas",
+            "menu-item#agulha-gengival",
+            "menu-item#acessorio-para-seringa-triplice",
+            "menu-item#algodao"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": [
+                "menuDrawer"
+            ]
+        }
+    }
+}

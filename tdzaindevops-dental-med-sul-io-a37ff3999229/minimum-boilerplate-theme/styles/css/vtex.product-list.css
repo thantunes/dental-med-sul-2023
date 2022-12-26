@@ -1,0 +1,14 @@
+@import url(./variables.css);
+
+.productBrandName{
+    color: var(--main-orange);
+}
+
+.productPriceCurrency  {
+    color: #989797;
+}
+.price {
+    color: var(--main-orange);
+    font-size: 1rem;
+    font-weight: bolder;
+}

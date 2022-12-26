@@ -1,0 +1,406 @@
+{
+    "store.custom#landingciosp": { 
+      "blocks": [
+        "image#landingciosp",
+        "image#landingmobileciosp",
+        "flex-layout.row#titulocolecaobuscapersonalizadaciosp", 
+        "flex-layout.row#ciosp-banners-leads",
+        "flex-layout.row#shelf-ofertas-da-semana-ciosp",
+        "flex-layout.row#tituloperguntasfrequentesciospfaq", 
+        "flex-layout.row#ciosp-faq",
+        "flex-layout.row#titulociosppromocoes", 
+        "search-result-layout.customQuery"
+        
+    ]
+    },
+    "image#landingciosp": { 
+      "props": { 
+        "minWidth": "100%",
+        "src": "https://user-images.githubusercontent.com/18701182/69889938-64b16180-12d2-11ea-8d8a-e3089cbeaffd.png",
+        "blockClass": "imagem-colecao-busca-personalizada-desktop"
+      }
+    },
+    "image#landingmobileciosp": { 
+      "props": { 
+        "minWidth": "100%",
+        "src": "https://user-images.githubusercontent.com/18701182/69889938-64b16180-12d2-11ea-8d8a-e3089cbeaffd.png",
+        "blockClass": "imagem-colecao-busca-personalizada-mobile"
+      }
+    },
+
+
+
+
+
+
+
+
+
+
+
+    "flex-layout.row#shelf-ofertas-da-semana-ciosp": {
+      "props": {
+        "colSizing": "auto",
+        "blockClass": "shelf"
+      },
+      "children": ["rich-text#shelf-ofertas-da-semana-ciosp", "list-context.product-list#shelf-ofertas-da-semana-ciosp"]
+    },
+    "rich-text#shelf-ofertas-da-semana-ciosp": {
+      "props": {
+        "text": "## Ofertas da semana",
+        "blockClass": "shelfTitle"
+      }
+    },
+
+
+    "flex-layout.row#titulociosppromocoes": {
+      "children": ["rich-text#ciosppromocoes"],
+      "props": {
+        "blockClass": "bloco-titulo-perguntas-frequentes-faq-ciosp"
+      }
+    },
+    "rich-text#ciosppromocoes": {
+      "props": {
+        "text": "## PROMOÇÕES EXCLUSIVAS CIOSP",
+        "blockClass": "shelfTitle"
+      }
+    },
+
+    
+
+
+
+    "list-context.product-list#shelf-ofertas-da-semana-ciosp": {
+      "blocks": ["product-summary.shelf"],
+      "children": ["slider-layout#shelf-ofertas-da-semana-ciosp"]
+    },
+    "slider-layout#shelf-ofertas-da-semana-ciosp": {
+      "props": {
+        "label": "Products",
+        "itemsPerPage": {
+          "desktop": 6,
+          "tablet": 4,
+          "phone": 2
+        },
+        "showPaginationDots": "never",
+        "blockClass": ["productShelf"],
+        "infinite": true,
+        "arrowSize": {
+          "desktop": 15,
+          "mobile": 15
+        }
+      }
+    },
+    // Slider da vitrine
+    "slider-layout#shelf": {
+      "props": {
+        "label": "Products",
+        "itemsPerPage": {
+          "desktop": 6,
+          "tablet": 4,
+          "phone": 2
+        },
+        "showPaginationDots": "never",
+        "blockClass": ["productShelf"],
+        "infinite": true,
+        "arrowSize": {
+          "desktop": 15,
+          "mobile": 15
+        }
+      }
+    },
+  
+
+
+
+
+
+
+
+
+
+
+    "flex-layout.row#titulocolecaobuscapersonalizadaciosp": {
+      "children": ["rich-text#colecao-descricao-ciosp"],
+      "props": {
+        "blockClass": "titulo-nome-colecao-busca-personalizada-ciosp"
+      }
+    },
+   
+
+    "rich-text#colecao-descricao-ciosp": {
+        "props": {
+          "text": "**O CIOSP 2023 está chegando!** O maior congresso de Odontologia do mundo. \n A Dental Med Sul já está com a presença confirmada no evento com muitas ofertas, vantagens e lançamentos imperdíveis para o seu segmento. Então fique ligado em nosso site e nas **redes sociais** para não perder nenhuma novidade desse evento incrível!  \n O **CIOSP** acontecerá do dia 25 a 28/01/2023 no Expo Center Norte, em São Paulo. Este será o momento para renovarmos o conhecimento e nos encontrarmos novamente. \n Estaremos localizados na Avenida 9.000 esquina com rua “D”, disponibilizando a maior loja com 210 m² de autos serviço, oferecendo grandes marcas para melhor lhe atender. \n **Aguardem as novidades!**",
+          "blockClass": "descricao-ciosp-texto"
+        }
+      },
+
+
+
+      "flex-layout.row#ciosp-banners-leads":{
+        "children": ["flex-layout.col#ciosp-banners-leads-1","flex-layout.col#ciosp-banners-leads-2"],
+        "props": {
+          "blockClass": "ciosp-banners-leads"
+        }
+      },
+
+
+
+      "flex-layout.col#ciosp-banners-leads-1":{
+        "children": ["image#ciosp-banners-leads-1"],
+        "props": {
+          "blockClass": "ciosp-banners-leads-1"
+        }
+      },
+
+
+      "image#ciosp-banners-leads-1": { 
+        "props": { 
+          "minWidth": "100%",
+          "src": "https://user-images.githubusercontent.com/18701182/69889938-64b16180-12d2-11ea-8d8a-e3089cbeaffd.png",
+          "blockClass": "imagem-banners-leads-1"
+        }
+      },
+
+
+
+
+      "flex-layout.col#ciosp-banners-leads-2":{
+        "children": ["image#ciosp-banners-leads-2"],
+        "props": {
+          "blockClass": "ciosp-banners-leads-1"
+        }
+      },
+
+
+      "image#ciosp-banners-leads-2": { 
+        "props": { 
+          "minWidth": "100%",
+          "src": "https://user-images.githubusercontent.com/18701182/69889938-64b16180-12d2-11ea-8d8a-e3089cbeaffd.png",
+          "blockClass": "imagem-banners-leads-1n"
+        }
+      },
+
+
+
+      "flex-layout.row#tituloperguntasfrequentesciospfaq": {
+        "children": ["rich-text#perguntasfrequentesfaq"],
+        "props": {
+          "blockClass": "bloco-titulo-perguntas-frequentes-faq-ciosp"
+        }
+      },
+      "rich-text#perguntasfrequentesfaq": {
+        "props": {
+          "text": "Perguntas Frequentes CIOSP",
+          "blockClass": "titulo-perguntas-frequentes-faq-ciosp"
+        }
+      },
+
+
+
+    "search-result-layout.customQuery": {
+      "props": {
+        "querySchema": {
+          "queryField": "209", 
+          "mapField": "productClusterIds", 
+          "skusFilter": "ALL_AVAILABLE", 
+          "pathSeparator": "/" 
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ]
+    },
+    "search-result-layout.desktop": {
+      "children": [
+        "breadcrumb.search",
+        "search-title.v2",
+        "flex-layout.row#top",
+        "search-fetch-previous",
+        "flex-layout.row#results",
+        "search-fetch-more"
+      ],
+      "props": {
+        "pagination": "show-more",
+        "preventRouteChange": true
+      }
+    },
+    "flex-layout.row#top": { 
+      "children": [
+        "total-products.v2",
+        "order-by.v2"
+      ]
+    },
+    "flex-layout.row#results": { 
+      "children": [ 
+       "flex-layout.col#filter",
+        "flex-layout.col#search"
+      ]
+    },
+    "flex-layout.col#filter": { 
+      "props": {
+        "width": "20%"
+      },
+      "children": [
+        "filter-navigator.v3"
+      ]
+    },
+    "flex-layout.col#search": { 
+      "children": [
+        "search-content"
+      ]
+    },
+    "search-content": { 
+      "blocks": ["gallery", "not-found"]
+    },
+    "gallery": {
+      "blocks": ["product-summary.shelf"]
+    },
+
+
+
+    "flex-layout.row#ciosp-faq":{
+        "children": ["disclosure-layout-group#group-ciosp"],
+        "props": { 
+            "blockClass": "faq-ciosp"
+          }
+    },
+
+   
+
+    "disclosure-layout-group#group-ciosp": {
+        "children": [
+            "disclosure-layout#first-ciosp", 
+            "disclosure-layout#second-ciosp", 
+            "disclosure-layout#third-ciosp",
+            "disclosure-layout#fourth-ciosp",
+          //  "disclosure-layout#fifth",
+            "disclosure-layout#sixth-ciosp"  
+        ],
+
+        "props": { 
+            "animated": "true"
+          }
+
+      },
+    
+      "disclosure-layout#first-ciosp": {
+        "children": ["disclosure-trigger#first-ciosp", "disclosure-content#first-ciosp"]
+      },
+      "disclosure-trigger#first-ciosp": {
+        "children": ["rich-text#question1-ciosp"]
+      },
+      "disclosure-content#first-ciosp": {
+        "children": ["rich-text#answer1-ciosp"]
+      },
+      "rich-text#question1-ciosp": {
+        "props": {
+          "text": " O que é CIOSP?",
+          "blockClass": "title-faq"
+        }
+      },
+      "rich-text#answer1-ciosp": {
+        "props": {
+          "text": "Maior congresso de Odontologia da América Latina, o Congresso Internacional de Odontologia de São Paulo (CIOSP) é uma das maiores e mais respeitadas feiras comerciais do mundo. A 40ª edição do evento promete um novo capítulo na história da Odontologia e reunirá grandes nomes e marcas do segmento, excelência científica, tecnologia de ponta e experiências transformadoras."
+        }
+      },
+    
+      "disclosure-layout#second-ciosp": {
+        "children": ["disclosure-trigger#second-ciosp", "disclosure-content#second-ciosp"]
+      },
+      "disclosure-trigger#second-ciosp": {
+        "children": ["rich-text#question2-ciosp"]
+      },
+      "disclosure-content#second-ciosp": {
+        "children": ["rich-text#answer2-ciosp"]
+      },
+      "rich-text#question2-ciosp": {
+        "props": {
+          "text": "Como funciona o CIOSP?",
+          "blockClass": "title-faq"
+        }
+      },
+      "rich-text#answer2-ciosp": {
+        "props": {
+          "text": "Durante a CIOSP, empresas do Brasil e do mundo, que estão relacionadas com a área da odontologia, realizam a exposição de produtos e trazem novidades para o setor. \n O evento reúne profissionais e atividades da odontologia, promovendo um importante intercâmbio profissional. No evento, os profissionais que se interessarem podem efetuar suas compras e até conhecer novos fornecedores para futuras parcerias. Além disso, durante o evento há cursos de especialização que podem abranger vários assuntos dentro da área."
+        }
+      },
+
+
+
+      "disclosure-layout#third-ciosp": {
+        "children": ["disclosure-trigger#third-ciosp", "disclosure-content#third-ciosp"]
+      },
+      "disclosure-trigger#third-ciosp": {
+        "children": ["rich-text#question3-ciosp"]
+      },
+      "disclosure-content#third-ciosp": {
+        "children": ["rich-text#answer3-ciosp"]
+      },
+      "rich-text#question3-ciosp": {
+        "props": {
+          "text": "Qual é a data do CIOSP? ",
+          "blockClass": "title-faq"
+        }
+      },
+      "rich-text#answer3-ciosp": {
+        "props": {
+          "text": "O CIOSP acontecerá do dia 25 a 28 de janeiro de 2023 no Expo Center Norte, em São Paulo. Já pode anotar em seu calendário!"
+        }
+      },
+
+      
+
+
+      "disclosure-layout#fourth-ciosp": {
+        "children": ["disclosure-trigger#fourth-ciosp", "disclosure-content#fourth-ciosp"]
+      },
+      "disclosure-trigger#fourth-ciosp": {
+        "children": ["rich-text#question4-ciosp"]
+      },
+      "disclosure-content#fourth-ciosp": {
+        "children": ["rich-text#answer4-ciosp"]
+      },
+      "rich-text#question4-ciosp": {
+        "props": {
+          "text": " Como se inscrever no CIOSP?   ",
+          "blockClass": "title-faq"
+        }
+      },
+      "rich-text#answer4-ciosp": {
+        "props": {
+          "text": "Em breve as inscrições estarão abertas no site oficial do CIOSP, mas enquanto não estão disponíveis, você pode nos acompanhar nas redes sociais para ficar por dentro das atualizações!"
+        }
+      },
+
+      
+
+    
+
+      
+
+      "disclosure-layout#sixth-ciosp": {
+        "children": ["disclosure-trigger#sixth-ciosp", "disclosure-content#sixth-ciosp"]
+      },
+      "disclosure-trigger#sixth-ciosp": {
+        "children": ["rich-text#question6-ciosp"]
+      },
+      "disclosure-content#sixth-ciosp": {
+        "children": ["rich-text#answer6-ciosp"]
+      },
+      "rich-text#question6-ciosp": {
+        "props": {
+          "text": " Comprar na Dental Med Sul é confiável?  ",
+          "blockClass": "title-faq"
+        }
+      },
+      "rich-text#answer6-ciosp": {
+        "props": {
+          "text": "A Dental Med Sul apresenta aos clientes uma plataforma altamente segura e confiável. Nosso site possui o certificado Ebit, e permite que você veja as experiências de compras dos nossos clientes, garantindo total confiabilidade e segurança. Nos comprometemos com a privacidade e a segurança de nossos clientes."
+        }
+      }
+
+
+  }

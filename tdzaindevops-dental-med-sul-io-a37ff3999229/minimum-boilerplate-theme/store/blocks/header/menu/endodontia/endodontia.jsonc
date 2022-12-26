@@ -1,0 +1,49 @@
+{
+    "menu-item#endodontia": {
+        "props": {
+            "id": "menu-item-endodontia",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Endodontia",
+                "text": "Endodontia"
+            },
+            "iconPosition": "right",
+            "iconProps": {
+                "id": "nav-caret--right",
+                "view": 24,
+                "sizeBox": "0 0 24 24"
+            },
+            "iconToTheRight": true
+        },
+        "blocks": ["vtex.menu@2.x:submenu#endodontia"]
+    },
+    "menu-item#endodontia-mobile": {
+        "props": {
+            "id": "menu-item-endodontia",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Endodontia",
+                "text": "Endodontia"
+            },
+            "iconToTheRight": true
+        },
+        "children": ["drawer#endodontia"]
+    },
+    "drawer#endodontia": {
+        "props": {
+            "maxWidth": "80%"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#endodontia-mobile"
+        ],
+        "blocks" :["drawer-trigger#arrow"]
+    }
+}

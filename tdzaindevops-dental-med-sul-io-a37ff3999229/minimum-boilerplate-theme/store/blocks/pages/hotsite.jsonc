@@ -1,0 +1,222 @@
+{
+    "store.custom#hotsite": {
+        "blocks": [
+            "flex-layout.row#searchbread",
+            "search-result-layout.customQuery#hotsite"
+        ]
+    },
+    "search-result-layout.customQuery#hotsite": {
+        "props": {
+            "querySchema": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "skip",
+                "queryField": "151",
+                "maxItemsPerPage": 8,
+                "mapField": "productClusterIds"
+            }
+        },
+        "blocks": [
+            "search-result-layout.desktop#hotsite",
+            "search-result-layout.mobile#hotsite"
+        ]
+    },
+    "search-result-layout.desktop#hotsite": {
+        "children": [
+            "flex-layout.row#hotsiteContent"
+        ],
+        "props": {
+            "pagination": "show-more",
+            "preventRouteChange": false,
+            "defaultGalleryLayout": "grid",
+            "blockClass": "hotSiteContentContainer"
+        }
+    },
+    "search-result-layout.mobile#hotsite": {
+        "children": [
+            "flex-layout.row#hotsiteContent"
+        ],
+        "props": {
+            "pagination": "show-more",
+            "preventRouteChange": false,
+            "defaultGalleryLayout": "grid"
+        }
+    },
+    "flex-layout.row#hotsiteContent": {
+        "props": {
+            "blockClass": [
+                "hotSiteContent"
+            ]
+        },
+        "children": [
+            "flex-layout.col#hotsiteContent"
+        ]
+    },
+    "flex-layout.col#hotsiteContent": {
+        "children": [
+            "flex-layout.row#brandRow",
+            "flex-layout.row#searchbread",
+            "flex-layout.row#gridBrand",
+            "flex-layout.row#hotsiteResult"
+        ]
+    },
+    "flex-layout.row#brandRow": {
+        "props": {
+            "marginTop": 5,
+            "marginBotttom": 5,
+            "colSizing": "auto",
+            "preventHorizontalStretch": true,
+            "blockClass": ["hotsiteBrand"]
+        },  
+        "children": [
+            "image#brandLogo",
+            "rich-text#brandSeo"
+        ]
+    },
+    "image#brandLogo": {
+        "props": {
+            "src": "assets/brands/3mLogo.jpg"
+        }
+    },
+    "rich-text#brandSeo": {
+        "props": {
+            "text": "  Aproveite esta seleção de produtos  **3M** !",
+            "blockClass": "hotsiteSeo"
+        }
+    },
+    "flex-layout.row#gridBrand": {
+        "children": [
+            "flex-layout.col#gridBrand"
+        ]
+    },
+    "flex-layout.col#gridBrand": {
+        "children": [
+            "flex-layout.row#gridMainBanner",
+            "flex-layout.row#gridMiniBanners"
+        ]
+    },
+    "flex-layout.row#gridMainBanner": {
+        "children": [
+            "list-context.image-list#gridMain"
+        ]
+    },
+    "list-context.image-list#gridMain": {
+        "children": [
+            "slider-layout#gridMain"
+        ],
+        "props": {
+            "images": [
+                {
+                    "image": "https://tfcvgc.vteximg.com.br/arquivos/banner-iguana-dental.png"
+                }
+            ],
+            "skusFilter": {
+                "First Available": "FIRST_AVAILABLE"
+            }
+        }
+    },
+    "slider-layout#gridMain": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "fullWidth": true,
+            "stopOnHover": true,
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "blockClass": "banner-principal"
+        }
+    },
+    "flex-layout.row#gridMiniBanners": {
+        "props": {
+            "blockClass": "hotsiteGrid",
+            "marginTop": 3
+        },
+        "children": [
+            "flex-layout.col#gridMiniBannersLeft",
+            "flex-layout.col#gridMiniBannersRight"
+        ]
+    },
+    "flex-layout.col#gridMiniBannersLeft": {
+        "props": {
+            "marginRight": 3
+        },
+        "children": [
+            "image#MiniBannerBrand1",
+            "image#MiniBannerBrand2"
+        ]
+    },
+    // HOTSITE GRID LEFT
+    "image#MiniBannerBrand1": {
+        "props": {
+            "src": "assets/miniLeft.jpg"
+        }
+    },
+    "image#MiniBannerBrand2": {
+        "props": {
+            "src": "assets/miniLeft.jpg"
+        }
+    },
+    // HOTSITE GRID RIGHT
+    "flex-layout.col#gridMiniBannersRight": {
+        "children": [
+            "image#MiniBannerBrandRight"
+        ]
+    },
+    "image#MiniBannerBrandRight": {
+        "props": {
+            "src": "assets/miniRight.jpg"
+        }
+    },
+    "flex-layout.row#hotsiteResult": {
+        "props": {
+            "preventHorizontalStretch": true
+        },
+        "children": [
+            "flex-layout.col#hotsiteFilter",
+            "flex-layout.col#hotsiteResult"
+        ]
+    },
+    "flex-layout.col#hotsiteFilter": {
+        "children": [
+            "filter-navigator.v3#hotsite"
+        ],
+        "props": {
+            "blockClass": "filterCol"
+        }
+    },
+    "filter-navigator.v3#hotsite": {
+        "props": {
+            "initiallyCollapsed": true
+        }
+    },
+    "flex-layout.col#hotsiteResult": {
+        "props": {
+            "blockClass":"hotsiteResultContent"
+        },
+        "children": [
+            "flex-layout.row#searchinfo",
+            "flex-layout.row#products",
+            "flex-layout.row#fetchmore"
+        ]
+    },
+    "flex-layout.row#hotsiteSearchinfo": {
+        "props": {
+            "blockClass": [
+                "searchInfo"
+            ]
+        },
+        "children": [
+            "flex-layout.col#productCount",
+            "flex-layout.row#orderByAndSwitcher"
+        ]
+    },
+    "search-banner#main": {
+        "props": {
+            "area": "one",
+            "blockClass": "myBanner",
+            "horizontalAlignment": "center"
+        }
+    }
+}

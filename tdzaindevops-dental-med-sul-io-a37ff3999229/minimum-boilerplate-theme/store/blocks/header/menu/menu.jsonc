@@ -1,0 +1,86 @@
+{
+    "menu#main-menu": {
+        "props" : {
+            "blockClass":["main-menu"]
+        },
+        "children": [
+            "menu-item#main-dentistica",
+            "menu-item#main-ortodontia",
+            "menu-item#main-endodontia",
+            "menu-item#main-anestesicos",
+            "menu-item#main-perifericos",
+            "menu-item#hof"
+        ]
+    },
+    
+    "menu-item#main-dentistica": {
+        "props": {
+            "id": "menu-item-dentistica",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/dentistica-e-estetica",
+                "noFollow": false,
+                "tagTitle": "Dentística",
+                "text": "Dentística"
+            }
+        }
+    },
+    "menu-item#main-ortodontia": {
+        "props": {
+            "id": "menu-item-ortodontia",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/ortodontia",
+                "noFollow": false,
+                "tagTitle": "Ortodontia",
+                "text": "Ortodontia"
+            }
+        }
+    },
+    "menu-item#main-endodontia": {
+        "props": {
+            "id": "menu-item-endodontia",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/endodontia",
+                "noFollow": false,
+                "tagTitle": "Endodontia",
+                "text": "Endodontia"
+            }
+        }
+    },
+    "menu-item#main-anestesicos": {
+        "props": {
+            "id": "menu-item-main-anestesicos",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/anestesia",
+                "noFollow": false,
+                "tagTitle": "Anestésicos",
+                "text": "Anestésicos"
+            }
+        }
+    },
+    "menu-item#main-perifericos": {
+        "props": {
+            "id": "menu-item-perifericos",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/perifericos-e-pecas-de-mao",
+                "noFollow": false,
+                "tagTitle": "Perifericos",
+                "text": "Perifericos"
+            }
+        }
+    }
+}
