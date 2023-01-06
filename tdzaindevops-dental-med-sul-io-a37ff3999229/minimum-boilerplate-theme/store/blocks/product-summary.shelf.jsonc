@@ -7,7 +7,7 @@
       "product-summary-image",
       "vtex.product-highlights@2.x:product-highlights#collection",
       "product-summary-name",
-      "product-rating-inline",
+      "product-rating-inline.ratrustvox",
       "flex-layout.row#group-price",
       "condition-layout.product#summary-sob-encomenda-condition"
     ]

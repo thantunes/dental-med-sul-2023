@@ -192,7 +192,8 @@
       "logo#Visa",
       "logo#Santander",
      // "logo#Provu",
-      "logo#Paypal"
+      "logo#Paypal",
+      "certificate-ratrustvox"
     ],
     "props": {
       "blockClass": [

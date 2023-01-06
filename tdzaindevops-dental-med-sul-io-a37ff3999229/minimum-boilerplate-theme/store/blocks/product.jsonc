@@ -7,7 +7,9 @@
       "flex-layout.row#product-data",
       "flex-layout.row#specifications-title",
       "flex-layout.row#product-specifications",
-      "flex-layout.row#related-products"
+      "product-reviews.ratrustvox",
+      "flex-layout.row#related-products",
+      "certificate-ratrustvox"
     ]
   },
   "condition-layout.product#isProductAvailable": {
@@ -108,7 +110,7 @@
       "preventVerticalStretch": true,
       "preventHorizontalStretch": true
     },
-    "children": ["product-reviews"]
+    "children": ["product-reviews.ratrustvox"]
   },
   "flex-layout.row#related-products": {
     "props": {
@@ -161,6 +163,7 @@
       "flex-layout.row#product-info",
       "vtex.product-highlights@2.x:product-highlights#collection",
       "flex-layout.row#sku-list",
+      // "product-rating-summary.ratrustvox",
       "flex-layout.row#buy-button-quantity",
       "product-assembly-options",
       "shipping-simulator",
@@ -199,7 +202,7 @@
     "children": [
       "flex-layout.row#product-name",
       "NameComplement",
-      "product-rating-summary",
+      "product-rating-summary.ratrustvox",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
       "product-installments"

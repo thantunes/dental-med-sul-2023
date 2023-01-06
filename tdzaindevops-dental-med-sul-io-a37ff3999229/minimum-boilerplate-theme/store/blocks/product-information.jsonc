@@ -36,7 +36,7 @@
     }
   },
   "tab-content.item#home2": {
-    "children": ["product-reviews", "product-questions-and-answers"],
+    "children": ["product-reviews.ratrustvox"],
     "props": {
       "tabId": "reviews"
     }
