@@ -7,7 +7,10 @@
       "flex-layout.row#product-data",
       "flex-layout.row#specifications-title",
       "flex-layout.row#product-specifications",
+      // "flex-layout.row#product-reviews",
       "product-reviews.ratrustvox",
+      "pixel.ratrustvox",
+      // "product-reviews.ratrustvox",
       "flex-layout.row#related-products",
       "certificate-ratrustvox"
     ]

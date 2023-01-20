@@ -729,3 +729,39 @@
 }
 
 }
+
+
+:global(.vtex-reviews-and-ratings-2-x-container){
+  display: none;
+}
+/* :global(.ts-v-percentage-circle){
+  display: none;
+} */
+:global(.ts-v-recommendations_percentage[data-v-f73f7d96]){
+  position: relative;
+  transform: scale(1.5);
+  margin-right: 30px;
+}
+:gloabal(.ts-v-recommendations[data-v-f73f7d96]){
+  flex-direction: column !important;
+}
+:global(span.ts-shelf-left.ts-shelf-rate-value.ts-shelf-rate-count.ts-shelf-rate-enabled){
+  display: none;
+}
+:global(span.ts-shelf-left.ts-shelf-rate-value.ts-shelf-rate-count.ts-shelf-rate-disabled){
+  display: none;
+}
+:global(span.rating-click-here){
+  display: none !important;
+}
+:global(.vtex-reviews-and-ratings-2-x-inlineContainer){
+  display: none !important;
+}
+:global(div[data-trustvox-product-code]){
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+}
+:global(.vtex-reviews-and-ratings-2-x-summaryContainer ){
+  display: none !important;
+}
