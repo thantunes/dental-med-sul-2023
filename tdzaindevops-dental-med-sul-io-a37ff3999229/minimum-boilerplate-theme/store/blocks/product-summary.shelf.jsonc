@@ -9,6 +9,7 @@
       "product-summary-name",
       "product-rating-inline.ratrustvox",
       "flex-layout.row#group-price",
+      "product-summary-quantity",
       "condition-layout.product#summary-sob-encomenda-condition"
     ]
   },

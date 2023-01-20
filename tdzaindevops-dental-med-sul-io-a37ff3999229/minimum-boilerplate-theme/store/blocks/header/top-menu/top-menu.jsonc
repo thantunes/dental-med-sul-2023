@@ -4,13 +4,11 @@
       "menu-item#categories",
       "menu-item#brands",
       "menu-item#rede-clinicas",
-     // "menu-item#emitir-boleto",
-     
+      // "menu-item#emitir-boleto",
       "menu-item#validadecurta",
       "menu-item#saldao",
       "menu-item#lancamentos",
       "menu-item#ciosp"
-      
     ]
   },
 
@@ -175,7 +173,6 @@
     }
   },
 
-
   "menu-item#validadecurta": {
     "props": {
       "id": "menu-item-custom-validadecurta",
@@ -199,7 +196,6 @@
     }
   },
 
-
   "menu-item#saldao": {
     "props": {
       "id": "menu-item-custom-saldao",
@@ -222,7 +218,7 @@
       "blockClass": ["top-menu", "blue-link"]
     }
   },
-"menu-item#lancamentos": {
+  "menu-item#lancamentos": {
     "props": {
       "id": "menu-item-custom-validadecurta",
       "type": "custom",
@@ -234,22 +230,23 @@
         "noFollow": true,
         "tagTitle": "LANÇAMENTOS",
         "text": "LANÇAMENTOS"
+      }
+    }
+  },
+
+  "menu-item#ciosp": {
+    "props": {
+      "id": "menu-item-custom-ciosp",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ciosp",
+        "noFollow": true
       },
-
-"menu-item#ciosp": {
-  "props": {
-    "id": "menu-item-custom-ciosp",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "/ciosp",
-      "noFollow": true
-    },
-    "iconToTheRight": true,
-    "blockClass": ["menu-ciosp"]
+      "iconToTheRight": true,
+      "blockClass": ["menu-ciosp"]
+    }
   }
-}
-
 }
