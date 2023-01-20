@@ -245,10 +245,10 @@
   },
 
   
-  /*  ------- START TESTE THIAGO ----------------*/
+    /*  ------- START TESTE THIAGO ----------------*/
 
   "flex-layout.row#botoes-header-mobile": {
-    "children": ["flex-layout.col#botoes-header-mobile"],
+    "children": ["flex-layout.col#botoes-header-mobile","flex-layout.col#botoes-header-mobile-2"],
     "props": {
       "blockClass": "botoesvalidadecurtaharmonizacaomobile"
     }
@@ -256,10 +256,12 @@
 
 
   "flex-layout.col#botoes-header-mobile": {
-    "children": ["rich-text#validadecurtamobile","rich-text#harmonizacaomobile","menu-item#ciosp"]
+    "children": ["rich-text#validadecurtamobile","rich-text#harmonizacaomobile"]
   },
 
-
+  "flex-layout.col#botoes-header-mobile-2": {
+    "children": ["rich-text#lancamentosmobile","menu-item#ciosp"]
+  },
 
 
 
@@ -283,8 +285,18 @@
     }
   },
 
-  /*  ------- END TESTE THIAGO ----------------*/
+  "rich-text#lancamentosmobile": {
+    "props": {
+   
+      "text": "[LANÇAMENTOS](/lancamentos)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "botaoorangecurtamobile"
+    }
+  },
 
+
+  /*  ------- END TESTE THIAGO ----------------*/
 
 
 
