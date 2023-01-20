@@ -8,6 +8,7 @@
      
       "menu-item#validadecurta",
       "menu-item#saldao",
+      "menu-item#lancamentos",
       "menu-item#ciosp"
       
     ]
@@ -221,7 +222,19 @@
       "blockClass": ["top-menu", "blue-link"]
     }
   },
-
+"menu-item#lancamentos": {
+    "props": {
+      "id": "menu-item-custom-validadecurta",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lancamentos",
+        "noFollow": true,
+        "tagTitle": "LANÇAMENTOS",
+        "text": "LANÇAMENTOS"
+      },
 
 "menu-item#ciosp": {
   "props": {
