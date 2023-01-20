@@ -218,7 +218,7 @@
       "blockClass": ["top-menu", "blue-link"]
     }
   },
-  "menu-item#lancamentos": {
+"menu-item#lancamentos": {
     "props": {
       "id": "menu-item-custom-validadecurta",
       "type": "custom",
@@ -230,9 +230,17 @@
         "noFollow": true,
         "tagTitle": "LANÇAMENTOS",
         "text": "LANÇAMENTOS"
-      }
+      },
+      // "iconProps": {
+      //   "id": "nav-caret--down",
+      //   "size": 10,
+      //   "viewBox": "0 0 16 16"
+      // },
+      "iconToTheRight": true,
+      "blockClass": ["top-menu", "orange-link"]
     }
   },
+
 
   "menu-item#ciosp": {
     "props": {
