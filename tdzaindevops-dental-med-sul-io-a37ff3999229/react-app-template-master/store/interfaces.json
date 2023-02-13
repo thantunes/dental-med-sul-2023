@@ -13,5 +13,24 @@
   },
   "MainMenu": {
     "component": "MainMenu"
+  },
+  "QuickView-box": {
+    "component": "Quickview",
+    "composition":"children"
+  },
+  "SummaryQuantity-box": {
+    "component": "SummaryQuantity",
+    "composition":"children"
+  },
+  "ButtonSummary-box": {
+    "component": "ButtonSummary",
+    "composition":"children"
+  },
+  "PriceDiscount-box": {
+    "component": "PriceDiscount",
+    "composition":"children"
+  },
+  "PriceDiscount-box-Summary": {
+    "component": "PriceDiscountSummary"
   }
 }

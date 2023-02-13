@@ -4938,10 +4938,6 @@ test-exclude@^6.0.0:
     glob "^7.1.4"
     minimatch "^3.0.4"
 
-"tfcvgc.custom@https://novolayout--tfcvgc.myvtex.com/_v/private/typings/linked/v1/tfcvgc.custom@0.0.7+build1644006824/public/@types/tfcvgc.custom":
-  version "0.0.7"
-  resolved "https://novolayout--tfcvgc.myvtex.com/_v/private/typings/linked/v1/tfcvgc.custom@0.0.7+build1644006824/public/@types/tfcvgc.custom#c7c1e2d28b095f3a29bb7be0c5fcd8245e13b30f"
-
 throat@^5.0.0:
   version "5.0.0"
   resolved "https://registry.npmjs.org/throat/-/throat-5.0.0.tgz"

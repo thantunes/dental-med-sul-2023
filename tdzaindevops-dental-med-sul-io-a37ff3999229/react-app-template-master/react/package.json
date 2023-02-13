@@ -22,7 +22,6 @@
     "@vtex/tsconfig": "^0.4.4",
     "apollo-cache-inmemory": "^1.6.5",
     "graphql": "^14.6.0",
-    "tfcvgc.custom": "https://novolayout--tfcvgc.myvtex.com/_v/private/typings/linked/v1/tfcvgc.custom@0.0.7+build1644006824/public/@types/tfcvgc.custom",
     "typescript": "3.9.7",
     "typescript-plugin-styled-components": "^2.0.0",
     "vtex.css-handles": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles",
