@@ -51,3 +51,7 @@
     text-decoration: line-through;
     height: 0px;
 }
+
+.sellingPriceValue--summary{
+  color: #43aadd !important;
+}

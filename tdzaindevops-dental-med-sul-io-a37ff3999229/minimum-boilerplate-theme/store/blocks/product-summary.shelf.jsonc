@@ -9,14 +9,113 @@
       "product-summary-name",
       "product-rating-inline.ratrustvox",
       "flex-layout.row#group-price",
-      "product-summary-quantity",
+      // "rich-text#Modal-txt",
+      "QuickView-box",
+      "SummaryQuantity-box",
+      // "product-summary-quantity",
+      "ButtonSummary-box"
+    ]
+  },
+  "ButtonSummary-box": {
+    "children": [
       "condition-layout.product#summary-sob-encomenda-condition"
     ]
+  },
+  "QuickView-box": {
+    "children": [
+      "modal-trigger#quickview"
+    ]
+  },
+  "modal-trigger#quickview": {
+    "children": [
+      "rich-text#Modal-txt",
+      "modal-layout#quickview"
+    ]
+  },
+  "modal-layout#quickview": {
+    "props": {
+      "blockClass": "quickview"
+    },
+    "children": [
+      "modal-actions.close",
+      "flex-layout.row#ModalQuickViewContent"
+    ]
+  },
+  "rich-text#PIX-Summary":{
+    "props":{
+      "text":"À vista no PIX com até **3% OFF**",
+      "blockClass":"PIXMSG-summary"
+    }
+  },
+  "flex-layout.row#ModalQuickViewContent": {
+    "children": [
+      "flex-layout.row#ProductImage",
+      "flex-layout.col#ProductDesc"
+    ],
+    "props": {
+      "blockClass": "ModalQuickViewContent"
+    }
+  },
+  "flex-layout.col#ProductDesc": {
+    "children": [
+      "flex-layout.row#product-info",
+      "vtex.product-highlights@2.x:product-highlights#collection",
+      "flex-layout.row#sku-list"
+    ]
+  },
+  "link.product#product-page": {
+    "props": {
+      "href": "/{slug}/p",
+      "label": "Mostrar Mais",
+      "blockClass":"product-QuickView"
+    }
+  },
+  "flex-layout.row#ProductImage": {
+    "children": [
+      "product-images#Quickview"
+    ]
+  },
+  "product-images#Quickview": {
+    "props": {
+      "props": {
+        "aspectRatio": {
+          "desktop": "auto",
+          "phone": "16:9"
+        },
+        "displayThumbnailsArrows": true,
+        "thumbnailsOrientation": "vertical",
+        "thumbnailAspectRatio": "auto",
+        "thumbnailMaxHeight": 80,
+        "position": "left"
+      }
+    }
+  },
+  "SummaryQuantity-box": {
+    "children": [
+      "product-summary-quantity"
+    ]
+  },
+  "rich-text#Modal-txt": {
+    "props": {
+      "text": "Escolha sua variação",
+      "blockClass":"Modal-txt"
+    }
+  },
+  "rich-text#Entrega": {
+    "props": {
+      "text": "Clique aqui e confira as condições de Frete Grátis",
+      "textColor": "#727273",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "Entrega"
+    }
   },
   "flex-layout.row#group-price": {
     "children": [
       "product-list-price#summary",
-      "flex-layout.row#selling-price-savings",
+      "PriceDiscount-box-Summary",
+      // "flex-layout.row#selling-price-savings",
+      "rich-text#PIX-Summary",
       "product-installments#summary"
     ],
     "props": {
@@ -38,11 +137,13 @@
       "marginBottom": 4,
       "blockClass": "list-price-saving-container"
     },
-    "children": ["product-selling-price#summary"]
+    "children": [
+      "product-selling-price#summary"
+    ]
   },
   "product-installments#summary": {
     "props": {
-      "message": "{installmentsNumber}x de {installmentValue}",
+      "message": "ou {installmentsNumber}x de {installmentValue}",
       "blockClass": "summary"
     }
   },
@@ -52,7 +153,6 @@
       "blockClass": "summary"
     }
   },
-
   "condition-layout.product#summary-sob-encomenda-condition": {
     "props": {
       "conditions": [
@@ -65,20 +165,18 @@
       ],
       "Then": "flex-layout.row#summary-sob-encomenda",
       "Else": "add-to-cart-button"
-     }
- },
-
- "flex-layout.row#summary-sob-encomenda": {
-   "props": {
-     "preventVerticalStretch": true,
-     "rowGap": 0
-   },
-   "children": [
-    "rich-text#summary-encomenda-buttom"
-   ]
- },
-
- "rich-text#summary-encomenda-buttom": {
+    }
+  },
+  "flex-layout.row#summary-sob-encomenda": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "rich-text#summary-encomenda-buttom"
+    ]
+  },
+  "rich-text#summary-encomenda-buttom": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",

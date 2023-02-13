@@ -283,7 +283,9 @@
 .flexRowContent--contato-encomenda{
   padding: 0.5rem;
 }
-
+.flexRow--ModalQuickViewContent{
+  margin-bottom: 20px;
+}
 
 @media screen and (max-width: 768px) {
   .flexRowContent--footerNewsletter {

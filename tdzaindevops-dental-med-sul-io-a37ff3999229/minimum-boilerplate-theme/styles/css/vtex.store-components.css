@@ -344,7 +344,7 @@
   color: #1d1d1d;}
 
 :global(.vtex-product-summary-2-x-element--product-shelf )
-:global(.vtex-button){    background-color: #eb8100!important;}
+:global(.vtex-button){    background-color: #eb8100!important; margin:10px auto;}
 
 :global(.vtex-rich-text-0-x-heading--shelfTitle)::after {background-color: #43aadd!important;}
 :global(.vtex-product-summary-2-x-element)

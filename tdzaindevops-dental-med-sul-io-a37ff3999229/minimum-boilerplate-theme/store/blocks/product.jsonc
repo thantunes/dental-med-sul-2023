@@ -164,6 +164,7 @@
     },
     "children": [
       "flex-layout.row#product-info",
+      
       "vtex.product-highlights@2.x:product-highlights#collection",
       "flex-layout.row#sku-list",
       // "product-rating-summary.ratrustvox",
@@ -177,7 +178,7 @@
 
     ]
   },
-
+  
 
   "flex-layout.row#textofretegratis": {
     "children": ["rich-text#textofretegratis"],
@@ -207,8 +208,8 @@
       "NameComplement",
       "product-rating-summary.ratrustvox",
       "flex-layout.row#list-price-savings",
-      "flex-layout.row#selling-price",
-      "product-installments"
+      "flex-layout.row#selling-price"
+      
     ]
   },
   "shelf.relatedProducts": {

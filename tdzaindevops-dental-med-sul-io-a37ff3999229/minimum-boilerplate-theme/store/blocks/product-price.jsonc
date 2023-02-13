@@ -8,11 +8,25 @@
       "blockClass": ["sellingPrice"]
     },
     "children": [
-      "product-selling-price#pdp",
-      "product-price-savings"
+      "PriceDiscount-box"
+      // "product-selling-price#pdp",
+      // "product-price-savings"
     ]
   },
-
+  "rich-text#PIX":{
+    "props":{
+      "text":"À vista no PIX com até **3% OFF**",
+      "blockClass":"PIXMSG"
+    }
+  },
+  "PriceDiscount-box":{
+    "children":["product-installments"]
+  },
+  "product-installments":{
+    "props":{
+      "message":"Ou {installmentsNumber}x {installmentValue}{hasInterest, select, true {, {interestRate} de juros} false { sem juros}}"
+    }
+  },
   "product-selling-price#pdp": {
     "props": {
       "markers": [

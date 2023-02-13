@@ -22,7 +22,40 @@
   color: #003868;
   background-color: #fff;
 }
-
+.container--quickview{
+  width: 100% !important;
+  height: 100% !important;
+}
+.paper--quickview{
+  background-color: white;
+  padding: 10px 15px;
+  overflow: visible;
+}
+.paper--quickview :global(.vtex-flex-layout-0-x-flexColChild--skuList){
+  overflow:visible;
+}
+.closeButton{
+  width: 45px;
+  margin-left: calc(100% - 40px);
+  font-size: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent !important;
+  background: transparent !important;
+  border: none !important;
+}
+.closeButtonLabel{
+  display: none;
+}
+.closeButton::before{
+  content: " ";
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpb25pY29uIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHRpdGxlPkNsb3NlPC90aXRsZT48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjMyIiBkPSJNMzY4IDM2OEwxNDQgMTQ0TTM2OCAxNDRMMTQ0IDM2OCIvPjwvc3ZnPg==");
+  width: 20px;
+  height: 20px;
+  display: block;
+}
 /* .headerContainer::before {
   content: "";
   position: absolute;
