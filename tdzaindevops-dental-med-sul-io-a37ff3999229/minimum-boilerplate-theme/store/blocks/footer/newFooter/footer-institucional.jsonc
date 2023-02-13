@@ -9,7 +9,8 @@
       "menu-item#como-comprar",
       "menu-item#politica-de-privacidade",
       "menu-item#documentos-obrigatorios",
-      "menu-item#trabalhe-conosco"
+      "menu-item#trabalhe-conosco",
+      "menu-item#ciospfooter"
      // "menu-item#garantia-de-qualidade"
     ]
   },
@@ -104,6 +105,28 @@
       }
     }
   },
+
+
+
+  "menu-item#ciospfooter": {
+    "props": {
+      "id": "menu-item-cios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ciosp",
+        "noFollow": false,
+        "tagTitle": "Ciosp",
+        "text": "Ciosp"
+      }
+    }
+  },
+
+
+
+
   "menu-item#garantia-de-qualidade": {
     "props": {
       "id": "menu-item-garantia-de-qualidade",
