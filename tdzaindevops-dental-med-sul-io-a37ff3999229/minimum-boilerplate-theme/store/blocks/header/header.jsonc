@@ -260,7 +260,7 @@
   },
 
   "flex-layout.col#botoes-header-mobile-2": {
-    "children": ["rich-text#lancamentosmobile","menu-item#ciosp"]
+    "children": ["rich-text#lancamentosmobile"]
   },
 
 
