@@ -7,8 +7,8 @@
       // "menu-item#emitir-boleto",
       "menu-item#validadecurta",
       "menu-item#saldao",
-      "menu-item#lancamentos",
-      "menu-item#ciosp"
+      "menu-item#lancamentos"
+     // "menu-item#ciosp"
     ]
   },
 
