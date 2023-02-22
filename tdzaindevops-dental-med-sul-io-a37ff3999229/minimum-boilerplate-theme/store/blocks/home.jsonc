@@ -413,11 +413,19 @@
 
   "responsive-layout.phone#banner-shelf-banner": {
     "children": [
+      
       "flex-layout.row#mkt-banner-1",
-      "flex-layout.row#shelf-02",
-      "flex-layout.row#mkt-banner-2"
+      "flex-layout.row#mkt-banner-2",
+      "flex-layout.row#mkt-banner-3",
+      "rich-text#shelf-02",
+      "image#banneroportunidadesdasemanamobile",
+      "list-context.product-list#shelf-02"
+      //"flex-layout.row#shelf-02"
+    
     ]
   },
+
+  
   "responsive-layout.desktop#banner-shelf-banner": {
     "children": ["flex-layout.row#mkt-banners", "flex-layout.row#shelf-02"]
   },
@@ -440,6 +448,14 @@
     },
     "children": ["rich-text#shelf-04", "list-context.product-list#shelf-04"]
   },
+
+
+
+
+
+
+
+  
   "rich-text#shelf-04": {
     "props": {
       "text": "## Mais Vendidos",
@@ -479,6 +495,11 @@
     "children": ["image#banner-product-2"]
   },
 
+  "flex-layout.row#mkt-banner-3": {
+    "props": {},
+    "children": ["image#banner-product-3"]
+  },
+
   "image#banner-product-1": {
     "props": {
       "src": "assets/fresa.jpg",
@@ -510,20 +531,91 @@
   "flex-layout.row#shelf-02": {
     "props": {
       "colSizing": "auto",
-      "blockClass": "shelf"
+      "blockClass": "shelf-oportunidades-desk"
     },
-    "children": ["rich-text#shelf-02", "list-context.product-list#shelf-02"]
+    "children": ["rich-text#shelf-02", "flex-layout.col#coluna-shelf-02"]
   },
+
+  "flex-layout.col#coluna-shelf-02":{
+
+    "children": ["flex-layout.row#coluna-shelf-02"]
+  },
+
+
+  "flex-layout.row#coluna-shelf-02":{
+    "props": {
+      //"colSizing": "auto",
+      "blockClass": "shelf-blocos-oportunidades-da-semana"
+    },
+    "children": ["image#banneroportunidadesdasemana","list-context.product-list#shelf-02"]
+  
+  },
+
+
+  "image#banneroportunidadesdasemana": {
+    "props": {
+      "src": "/arquivos/Banner-Carrossel-192x447.jpg",
+      "link": {
+        "url":"/3m?_q=3M&map=ft"
+      },
+      "blockClass": "banner-imagem-blocos-oportunidades-da-semana"
+    }
+  
+  },
+
+
+  "image#banneroportunidadesdasemanamobile": {
+    "props": {
+      "src": "/arquivos/Banner-Carrossel-406x232.jpg",
+      "link": {
+        "url":"/3m?_q=3M&map=ft"
+      },
+      "blockClass": "banner-imagem-blocos-oportunidades-da-semana-mobile"
+    }
+   
+  },
+
+
+
   "list-context.product-list#shelf-02": {
     "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#shelf"]
+    "children": ["slider-layout#shelfoportunidadesdasemana"]
   },
+
+
+  "slider-layout#shelfoportunidadesdasemana": {
+    "props": {
+      "label": "Products",
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 2,
+        "phone": 2
+      },
+      "showPaginationDots": "never",
+      "blockClass": ["productShelf"],
+      "infinite": true,
+      "arrowSize": {
+        "desktop": 15,
+        "mobile": 15
+      }
+    }
+  },
+
+
+
+
+//teste thiago
+
+
   "rich-text#shelf-02": {
     "props": {
-      "text": "## Vitrine",
+      "text": "## Oportunidades da Semana",
       "blockClass": "shelfTitle"
     }
   },
+
+
+
 
  // Lista de Produto
  "flex-layout.row#shelf-05": {
@@ -533,6 +625,12 @@
   },
   "children": ["rich-text#shelf-05", "list-context.product-list#shelf-05"]
 },
+
+
+
+
+
+
 "list-context.product-list#shelf-05": {
   "blocks": ["product-summary.shelf"],
   "children": ["slider-layout#shelf"]
