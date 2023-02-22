@@ -66,6 +66,54 @@
 
 */
 
+:global(.vtex-flex-layout-0-x-flexRow--shelf-blocos-oportunidades-da-semana)
+:global(.vtex-product-summary-2-x-imageNormal) {max-height: 180px;}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--shelf-blocos-oportunidades-da-semana)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(1){width:17%!important;}
+
+:global(.vtex-flex-layout-0-x-flexRow--shelf-blocos-oportunidades-da-semana)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2){width:83%!important;}
+
+:global(.vtex-flex-layout-0-x-flexRow--shelf-blocos-oportunidades-da-semana)
+:global(.vtex-slider-layout-0-x-slide)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(1){width:auto!important;}
+
+:global(.vtex-flex-layout-0-x-flexRow--shelf-blocos-oportunidades-da-semana)
+:global(.vtex-slider-layout-0-x-slide)
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2){width:auto!important;}
+
+:global(.vtex-store-components-3-x-imageElement--bannerMkt){border-radius: 15px;}
+
+:global(.vtex-store-components-3-x-imageElement--banner-imagem-blocos-oportunidades-da-semana-mobile){    padding: 8px;    max-width: 95%;}
+
+@media (max-width: 780px)
+{
+  :global(.vtex-flex-layout-0-x-flexRow--shelf-blocos-oportunidades-da-semana)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(1){width:100%!important;}
+  
+  :global(.vtex-flex-layout-0-x-flexRow--shelf-blocos-oportunidades-da-semana)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2){width:100%!important;}
+
+  :global(.vtex-store-components-3-x-imageElement--bannerMkt) {margin-bottom: 15px;}
+
+}
+
+
+
+
+
+
+:global(.vtex-store-components-3-x-imageElement--banner-imagem-blocos-oportunidades-da-semana){    max-width: 207px;
+  max-height: 470px;
+  margin-top: 9px;}
+
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--shelf-oportunidades-desk){    flex-direction: column;    padding: 2vh 0;
+  border-radius: 10px;}
+
 :global(.vtex-menu-2-x-styledLinkContent--orange-link){    background-color: #eb8100;color: #fff;padding: 10px 10px;padding: 5px 10px!important;border-radius: 5px;margin: -6px -7px 0px 0px!important;font-weight: bold;}
 :global(.vtex-rich-text-0-x-link--botaoorangecurtamobile) {background-color: #eb8100;padding: 5px 10px!important; color: #fff;text-decoration: none;border-radius: 5px;font-size: 14px;margin-left: 6px;}
 :global(.vtex-rich-text-0-x-wrapper--botaoorangecurtamobile){    margin-top: -8px;}
