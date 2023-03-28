@@ -32,5 +32,8 @@
   },
   "PriceDiscount-box-Summary": {
     "component": "PriceDiscountSummary"
+  },
+  "ProductHighlitght-Comp":{
+    "component":"ProductHighlitght"
   }
 }

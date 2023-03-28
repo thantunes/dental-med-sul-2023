@@ -84,7 +84,7 @@
     "props": {
       "type": "collection"
     },
-    "children": ["product-highlight-wrapper"]
+    "children": ["product-highlight-text"]
   },
   "product-highlight-wrapper": {
     "props": {
@@ -156,6 +156,12 @@
       "thumbnailMaxHeight": 80
     }
   },
+  "product-spot-price": {
+    "props": {
+      "blockClass": "[Classe que você deseja incluir]",
+      "message": "{spotPriceValue}"
+    }
+  },
   "flex-layout.col#product-right-col": {
     "props": {
       "preventVerticalStretch": true,
@@ -164,7 +170,7 @@
     },
     "children": [
       "flex-layout.row#product-info",
-      
+      "ProductHighlitght-Comp",
       "vtex.product-highlights@2.x:product-highlights#collection",
       "flex-layout.row#sku-list",
       // "product-rating-summary.ratrustvox",
@@ -178,8 +184,6 @@
 
     ]
   },
-  
-
   "flex-layout.row#textofretegratis": {
     "children": ["rich-text#textofretegratis"],
     "props": {
