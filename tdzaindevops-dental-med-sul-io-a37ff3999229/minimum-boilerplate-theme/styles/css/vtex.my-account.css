@@ -66,6 +66,52 @@
 
 */
 
+
+[data-highlight-id="170"] {
+  background-color: red;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 11px;
+}
+
+
+[data-highlight-id="197"] {
+  background-color: #43aadd!important;
+  font-size: 11px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+[data-highlight-id="144"] {
+  background-color: #bababa;
+  font-size: 11px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+[data-highlight-id="170"] {
+  font-size: 11px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--product-info)
+[data-highlight-id="144"]
+:global(.vtex-product-highlights-2-x-productHighlightText){    padding: 5px 10px;}
+
+
+:global(.vtex-flex-layout-0-x-flexColChild--product-info)
+[data-highlight-id="170"]
+:global(.vtex-product-highlights-2-x-productHighlightText){    padding: 5px 10px;}
+
+
+
 :global(.vtex-flex-layout-0-x-flexRow--shelf-blocos-oportunidades-da-semana)
 :global(.vtex-product-summary-2-x-imageNormal) {max-height: 180px;}
 
