@@ -520,6 +520,21 @@
     display: none;
 }
 
+
+
+:global(.render-route-store-product)
+[data-highlight-id="144"]
+:global(.vtex-product-highlights-2-x-productHighlightText::after) {
+  content: "Validade Curta";
+  white-space: pre-wrap;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+}
+
+
+
+
 [data-highlight-id="239"]
 :global(.vtex-search-result-3-x-galleryItem){display:none;}
 
