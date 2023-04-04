@@ -84,6 +84,28 @@
   color: #fff;
 }
 
+
+[data-highlight-id="200"] {
+  font-size: 11px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 5px;
+}
+
+
+
+[data-highlight-id="202"] {
+  background-color: #eb8100;
+  font-size: 11px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 5px;
+}
+
+
+
 [data-highlight-id="144"] {
   background-color: #bababa;
   font-size: 11px;
@@ -481,14 +503,14 @@
 [data-highlight-id="170"]
 :global(.vtex-product-highlights-2-x-productHighlightText) {
   font-size: 0px;
-  padding: 0px 10px;
+  padding: 10px 10px;
   display: block;
   line-height: 14px;
 }
 :global(.render-route-store-product)
 [data-highlight-id="170"]
 :global(.vtex-product-highlights-2-x-productHighlightText::after) {
-  content: "Vendas autorizadas somente aos cirurgiões dentistas ou mediante apresentação de receituário. \A Sujeito a análise.";
+  content: "Venda restrita a profissionais habilitados ou pessoa jurídica devidamente registrada no conselho profissional. Pedido sujeito à análise.";
   white-space: pre-wrap;
   font-size: 16px;
 }
