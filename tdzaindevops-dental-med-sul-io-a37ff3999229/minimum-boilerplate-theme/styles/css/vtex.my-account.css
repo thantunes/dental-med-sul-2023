@@ -67,6 +67,9 @@
 */
 
 
+
+
+
 [data-highlight-id="170"] {
   background-color: red;
   border-radius: 5px;
@@ -132,6 +135,11 @@
 [data-highlight-id="170"]
 :global(.vtex-product-highlights-2-x-productHighlightText){    padding: 5px 10px;}
 
+
+:global(.vtex-flex-layout-0-x-flexRow--banner-departamento) a {    pointer-events: none;}
+
+:global(.vtex-flex-layout-0-x-flexRow--banner-departamento) img {border-radius: 10px;
+  margin-bottom: 20px;}
 
 
 :global(.vtex-flex-layout-0-x-flexRow--shelf-blocos-oportunidades-da-semana)
