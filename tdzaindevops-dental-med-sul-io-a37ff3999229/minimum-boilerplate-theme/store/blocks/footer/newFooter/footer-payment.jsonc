@@ -28,8 +28,7 @@
     "children": [
       "flex-layout.col#payment-info-1",
       "flex-layout.col#payment-info-2",
-      "flex-layout.col#payment-info-3",
-      "FooterEbit"
+      "flex-layout.col#payment-info-3"
     ],
     "props": {
       "preventVerticalStretch": true,
