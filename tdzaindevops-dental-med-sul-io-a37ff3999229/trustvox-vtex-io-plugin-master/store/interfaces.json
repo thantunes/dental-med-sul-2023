@@ -16,5 +16,11 @@
   },
   "colt-ratrustvox": {
     "component": "Colt"
+  },
+  "OrderEbit": {
+    "component": "OrderEbit"
+  },
+  "FooterEbit": {
+    "component": "FooterEbit"
   }
 }

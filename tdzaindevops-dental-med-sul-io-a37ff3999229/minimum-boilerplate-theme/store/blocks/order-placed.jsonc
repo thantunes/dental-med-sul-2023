@@ -69,7 +69,8 @@
       },
       "children": [
         "flex-layout.col#order-header-info",
-        "flex-layout.col#order-header-options"
+        "flex-layout.col#order-header-options",
+        "OrderEbit"
       ]
     },
     "flex-layout.col#order-header-info": {
