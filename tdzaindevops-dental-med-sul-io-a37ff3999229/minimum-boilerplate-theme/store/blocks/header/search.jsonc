@@ -64,13 +64,35 @@
   },
 
   "search-result-layout.desktop": {
-    "children": ["flex-layout.row#searchbread", "flex-layout.row#result"],
+    "children": ["flex-layout.row#searchbread","flex-layout.row#banner-one", "flex-layout.row#result"],
     "props": {
       "pagination": "show-more",
       "preventRouteChange": false,
       "defaultGalleryLayout": "grid"
     }
   },
+
+
+  "flex-layout.row#banner-one": {
+    "children": [
+      "search-banner#one"
+    ],
+    "props": {
+      "blockClass": "banner-departamento"
+    }
+  },
+
+
+ "search-banner#one": {
+    "props": {
+      "area": "one",
+      "blockClass": "myBanner",
+      "horizontalAlignment": "center"
+    }
+  },
+
+
+
   "flex-layout.row#searchbread": {
     "children": ["breadcrumb.search"],
     "props": {
@@ -170,6 +192,7 @@
 
   "search-result-layout.mobile": {
     "children": [
+      "flex-layout.row#banner-one",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
       "flex-layout.row#contentmobile",
