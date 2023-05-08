@@ -197,6 +197,12 @@
     }
   },
 
+
+  "shipping-simulator": {
+    "props": {
+      "pricingMode": "grouped"
+    }
+  },
   
 
 
