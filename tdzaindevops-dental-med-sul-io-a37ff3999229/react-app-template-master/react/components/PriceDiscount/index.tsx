@@ -1,17 +1,25 @@
-import React, { FC } from 'react';
+import React, { FC, useEffect, useState } from 'react';
 import { useProduct } from 'vtex.product-context'
-
 type props = {
     children : any
 }
 const PriceDiscount: FC <props> = ({children}) => {
-    const productContextValue = useProduct()
-    console.log({
-        Produto: productContextValue?.product,
-        Name: productContextValue?.product?.productName
+    const [ItemSelected, setItemSelected] = useState(0)
+    useEffect(function(){
+        const Selec:any = document.getElementsByClassName('ba mb3 pa5 vtex-sku-list-1-x-skuContentWrapper vtex-sku-list-1-x-skuContentWrapper--skuListContent bw1 b--blue vtex-sku-list-1-x-selectedSkuContentWrapper vtex-sku-list-1-x-selectedSkuContentWrapper--skuListContent')
+        productContextValue?.product?.items.forEach((e, i)=>{
+            if (e.itemId == `${Selec[0].tabIndex}`){
+                setItemSelected(i)
+            } 
+        })
     })
-    const value = productContextValue?.product?.items[0].sellers[0].commertialOffer?.Price == undefined ? 0 : productContextValue?.product?.items[0].sellers[0].commertialOffer?.Price
-    const listValue = productContextValue?.product?.items[0].sellers[0].commertialOffer?.Price == undefined ? 0 : productContextValue?.product?.items[0].sellers[0].commertialOffer?.ListPrice
+    const productContextValue = useProduct()
+    // console.log({
+    //     Produto: productContextValue?.product,
+    //     Name: productContextValue?.product?.productName,
+    // })
+    const value = productContextValue?.product?.items[ItemSelected].sellers[0].commertialOffer?.Price == undefined ? 0 : productContextValue?.product?.items[ItemSelected].sellers[0].commertialOffer?.Price
+    const listValue = productContextValue?.product?.items[ItemSelected].sellers[0].commertialOffer?.Price == undefined ? 0 : productContextValue?.product?.items[ItemSelected].sellers[0].commertialOffer?.ListPrice
     const CalcPrice = (value - (value * 0.03))
     return (
         <>
