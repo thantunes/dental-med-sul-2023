@@ -1,7 +1,7 @@
 {
   "vendor": "tfcvgc",
   "name": "custom",
-  "version": "0.1.13",
+  "version": "0.1.15",
   "title": "Dentalmedsul Custom App",
   "description": "App for store customizations",
   "builders": {
