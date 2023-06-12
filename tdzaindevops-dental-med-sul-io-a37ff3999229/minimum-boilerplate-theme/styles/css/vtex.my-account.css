@@ -974,3 +974,6 @@
 :global(.vtex-reviews-and-ratings-2-x-summaryContainer ){
   display: none !important;
 }
+:global(.rdstation-popup-position-bottom_right){
+  display: none !important;
+}
