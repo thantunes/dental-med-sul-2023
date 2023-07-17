@@ -13,6 +13,12 @@
       // "product-price-savings"
     ]
   },
+  "product-spot-price#Product":{
+    "props":{
+      "blockClass":"ProductPDP",
+      "message":"{spotPriceValue}"
+    }
+  },
   "rich-text#PIX":{
     "props":{
       "text":"À vista no PIX com até **3% OFF**",
