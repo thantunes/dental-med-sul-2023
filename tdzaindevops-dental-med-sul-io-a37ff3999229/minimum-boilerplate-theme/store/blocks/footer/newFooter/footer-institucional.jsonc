@@ -6,6 +6,7 @@
     "children": [
       "menu-item#institucional",
       "menu-item#compra-segura",
+      "menu-item#pesquisa-de-satisfacao",
       "menu-item#como-comprar",
       "menu-item#politica-de-privacidade",
       "menu-item#documentos-obrigatorios",
@@ -41,6 +42,21 @@
         "noFollow": false,
         "tagTitle": "Compra Segura",
         "text": "Compra Segura"
+      }
+    }
+  },
+  "menu-item#pesquisa-de-satisfacao": {
+    "props": {
+      "id": "menu-item-pesquisa-de-satisfacao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://docs.google.com/forms/d/e/1FAIpQLSeEs6iKg0c2l0SKbEGx_KumeRQlvZvrVgwAYSaab9od_lfWvw/viewform",
+        "noFollow": false,
+        "tagTitle": "Pesquisa de Satisfação",
+        "text": "Pesquisa de Satisfação"
       }
     }
   },

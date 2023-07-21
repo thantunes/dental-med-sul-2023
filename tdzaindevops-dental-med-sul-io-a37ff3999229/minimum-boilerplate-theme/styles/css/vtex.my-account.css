@@ -854,8 +854,39 @@
 
 
 }
-
-
+:global(.vtex-flex-layout-0-x-flexRowContent--botoes-header-mobile-new){
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+:global(.vtex-rich-text-0-x-link--TagHeader) {
+  padding: 5px 10px !important;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+:global(.vtex-rich-text-0-x-link--TagHeader-1){
+  background-color: #cdcdcd;
+}
+:global(.vtex-rich-text-0-x-link--TagHeader-2){
+  background-color: #43aadd!important;
+}
+:global(.vtex-rich-text-0-x-link--TagHeader-3){
+  background-color: #eb8100;
+}
+:global(.vtex-rich-text-0-x-link--botaovalidadecurtamobile) {
+  background-color: #cdcdcd;
+  padding: 5px 10px !important;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+:global(.vtex-product-price-1-x-sellingPriceValue > p)  {
+  font-weight: bolder;
+}
 :global(.vtex-rich-text-0-x-paragraph--descricao-ciosp-texto){text-align: left;line-height: 34px;max-width: 975px;}
 :global(.vtex-rich-text-0-x-wrapper--descricao-ciosp-texto){margin: auto; padding-top: 35px;padding-bottom: 35px;}
 :global(.vtex-flex-layout-0-x-flexColChild--ciosp-banners-leads-1){padding: 15px;}

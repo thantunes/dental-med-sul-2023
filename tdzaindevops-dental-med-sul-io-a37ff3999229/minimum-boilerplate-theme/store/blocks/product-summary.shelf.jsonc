@@ -5,7 +5,10 @@
     },
     "children": [
       "product-summary-image",
-      "vtex.product-highlights@2.x:product-highlights#collection",
+      // "vtex.product-highlights@2.x:product-highlights#collection",
+      "vtex.product-highlights@2.x:product-highlights",
+      "ProductHighlitght-Comp",
+      
       "product-summary-name",
       "product-rating-inline.ratrustvox",
       "flex-layout.row#group-price",
@@ -43,7 +46,7 @@
   },
   "rich-text#PIX-Summary":{
     "props":{
-      "text":"À vista no PIX com até **3% OFF**",
+      "text":"**3% OFF** no pagamento à **vista no PIX** ",
       "blockClass":"PIXMSG-summary"
     }
   },
@@ -113,7 +116,8 @@
   "flex-layout.row#group-price": {
     "children": [
       "product-list-price#summary",
-      "product-spot-price#summary",
+      // "product-spot-price#summary",
+      "PriceDiscount-box-Summary",
       // "PriceDiscount-box-Summary",
       // "flex-layout.row#selling-price-savings",
       "product-installments#summary"
