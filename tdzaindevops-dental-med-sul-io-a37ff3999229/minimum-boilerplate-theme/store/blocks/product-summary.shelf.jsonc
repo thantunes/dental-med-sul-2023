@@ -117,15 +117,18 @@
     "children": [
       "product-list-price#summary",
       // "product-spot-price#summary",
-      "PriceDiscount-box-Summary",
+      "PriceDiscount-box-Summary"
+      // "product-installments#summary"
       // "PriceDiscount-box-Summary",
       // "flex-layout.row#selling-price-savings",
-      "product-installments#summary"
     ],
     "props": {
       "colSizing": "auto",
       "blockClass": "group-price"
     }
+  },
+  "PriceDiscount-box-Summary":{
+    "children":["product-installments#summary"]
   },
   "product-spot-price#summary":{
     "props":{

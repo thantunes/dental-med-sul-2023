@@ -31,7 +31,8 @@
     "composition":"children"
   },
   "PriceDiscount-box-Summary": {
-    "component": "PriceDiscountSummary"
+    "component": "PriceDiscountSummary",
+    "composition":"children"
   },
   "ProductHighlitght-Comp":{
     "component":"ProductHighlitght"
