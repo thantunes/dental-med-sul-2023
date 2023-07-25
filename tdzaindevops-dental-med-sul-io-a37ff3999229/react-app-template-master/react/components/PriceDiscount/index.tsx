@@ -33,8 +33,8 @@ const PriceDiscount: FC<props> = ({ children }) => {
                     <div className="vtex-rich-text-0-x-container vtex-rich-text-0-x-container--PIXMSG flex tl items-start justify-start t-body c-on-base">
                         <div className="vtex-rich-text-0-x-wrapper vtex-rich-text-0-x-wrapper--PIXMSG">
                             <p className="lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--PIXMSG" style={{ marginTop: '-2.5px', marginBottom: '0px' }}>
-                                <span className="b vtex-rich-text-0-x-strong vtex-rich-text-0-x-strong--PIXMSG">3% OFF</span>
-                                no pagamento à  <span className="b vtex-rich-text-0-x-strong vtex-rich-text-0-x-strong--PIXMSG">vista no PIX</span>
+                                <span className="b vtex-rich-text-0-x-strong vtex-rich-text-0-x-strong--PIXMSG">3% OFF </span>
+                                 no pagamento à  <span className="b vtex-rich-text-0-x-strong vtex-rich-text-0-x-strong--PIXMSG">vista no PIX</span>
                             </p>
                         </div>
                     </div>
